@@ -1,0 +1,38 @@
+{
+  "lastUpdated": "2026-03-25",
+  "metadata": {
+    "description": "NYC Hotels 100+ Keys — Property Tax per Key Benchmarking",
+    "source": "NYC DOF Property Tax System + STR/Participation Reports",
+    "criteria": {
+      "geography": "New York City",
+      "minKeys": 100,
+      "dataPoints": ["Key count", "Market value", "Taxable AV", "Annual tax", "Tax per key", "MV per key"]
+    }
+  },
+  "hotels": [
+    {
+      "id": "COMP-001",
+      "hotelName": "Courtyard by Marriott Herald Square",
+      "brand": "Marriott",
+      "hotelClass": "upper-midscale",
+      "address": "960 Avenue of the Americas",
+      "neighborhood": "Midtown South",
+      "borough": "Manhattan",
+      "zip": "10001",
+      "bbl": "1-00837-0001",
+      "buildingClass": "H3",
+      "keys": null,
+      "stories": 18,
+      "yearBuilt": 1954,
+      "owner": "ATLANTIC 960 CORP",
+      "lat": 40.7484,
+      "lng": -73.9898,
+      "marketValue": 40465000,
+      "taxableAV": 15820200,
+      "currentTaxRate": 0.10848,
+      "annualTax": 1716175,
+      "historicalTaxPerKey": [],
+      "notes": "Key count TBD from participation report. Already tracked in main tax tracker."
+    }
+  ]
+}

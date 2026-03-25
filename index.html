@@ -211,7 +211,7 @@
         </div>
         <div class="nav-links">
             <a class="active" href="index.html">Tax Tracker</a>
-            <a href="https://acarras92.github.io/dashboard-hub/" target="_blank">Dashboard Hub</a>
+            <a href="hotel-comps.html">Hotel Comps (Tax/Key)</a>
         </div>
     </header>
 
@@ -319,6 +319,12 @@
                     <div class="detail-section">
                         <h4>Historical Market Value</h4>
                         <div class="detail-chart-wrapper"><canvas id="detailHistoryChart"></canvas></div>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Historical Tax Assessment Table</h4>
+                        <div style="overflow-x:auto;">
+                            <table class="detail-table" id="detailHistoryTable" style="width:100%;"></table>
+                        </div>
                     </div>
                     <div class="detail-section">
                         <h4>Pro Forma Tax Forecast</h4>
@@ -520,7 +526,7 @@
             }
             tbody.innerHTML = filteredProperties.map((p, i) => `
                 <tr onclick="showDetail('${p.id}')" ${i === 0 ? 'class="selected"' : ''}>
-                    <td><strong>${p.propertyName || p.address}</strong></td>
+                    <td><strong>${p.propertyName || p.address}</strong> <span style="color:#4fc3f7;font-size:0.7rem;opacity:0.7;">▸ details</span></td>
                     <td>${p.borough}</td>
                     <td>${p.neighborhood}</td>
                     <td>${p.buildingClass}</td>
@@ -658,6 +664,32 @@
                     p.mortgages.map(m => `<tr><td>${m.date}</td><td>${m.type}</td><td>${m.lender}</td><td style="text-align:right;">${fmt(m.amount)}</td></tr>`).join('');
             } else {
                 mtgTable.innerHTML = '<tr><td style="color:#a0a0a0;">No mortgage records</td></tr>';
+            }
+
+            // Historical tax table
+            const histTable = document.getElementById('detailHistoryTable');
+            if (p.historicalAssessments && p.historicalAssessments.length) {
+                const rows = p.historicalAssessments.map((h, i) => {
+                    const prev = p.historicalAssessments[i + 1];
+                    const mvChange = prev ? ((h.marketValue - prev.marketValue) / prev.marketValue * 100).toFixed(1) : '—';
+                    const mvClass = mvChange !== '—' ? (parseFloat(mvChange) >= 0 ? 'tax-change-up' : 'tax-change-down') : '';
+                    return `<tr>
+                        <td>${h.taxYear}</td>
+                        <td style="text-align:right;">${fmtM(h.marketValue)}</td>
+                        <td style="text-align:right;" class="${mvClass}">${mvChange !== '—' ? (parseFloat(mvChange) >= 0 ? '+' : '') + mvChange + '%' : '—'}</td>
+                        <td style="text-align:right;">${h.taxableAV ? fmtM(h.taxableAV) : '—'}</td>
+                        <td style="text-align:right;">${h.annualTax ? fmt(h.annualTax) : '—'}</td>
+                    </tr>`;
+                });
+                histTable.innerHTML = `<tr>
+                    <td style="color:#a0a0a0;font-weight:600;">Tax Year</td>
+                    <td style="color:#a0a0a0;font-weight:600;text-align:right;">Market Value</td>
+                    <td style="color:#a0a0a0;font-weight:600;text-align:right;">YoY</td>
+                    <td style="color:#a0a0a0;font-weight:600;text-align:right;">Taxable AV</td>
+                    <td style="color:#a0a0a0;font-weight:600;text-align:right;">Annual Tax</td>
+                </tr>` + rows.join('');
+            } else {
+                histTable.innerHTML = '<tr><td style="color:#a0a0a0;">No historical data</td></tr>';
             }
 
             // History chart
