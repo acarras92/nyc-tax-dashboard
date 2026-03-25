@@ -1,0 +1,93 @@
+{
+  "lastUpdated": "2026-03-25",
+  "metadata": {
+    "description": "NYC Hotel Property Tax Assessment Tracker — Highgate Capital",
+    "source": "NYC Department of Finance Property Tax System & ACRIS",
+    "criteria": {
+      "geography": "New York City",
+      "propertyTypes": ["Hotels", "Commercial"],
+      "dataPoints": ["Assessed values", "Tax rates", "Annual taxes", "Historical trends", "Mortgage records"]
+    }
+  },
+  "properties": [
+    {
+      "id": "HTL-001",
+      "address": "960 Avenue of the Americas",
+      "neighborhood": "Midtown South",
+      "borough": "Manhattan",
+      "zip": "10001",
+      "propertyName": "Courtyard by Marriott Herald Square",
+      "owner": "ATLANTIC 960 CORP",
+      "borrowerEntity": "960 ASSOCIATES LLC",
+      "bbl": "1-00837-0001",
+      "block": "837",
+      "lot": "1",
+      "buildingClass": "H3",
+      "buildingClassDesc": "Limited Service Hotel",
+      "taxClass": 4,
+      "stories": 18,
+      "yearBuilt": 1954,
+      "lotSizeSqft": 7430,
+      "grossBuildingSqft": 133740,
+      "lat": 40.7484,
+      "lng": -73.9898,
+      "currentAssessment": {
+        "taxYear": "2025-2026",
+        "estimatedMarketValue": 40465000,
+        "marketAssessedValue": 18209250,
+        "transitionalAssessedValue": 15820200,
+        "taxableAssessedValue": 15820200,
+        "taxRate": 0.10848,
+        "annualTax": 1716175,
+        "taxPerGrossSqft": 12.83,
+        "taxPerLotSqft": 231,
+        "exemptions": 0
+      },
+      "tentativeAssessment": {
+        "taxYear": "2026-2027",
+        "estimatedMarketValue": 42843000,
+        "marketAssessedValue": 19279350,
+        "transitionalAssessedValue": 16855560,
+        "taxableAssessedValue": 16855560,
+        "projectedAnnualTax": 1828491,
+        "yoyChange": 0.065
+      },
+      "historicalAssessments": [
+        { "taxYear": "2025-2026", "marketValue": 40465000, "taxableAV": 15820200, "annualTax": 1716175 },
+        { "taxYear": "2024-2025", "marketValue": 38209000, "taxableAV": 16248330, "annualTax": null },
+        { "taxYear": "2023-2024", "marketValue": 33701000, "taxableAV": 15165450, "annualTax": null },
+        { "taxYear": "2022-2023", "marketValue": 32066000, "taxableAV": 14429700, "annualTax": null },
+        { "taxYear": "2021-2022", "marketValue": 31339000, "taxableAV": 14102550, "annualTax": null },
+        { "taxYear": "2020-2021", "marketValue": 45222000, "taxableAV": 20303110, "annualTax": null },
+        { "taxYear": "2019-2020", "marketValue": 44866000, "taxableAV": 20189700, "annualTax": null },
+        { "taxYear": "2018-2019", "marketValue": 44579000, "taxableAV": null, "annualTax": null },
+        { "taxYear": "2017-2018", "marketValue": 46012000, "taxableAV": null, "annualTax": null },
+        { "taxYear": "2016-2017", "marketValue": 50856000, "taxableAV": null, "annualTax": null },
+        { "taxYear": "2015-2016", "marketValue": 39769000, "taxableAV": null, "annualTax": null }
+      ],
+      "mortgages": [
+        { "date": "2018-07-26", "type": "Agreement", "lender": "AAREAL CAPITAL CORP", "amount": 60000000 },
+        { "date": "2013-07-17", "type": "Mortgage", "lender": "AAREAL CAPITAL CORP", "amount": 39749360 },
+        { "date": "2013-07-17", "type": "Agreement", "lender": "AAREAL CAPITAL CORP", "amount": 75000000 },
+        { "date": "2011-06-14", "type": "Mortgage", "lender": "COMPASS BANK", "amount": 29516006 },
+        { "date": "2011-06-14", "type": "Mortgage", "lender": "COMPASS BANK", "amount": 6483995 }
+      ],
+      "redFlags": [
+        "Transitional AV $2.4M below market AV — taxes will rise even with flat values",
+        "No recorded mortgage satisfaction — Aareal Capital debt appears outstanding (may be past maturity)",
+        "Owner entity (ATLANTIC 960 CORP) differs from borrower entity (960 ASSOCIATES LLC)",
+        "Building Class H3 may understate post-renovation quality"
+      ],
+      "proForma": [
+        { "taxYear": "2025-2026", "projectedMarketValue": 40465000, "projectedTax": 1716175 },
+        { "taxYear": "2026-2027", "projectedMarketValue": 42843000, "projectedTax": 1828491 },
+        { "taxYear": "2027-2028", "projectedMarketValue": 45400000, "projectedTax": 1951100 },
+        { "taxYear": "2028-2029", "projectedMarketValue": 48100000, "projectedTax": 2080500 },
+        { "taxYear": "2029-2030", "projectedMarketValue": 50900000, "projectedTax": 2211000 }
+      ],
+      "notes": "First test property. Report emailed March 22, 2026.",
+      "dateScraped": "2026-03-22",
+      "reportFile": "960_AvenueOfAmericas_Tax_Report.md"
+    }
+  ]
+}

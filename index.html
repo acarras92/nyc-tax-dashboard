@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC Property Tax Tracker — Highgate Capital</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f1419;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        a { color: #4fc3f7; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #1a1f2e 0%, #252d3d 100%);
+            border-bottom: 1px solid #2a3547;
+            padding: 20px 30px;
+        }
+        header h1 { font-size: 1.6rem; font-weight: 700; color: #fff; }
+        header .subtitle { color: #a0a0a0; font-size: 0.9rem; margin-top: 4px; }
+        .header-row {
+            display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+        }
+        .header-meta { text-align: right; font-size: 0.8rem; color: #a0a0a0; }
+        .header-meta .updated { color: #4CAF50; }
+        .nav-links { margin-top: 10px; display: flex; gap: 16px; flex-wrap: wrap; }
+        .nav-links a {
+            background: #2a3547; padding: 4px 12px; border-radius: 4px;
+            font-size: 0.8rem; color: #4fc3f7; transition: background 0.2s;
+        }
+        .nav-links a:hover { background: #3a4557; text-decoration: none; }
+        .nav-links a.active { background: #4fc3f7; color: #0f1419; font-weight: 600; }
+
+        /* Container */
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+
+        /* KPI Cards */
+        .kpi-row {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px; margin-bottom: 24px;
+        }
+        .kpi-card {
+            background: linear-gradient(135deg, #1a1f2e, #252d3d);
+            border: 1px solid #2a3547; border-radius: 10px; padding: 18px;
+            text-align: center;
+        }
+        .kpi-icon { font-size: 1.8rem; margin-bottom: 6px; }
+        .kpi-value { font-size: 1.6rem; font-weight: 700; color: #fff; }
+        .kpi-label { font-size: 0.8rem; color: #a0a0a0; margin-top: 4px; }
+        .kpi-delta { font-size: 0.75rem; margin-top: 4px; }
+        .kpi-delta.up { color: #f44336; }
+        .kpi-delta.down { color: #4CAF50; }
+
+        /* Filter Bar */
+        .filter-bar {
+            background: #1a1f2e; border: 1px solid #2a3547; border-radius: 10px;
+            padding: 16px 20px; margin-bottom: 24px;
+            display: flex; gap: 16px; flex-wrap: wrap; align-items: center;
+        }
+        .filter-group { display: flex; flex-direction: column; gap: 4px; }
+        .filter-group label { font-size: 0.75rem; color: #a0a0a0; text-transform: uppercase; letter-spacing: 0.5px; }
+        .filter-group select, .filter-group input {
+            background: #252d3d; border: 1px solid #2a3547; color: #e0e0e0;
+            padding: 6px 10px; border-radius: 6px; font-size: 0.85rem; min-width: 150px;
+        }
+        .filter-group select:focus, .filter-group input:focus { outline: none; border-color: #4fc3f7; }
+        .btn-reset {
+            background: #2a3547; color: #e0e0e0; border: 1px solid #3a4557;
+            padding: 6px 16px; border-radius: 6px; cursor: pointer; font-size: 0.85rem;
+            align-self: flex-end;
+        }
+        .btn-reset:hover { background: #3a4557; }
+
+        /* Map */
+        .map-container {
+            border: 1px solid #2a3547; border-radius: 10px; overflow: hidden;
+            margin-bottom: 24px; height: 400px;
+        }
+        #map { height: 100%; width: 100%; }
+
+        /* Charts Row */
+        .charts-row {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px;
+        }
+        .chart-card {
+            background: linear-gradient(135deg, #1a1f2e, #252d3d);
+            border: 1px solid #2a3547; border-radius: 10px; padding: 20px;
+        }
+        .chart-card h3 { font-size: 0.95rem; color: #a0a0a0; margin-bottom: 12px; }
+        .chart-wrapper { position: relative; height: 280px; }
+
+        /* Property Detail Panel */
+        .detail-panel {
+            background: linear-gradient(135deg, #1a1f2e, #252d3d);
+            border: 1px solid #2a3547; border-radius: 10px; padding: 24px;
+            margin-bottom: 24px; display: none;
+        }
+        .detail-panel.active { display: block; }
+        .detail-header {
+            display: flex; justify-content: space-between; align-items: flex-start;
+            margin-bottom: 20px; flex-wrap: wrap; gap: 12px;
+        }
+        .detail-header h2 { font-size: 1.3rem; color: #fff; }
+        .detail-header .bbl { color: #a0a0a0; font-size: 0.85rem; }
+        .detail-close {
+            background: #2a3547; border: none; color: #e0e0e0; padding: 6px 14px;
+            border-radius: 6px; cursor: pointer; font-size: 0.85rem;
+        }
+        .detail-close:hover { background: #f44336; }
+        .detail-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .detail-section { margin-bottom: 16px; }
+        .detail-section h4 {
+            font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px;
+            color: #4fc3f7; margin-bottom: 8px; border-bottom: 1px solid #2a3547; padding-bottom: 4px;
+        }
+        .detail-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+        .detail-table td { padding: 4px 8px; border-bottom: 1px solid #1a1f2e; }
+        .detail-table td:first-child { color: #a0a0a0; white-space: nowrap; }
+        .detail-table td:last-child { color: #e0e0e0; text-align: right; font-weight: 500; }
+        .red-flag {
+            background: rgba(244,67,54,0.1); border-left: 3px solid #f44336;
+            padding: 6px 10px; margin-bottom: 6px; font-size: 0.8rem; border-radius: 0 4px 4px 0;
+        }
+        .detail-chart-wrapper { height: 220px; position: relative; margin-top: 10px; }
+
+        /* Data Table */
+        .table-container {
+            background: linear-gradient(135deg, #1a1f2e, #252d3d);
+            border: 1px solid #2a3547; border-radius: 10px; overflow: hidden;
+        }
+        .table-header {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 16px 20px; border-bottom: 1px solid #2a3547;
+        }
+        .table-header h3 { font-size: 1rem; color: #fff; }
+        .btn-export {
+            background: #4CAF50; color: #fff; border: none; padding: 6px 16px;
+            border-radius: 6px; cursor: pointer; font-size: 0.8rem; font-weight: 600;
+        }
+        .btn-export:hover { background: #45a049; }
+        table.data-table {
+            width: 100%; border-collapse: collapse; font-size: 0.85rem;
+        }
+        table.data-table th {
+            background: #252d3d; color: #a0a0a0; padding: 10px 14px; text-align: left;
+            font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px;
+            cursor: pointer; user-select: none; white-space: nowrap;
+            border-bottom: 2px solid #2a3547;
+        }
+        table.data-table th:hover { color: #4fc3f7; }
+        table.data-table th .sort-arrow { margin-left: 4px; font-size: 0.65rem; }
+        table.data-table td {
+            padding: 10px 14px; border-bottom: 1px solid #1a1f2e;
+            white-space: nowrap;
+        }
+        table.data-table tr { cursor: pointer; transition: background 0.15s; }
+        table.data-table tr:hover { background: rgba(79, 195, 247, 0.08); }
+        table.data-table tr.selected { background: rgba(79, 195, 247, 0.15); }
+        .tax-change-up { color: #f44336; }
+        .tax-change-down { color: #4CAF50; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .charts-row { grid-template-columns: 1fr; }
+            .kpi-row { grid-template-columns: repeat(2, 1fr); }
+            header { padding: 16px; }
+            .container { padding: 12px; }
+            .filter-bar { flex-direction: column; }
+            .detail-grid { grid-template-columns: 1fr; }
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #0f1419; }
+        ::-webkit-scrollbar-thumb { background: #2a3547; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #3a4557; }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center; padding: 60px 20px; color: #a0a0a0;
+        }
+        .empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
+        .empty-state h3 { color: #e0e0e0; margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-row">
+            <div>
+                <h1>🏨 NYC Property Tax Tracker</h1>
+                <div class="subtitle">Highgate Capital — Deal Diligence & Portfolio Monitoring</div>
+            </div>
+            <div class="header-meta">
+                <div>Data: NYC DOF & ACRIS</div>
+                <div class="updated">Last updated: <span id="lastUpdated">—</span></div>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a class="active" href="index.html">Tax Tracker</a>
+            <a href="https://acarras92.github.io/dashboard-hub/" target="_blank">Dashboard Hub</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- KPI Cards -->
+        <div class="kpi-row">
+            <div class="kpi-card">
+                <div class="kpi-icon">🏢</div>
+                <div class="kpi-value" id="kpiCount">0</div>
+                <div class="kpi-label">Properties Tracked</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-icon">💰</div>
+                <div class="kpi-value" id="kpiTotalTax">$0</div>
+                <div class="kpi-label">Total Annual Tax</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-icon">📊</div>
+                <div class="kpi-value" id="kpiMedianMV">$0</div>
+                <div class="kpi-label">Median Market Value</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-icon">📈</div>
+                <div class="kpi-value" id="kpiAvgTaxSqft">$0</div>
+                <div class="kpi-label">Avg Tax / Gross SqFt</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-icon">⚠️</div>
+                <div class="kpi-value" id="kpiRedFlags">0</div>
+                <div class="kpi-label">Red Flags</div>
+            </div>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+            <div class="filter-group">
+                <label>Borough</label>
+                <select id="filterBorough"><option value="">All Boroughs</option></select>
+            </div>
+            <div class="filter-group">
+                <label>Building Class</label>
+                <select id="filterBuildingClass"><option value="">All Classes</option></select>
+            </div>
+            <div class="filter-group">
+                <label>Neighborhood</label>
+                <select id="filterNeighborhood"><option value="">All Neighborhoods</option></select>
+            </div>
+            <div class="filter-group">
+                <label>Min Market Value</label>
+                <input type="number" id="filterMinMV" placeholder="e.g. 10000000">
+            </div>
+            <div class="filter-group">
+                <label>Max Market Value</label>
+                <input type="number" id="filterMaxMV" placeholder="e.g. 100000000">
+            </div>
+            <div class="filter-group">
+                <label>Search</label>
+                <input type="text" id="filterSearch" placeholder="Name, address, owner...">
+            </div>
+            <button class="btn-reset" onclick="resetFilters()">Reset</button>
+        </div>
+
+        <!-- Map -->
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+
+        <!-- Charts -->
+        <div class="charts-row">
+            <div class="chart-card">
+                <h3>Market Value by Property</h3>
+                <div class="chart-wrapper"><canvas id="chartMarketValue"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3>Annual Tax Burden</h3>
+                <div class="chart-wrapper"><canvas id="chartTaxBurden"></canvas></div>
+            </div>
+        </div>
+
+        <!-- Property Detail Panel -->
+        <div class="detail-panel" id="detailPanel">
+            <div class="detail-header">
+                <div>
+                    <h2 id="detailName">—</h2>
+                    <div class="bbl" id="detailAddress">—</div>
+                </div>
+                <button class="detail-close" onclick="closeDetail()">✕ Close</button>
+            </div>
+            <div class="detail-grid">
+                <div>
+                    <div class="detail-section">
+                        <h4>Property Info</h4>
+                        <table class="detail-table" id="detailInfo"></table>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Current Assessment (2025-2026)</h4>
+                        <table class="detail-table" id="detailAssessment"></table>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Tentative Assessment (2026-2027)</h4>
+                        <table class="detail-table" id="detailTentative"></table>
+                    </div>
+                </div>
+                <div>
+                    <div class="detail-section">
+                        <h4>Historical Market Value</h4>
+                        <div class="detail-chart-wrapper"><canvas id="detailHistoryChart"></canvas></div>
+                    </div>
+                    <div class="detail-section">
+                        <h4>Pro Forma Tax Forecast</h4>
+                        <div class="detail-chart-wrapper"><canvas id="detailProFormaChart"></canvas></div>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-section" id="detailRedFlagsSection" style="margin-top: 16px;">
+                <h4>⚠️ Red Flags & Diligence Notes</h4>
+                <div id="detailRedFlags"></div>
+            </div>
+            <div class="detail-section" style="margin-top: 16px;">
+                <h4>Mortgage & Lien Records (ACRIS)</h4>
+                <table class="detail-table" id="detailMortgages" style="width:100%;"></table>
+            </div>
+        </div>
+
+        <!-- Data Table -->
+        <div class="table-container">
+            <div class="table-header">
+                <h3>📋 Property Tax Data</h3>
+                <button class="btn-export" onclick="exportCSV()">⬇ Export CSV</button>
+            </div>
+            <div style="overflow-x: auto;">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th onclick="sortTable('propertyName')">Property <span class="sort-arrow" id="sort-propertyName"></span></th>
+                            <th onclick="sortTable('borough')">Borough <span class="sort-arrow" id="sort-borough"></span></th>
+                            <th onclick="sortTable('neighborhood')">Neighborhood <span class="sort-arrow" id="sort-neighborhood"></span></th>
+                            <th onclick="sortTable('buildingClass')">Class <span class="sort-arrow" id="sort-buildingClass"></span></th>
+                            <th onclick="sortTable('marketValue')">Market Value <span class="sort-arrow" id="sort-marketValue"></span></th>
+                            <th onclick="sortTable('taxableAV')">Taxable AV <span class="sort-arrow" id="sort-taxableAV"></span></th>
+                            <th onclick="sortTable('annualTax')">Annual Tax <span class="sort-arrow" id="sort-annualTax"></span></th>
+                            <th onclick="sortTable('taxPerSqft')">Tax/SqFt <span class="sort-arrow" id="sort-taxPerSqft"></span></th>
+                            <th onclick="sortTable('yoyChange')">YoY Δ <span class="sort-arrow" id="sort-yoyChange"></span></th>
+                            <th onclick="sortTable('redFlagCount')">Flags <span class="sort-arrow" id="sort-redFlagCount"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // State
+        let allProperties = [];
+        let filteredProperties = [];
+        let sortKey = 'annualTax';
+        let sortDir = 'desc';
+        let map, markerGroup;
+        let detailHistoryChart = null;
+        let detailProFormaChart = null;
+        let chartMV = null;
+        let chartTax = null;
+
+        // Formatters
+        const fmt = (n) => n == null ? '—' : '$' + n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+        const fmtM = (n) => n == null ? '—' : '$' + (n / 1e6).toFixed(1) + 'M';
+        const fmtPct = (n) => n == null ? '—' : (n * 100).toFixed(1) + '%';
+        const fmtSqft = (n) => n == null ? '—' : '$' + n.toFixed(2);
+
+        // Init
+        async function init() {
+            try {
+                const res = await fetch('properties.json');
+                const data = await res.json();
+                allProperties = data.properties.map(p => ({
+                    ...p,
+                    marketValue: p.currentAssessment?.estimatedMarketValue,
+                    taxableAV: p.currentAssessment?.taxableAssessedValue,
+                    annualTax: p.currentAssessment?.annualTax,
+                    taxPerSqft: p.currentAssessment?.taxPerGrossSqft,
+                    yoyChange: p.tentativeAssessment?.yoyChange,
+                    redFlagCount: (p.redFlags || []).length
+                }));
+                document.getElementById('lastUpdated').textContent = data.lastUpdated;
+                populateFilters();
+                applyFilters();
+                initMap();
+            } catch (e) {
+                console.error('Failed to load data:', e);
+            }
+        }
+
+        // Filters
+        function populateFilters() {
+            const boroughs = [...new Set(allProperties.map(p => p.borough))].sort();
+            const classes = [...new Set(allProperties.map(p => p.buildingClassDesc || p.buildingClass))].sort();
+            const hoods = [...new Set(allProperties.map(p => p.neighborhood))].sort();
+
+            const addOpts = (sel, vals) => {
+                vals.forEach(v => {
+                    const o = document.createElement('option');
+                    o.value = v; o.textContent = v;
+                    document.getElementById(sel).appendChild(o);
+                });
+            };
+            addOpts('filterBorough', boroughs);
+            addOpts('filterBuildingClass', classes);
+            addOpts('filterNeighborhood', hoods);
+        }
+
+        function applyFilters() {
+            const borough = document.getElementById('filterBorough').value;
+            const bClass = document.getElementById('filterBuildingClass').value;
+            const hood = document.getElementById('filterNeighborhood').value;
+            const minMV = parseFloat(document.getElementById('filterMinMV').value) || 0;
+            const maxMV = parseFloat(document.getElementById('filterMaxMV').value) || Infinity;
+            const search = document.getElementById('filterSearch').value.toLowerCase();
+
+            filteredProperties = allProperties.filter(p => {
+                if (borough && p.borough !== borough) return false;
+                if (bClass && (p.buildingClassDesc || p.buildingClass) !== bClass) return false;
+                if (hood && p.neighborhood !== hood) return false;
+                if (p.marketValue < minMV || p.marketValue > maxMV) return false;
+                if (search) {
+                    const hay = [p.propertyName, p.address, p.owner, p.neighborhood, p.bbl].join(' ').toLowerCase();
+                    if (!hay.includes(search)) return false;
+                }
+                return true;
+            });
+
+            sortData();
+            renderKPIs();
+            renderTable();
+            renderCharts();
+            updateMapMarkers();
+        }
+
+        function resetFilters() {
+            document.getElementById('filterBorough').value = '';
+            document.getElementById('filterBuildingClass').value = '';
+            document.getElementById('filterNeighborhood').value = '';
+            document.getElementById('filterMinMV').value = '';
+            document.getElementById('filterMaxMV').value = '';
+            document.getElementById('filterSearch').value = '';
+            applyFilters();
+        }
+
+        // Attach filter listeners
+        ['filterBorough','filterBuildingClass','filterNeighborhood','filterMinMV','filterMaxMV','filterSearch'].forEach(id => {
+            document.getElementById(id).addEventListener('input', applyFilters);
+        });
+
+        // Sort
+        function sortTable(key) {
+            if (sortKey === key) { sortDir = sortDir === 'asc' ? 'desc' : 'asc'; }
+            else { sortKey = key; sortDir = 'desc'; }
+            sortData();
+            renderTable();
+            // Update arrows
+            document.querySelectorAll('.sort-arrow').forEach(el => el.textContent = '');
+            const arrow = document.getElementById('sort-' + key);
+            if (arrow) arrow.textContent = sortDir === 'asc' ? '▲' : '▼';
+        }
+
+        function sortData() {
+            filteredProperties.sort((a, b) => {
+                let va = a[sortKey], vb = b[sortKey];
+                if (typeof va === 'string') va = va.toLowerCase();
+                if (typeof vb === 'string') vb = vb.toLowerCase();
+                if (va == null) return 1;
+                if (vb == null) return -1;
+                if (va < vb) return sortDir === 'asc' ? -1 : 1;
+                if (va > vb) return sortDir === 'asc' ? 1 : -1;
+                return 0;
+            });
+        }
+
+        // KPIs
+        function renderKPIs() {
+            const props = filteredProperties;
+            document.getElementById('kpiCount').textContent = props.length;
+
+            const totalTax = props.reduce((s, p) => s + (p.annualTax || 0), 0);
+            document.getElementById('kpiTotalTax').textContent = fmtM(totalTax);
+
+            const mvs = props.map(p => p.marketValue).filter(v => v != null).sort((a,b) => a - b);
+            const median = mvs.length ? mvs[Math.floor(mvs.length / 2)] : 0;
+            document.getElementById('kpiMedianMV').textContent = fmtM(median);
+
+            const avgTaxSqft = props.length
+                ? props.reduce((s, p) => s + (p.taxPerSqft || 0), 0) / props.filter(p => p.taxPerSqft).length
+                : 0;
+            document.getElementById('kpiAvgTaxSqft').textContent = fmtSqft(avgTaxSqft);
+
+            const totalFlags = props.reduce((s, p) => s + (p.redFlagCount || 0), 0);
+            document.getElementById('kpiRedFlags').textContent = totalFlags;
+        }
+
+        // Table
+        function renderTable() {
+            const tbody = document.getElementById('tableBody');
+            if (!filteredProperties.length) {
+                tbody.innerHTML = '<tr><td colspan="10" style="text-align:center;padding:40px;color:#a0a0a0;">No properties match filters</td></tr>';
+                return;
+            }
+            tbody.innerHTML = filteredProperties.map((p, i) => `
+                <tr onclick="showDetail('${p.id}')" ${i === 0 ? 'class="selected"' : ''}>
+                    <td><strong>${p.propertyName || p.address}</strong></td>
+                    <td>${p.borough}</td>
+                    <td>${p.neighborhood}</td>
+                    <td>${p.buildingClass}</td>
+                    <td>${fmtM(p.marketValue)}</td>
+                    <td>${fmtM(p.taxableAV)}</td>
+                    <td>${fmt(p.annualTax)}</td>
+                    <td>${fmtSqft(p.taxPerSqft)}</td>
+                    <td class="${p.yoyChange > 0 ? 'tax-change-up' : 'tax-change-down'}">${p.yoyChange ? (p.yoyChange > 0 ? '+' : '') + (p.yoyChange * 100).toFixed(1) + '%' : '—'}</td>
+                    <td>${p.redFlagCount ? '<span style="color:#f44336;">' + p.redFlagCount + '</span>' : '0'}</td>
+                </tr>
+            `).join('');
+        }
+
+        // Charts
+        function renderCharts() {
+            const labels = filteredProperties.map(p => (p.propertyName || p.address).substring(0, 25));
+            const mvData = filteredProperties.map(p => (p.marketValue || 0) / 1e6);
+            const taxData = filteredProperties.map(p => (p.annualTax || 0) / 1e6);
+
+            if (chartMV) chartMV.destroy();
+            if (chartTax) chartTax.destroy();
+
+            const chartOpts = (label, data, color) => ({
+                type: 'bar',
+                data: {
+                    labels,
+                    datasets: [{ label, data, backgroundColor: color + '99', borderColor: color, borderWidth: 1 }]
+                },
+                options: {
+                    responsive: true, maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { ticks: { color: '#a0a0a0', font: { size: 10 } }, grid: { display: false } },
+                        y: { ticks: { color: '#a0a0a0', callback: v => '$' + v + 'M' }, grid: { color: '#2a3547' } }
+                    }
+                }
+            });
+
+            chartMV = new Chart(document.getElementById('chartMarketValue'), chartOpts('Market Value ($M)', mvData, '#4fc3f7'));
+            chartTax = new Chart(document.getElementById('chartTaxBurden'), chartOpts('Annual Tax ($M)', taxData, '#f44336'));
+        }
+
+        // Map
+        function initMap() {
+            map = L.map('map', { scrollWheelZoom: true }).setView([40.7580, -73.9855], 12);
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+                subdomains: 'abcd', maxZoom: 19
+            }).addTo(map);
+            markerGroup = L.markerClusterGroup();
+            map.addLayer(markerGroup);
+            updateMapMarkers();
+        }
+
+        function updateMapMarkers() {
+            if (!markerGroup) return;
+            markerGroup.clearLayers();
+            filteredProperties.forEach(p => {
+                if (!p.lat || !p.lng) return;
+                const marker = L.marker([p.lat, p.lng]);
+                marker.bindPopup(`
+                    <div style="font-family:sans-serif;min-width:200px;">
+                        <strong>${p.propertyName || p.address}</strong><br>
+                        <span style="color:#666;">${p.address}, ${p.borough}</span><br><br>
+                        <b>Market Value:</b> ${fmtM(p.marketValue)}<br>
+                        <b>Annual Tax:</b> ${fmt(p.annualTax)}<br>
+                        <b>Tax/SqFt:</b> ${fmtSqft(p.taxPerSqft)}<br>
+                        <b>Class:</b> ${p.buildingClass} — ${p.buildingClassDesc}<br>
+                        <a href="#" onclick="showDetail('${p.id}');return false;" style="color:#2196F3;">View Full Detail →</a>
+                    </div>
+                `);
+                markerGroup.addLayer(marker);
+            });
+            if (filteredProperties.length === 1 && filteredProperties[0].lat) {
+                map.setView([filteredProperties[0].lat, filteredProperties[0].lng], 15);
+            }
+        }
+
+        // Detail Panel
+        function showDetail(id) {
+            const p = allProperties.find(x => x.id === id);
+            if (!p) return;
+
+            document.getElementById('detailName').textContent = p.propertyName || p.address;
+            document.getElementById('detailAddress').textContent = `${p.address}, ${p.borough} · BBL ${p.bbl} · Owner: ${p.owner}`;
+
+            // Info table
+            document.getElementById('detailInfo').innerHTML = [
+                ['Building Class', `${p.buildingClass} — ${p.buildingClassDesc}`],
+                ['Tax Class', p.taxClass],
+                ['Stories', p.stories],
+                ['Year Built', p.yearBuilt],
+                ['Lot Size', p.lotSizeSqft ? p.lotSizeSqft.toLocaleString() + ' sqft' : '—'],
+                ['Gross Building', p.grossBuildingSqft ? p.grossBuildingSqft.toLocaleString() + ' sqft' : '—'],
+                ['Borrower Entity', p.borrowerEntity || '—'],
+                ['Date Scraped', p.dateScraped || '—']
+            ].map(([k, v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join('');
+
+            // Assessment
+            const ca = p.currentAssessment || {};
+            document.getElementById('detailAssessment').innerHTML = [
+                ['Estimated Market Value', fmtM(ca.estimatedMarketValue)],
+                ['Market Assessed Value', fmtM(ca.marketAssessedValue)],
+                ['Transitional AV', fmtM(ca.transitionalAssessedValue)],
+                ['Taxable AV', fmtM(ca.taxableAssessedValue)],
+                ['Tax Rate', ca.taxRate ? (ca.taxRate * 100).toFixed(3) + '%' : '—'],
+                ['Annual Tax', fmt(ca.annualTax)],
+                ['Tax / Gross SqFt', fmtSqft(ca.taxPerGrossSqft)],
+                ['Exemptions', fmt(ca.exemptions)]
+            ].map(([k, v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join('');
+
+            // Tentative
+            const ta = p.tentativeAssessment || {};
+            document.getElementById('detailTentative').innerHTML = [
+                ['Estimated Market Value', fmtM(ta.estimatedMarketValue)],
+                ['Taxable AV', fmtM(ta.taxableAssessedValue)],
+                ['Projected Annual Tax', fmt(ta.projectedAnnualTax)],
+                ['YoY Change', fmtPct(ta.yoyChange)]
+            ].map(([k, v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join('');
+
+            // Red flags
+            const rfDiv = document.getElementById('detailRedFlags');
+            const rfSection = document.getElementById('detailRedFlagsSection');
+            if (p.redFlags && p.redFlags.length) {
+                rfSection.style.display = '';
+                rfDiv.innerHTML = p.redFlags.map(f => `<div class="red-flag">⚠️ ${f}</div>`).join('');
+            } else {
+                rfSection.style.display = 'none';
+            }
+
+            // Mortgages
+            const mtgTable = document.getElementById('detailMortgages');
+            if (p.mortgages && p.mortgages.length) {
+                mtgTable.innerHTML = '<tr><td style="color:#a0a0a0;font-weight:600;">Date</td><td style="color:#a0a0a0;font-weight:600;">Type</td><td style="color:#a0a0a0;font-weight:600;">Lender</td><td style="color:#a0a0a0;font-weight:600;text-align:right;">Amount</td></tr>' +
+                    p.mortgages.map(m => `<tr><td>${m.date}</td><td>${m.type}</td><td>${m.lender}</td><td style="text-align:right;">${fmt(m.amount)}</td></tr>`).join('');
+            } else {
+                mtgTable.innerHTML = '<tr><td style="color:#a0a0a0;">No mortgage records</td></tr>';
+            }
+
+            // History chart
+            if (detailHistoryChart) detailHistoryChart.destroy();
+            if (p.historicalAssessments && p.historicalAssessments.length) {
+                const hist = [...p.historicalAssessments].reverse();
+                detailHistoryChart = new Chart(document.getElementById('detailHistoryChart'), {
+                    type: 'line',
+                    data: {
+                        labels: hist.map(h => h.taxYear),
+                        datasets: [{
+                            label: 'Market Value',
+                            data: hist.map(h => h.marketValue / 1e6),
+                            borderColor: '#4fc3f7', backgroundColor: 'rgba(79,195,247,0.1)',
+                            fill: true, tension: 0.3, pointRadius: 4
+                        }]
+                    },
+                    options: {
+                        responsive: true, maintainAspectRatio: false,
+                        plugins: { legend: { display: false } },
+                        scales: {
+                            x: { ticks: { color: '#a0a0a0', font: { size: 9 }, maxRotation: 45 }, grid: { display: false } },
+                            y: { ticks: { color: '#a0a0a0', callback: v => '$' + v + 'M' }, grid: { color: '#2a3547' } }
+                        }
+                    }
+                });
+            }
+
+            // Pro forma chart
+            if (detailProFormaChart) detailProFormaChart.destroy();
+            if (p.proForma && p.proForma.length) {
+                detailProFormaChart = new Chart(document.getElementById('detailProFormaChart'), {
+                    type: 'bar',
+                    data: {
+                        labels: p.proForma.map(f => f.taxYear),
+                        datasets: [{
+                            label: 'Projected Tax',
+                            data: p.proForma.map(f => f.projectedTax / 1e6),
+                            backgroundColor: 'rgba(244,67,54,0.6)', borderColor: '#f44336', borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true, maintainAspectRatio: false,
+                        plugins: { legend: { display: false } },
+                        scales: {
+                            x: { ticks: { color: '#a0a0a0', font: { size: 9 } }, grid: { display: false } },
+                            y: { ticks: { color: '#a0a0a0', callback: v => '$' + v.toFixed(1) + 'M' }, grid: { color: '#2a3547' } }
+                        }
+                    }
+                });
+            }
+
+            document.getElementById('detailPanel').classList.add('active');
+            document.getElementById('detailPanel').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+            // Highlight selected row
+            document.querySelectorAll('.data-table tr').forEach(r => r.classList.remove('selected'));
+        }
+
+        function closeDetail() {
+            document.getElementById('detailPanel').classList.remove('active');
+        }
+
+        // CSV Export
+        function exportCSV() {
+            const headers = ['Property','Address','Borough','Neighborhood','BBL','Owner','Class','Market Value','Taxable AV','Tax Rate','Annual Tax','Tax/SqFt','YoY Change','Red Flags'];
+            const rows = filteredProperties.map(p => [
+                p.propertyName, p.address, p.borough, p.neighborhood, p.bbl, p.owner,
+                p.buildingClass, p.marketValue, p.taxableAV,
+                p.currentAssessment?.taxRate, p.annualTax, p.taxPerSqft,
+                p.yoyChange, p.redFlagCount
+            ]);
+            const csv = [headers, ...rows].map(r => r.map(v => '"' + (v ?? '') + '"').join(',')).join('\n');
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = 'nyc_property_tax_export.csv';
+            a.click();
+        }
+
+        // Boot
+        init();
+    </script>
+</body>
+</html>
