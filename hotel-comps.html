@@ -349,7 +349,7 @@
                             <th onclick="sortTable('annualTax')">Annual Tax <span class="sort-arrow" id="sort-annualTax"></span></th>
                             <th onclick="sortTable('taxPerKey')">Tax / Key <span class="sort-arrow" id="sort-taxPerKey"></span></th>
                             <th onclick="sortTable('mvPerKey')">MV / Key <span class="sort-arrow" id="sort-mvPerKey"></span></th>
-                            <th onclick="sortTable('taxRate')">Eff. Tax Rate <span class="sort-arrow" id="sort-taxRate"></span></th>
+                            <th onclick="sortTable('taxRate')">Tax Rate <span class="sort-arrow" id="sort-taxRate"></span></th>
                         </tr>
                     </thead>
                     <tbody id="tableBody"></tbody>
@@ -381,7 +381,7 @@
                     ...h,
                     taxPerKey: h.annualTax && h.keys ? Math.round(h.annualTax / h.keys) : null,
                     mvPerKey: h.marketValue && h.keys ? Math.round(h.marketValue / h.keys) : null,
-                    taxRate: h.annualTax && h.marketValue ? h.annualTax / h.marketValue : null
+                    taxRate: h.annualTax && h.taxableAV ? h.annualTax / h.taxableAV : null
                 }));
                 document.getElementById('lastUpdated').textContent = data.lastUpdated;
                 populateFilters();
@@ -640,7 +640,7 @@
             document.getElementById('detailTax').innerHTML = [
                 ['Market Value', fmtM(h.marketValue)],
                 ['Taxable AV', fmtM(h.taxableAV)],
-                ['Eff. Tax Rate', h.taxableAV && h.annualTax ? ((h.annualTax / h.taxableAV) * 100).toFixed(3) + '%' : '—'],
+                ['Tax Rate (Tax/TAV)', h.taxableAV && h.annualTax ? ((h.annualTax / h.taxableAV) * 100).toFixed(3) + '%' : '—'],
                 ['Annual Tax', fmt(h.annualTax)],
                 ['Source', h.sourceUrl ? '<a href="' + h.sourceUrl + '" target="_blank" rel="noopener" style="color:#4fc3f7;font-size:0.8rem;">NYC DOF Portal</a>' : '—']
             ].map(([k, v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join('');
@@ -648,7 +648,7 @@
             document.getElementById('detailPerKey').innerHTML = [
                 ['Tax / Key', fmtK(h.taxPerKey)],
                 ['Market Value / Key', fmtK(h.mvPerKey)],
-                ['Tax as % of MV', fmtPct(h.taxRate)],
+                ['Tax as % of MV', h.annualTax && h.marketValue ? ((h.annualTax / h.marketValue) * 100).toFixed(2) + '%' : '—'],
                 ['Taxable AV / Key', h.taxableAV && h.keys ? fmtK(Math.round(h.taxableAV / h.keys)) : '—']
             ].map(([k, v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join('');
 
@@ -686,7 +686,7 @@
         }
 
         function exportCSV() {
-            const headers = ['Hotel','Brand','Address','Borough','Neighborhood','Keys','Class','BBL','Owner','Market Value','Taxable AV','Annual Tax','Tax/Key','MV/Key','Eff Tax Rate','DOF Source URL'];
+            const headers = ['Hotel','Brand','Address','Borough','Neighborhood','Keys','Class','BBL','Owner','Market Value','Taxable AV','Annual Tax','Tax/Key','MV/Key','Tax Rate (Tax/TAV)','DOF Source URL'];
             const rows = filteredHotels.map(h => [
                 h.hotelName, h.brand, h.address, h.borough, h.neighborhood, h.keys, h.hotelClass,
                 h.bbl, h.owner, h.marketValue, h.taxableAV, h.annualTax, h.taxPerKey, h.mvPerKey,

@@ -73,7 +73,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1304&lot=1003",
-      "taxRate": 0.04882
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0002",
@@ -137,7 +137,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1286&lot=21",
-      "taxRate": 0.044
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0003",
@@ -201,7 +201,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1007&lot=5",
-      "taxRate": 0.04207
+      "taxRate": 0.09349
     },
     {
       "id": "COMP-0004",
@@ -265,7 +265,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1014&lot=58",
-      "taxRate": 0.04436
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0005",
@@ -329,7 +329,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1303&lot=14",
-      "taxRate": 0.04357
+      "taxRate": 0.10666
     },
     {
       "id": "COMP-0006",
@@ -393,7 +393,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1049&lot=1006",
-      "taxRate": 0.04506
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0007",
@@ -457,7 +457,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1274&lot=1201",
-      "taxRate": 0.04331
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0008",
@@ -521,7 +521,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1011&lot=1001",
-      "taxRate": 0.04327
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0009",
@@ -577,7 +577,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1000&lot=1101",
-      "taxRate": 0.04708
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0010",
@@ -641,7 +641,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1290&lot=1201",
-      "taxRate": 0.03916
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0011",
@@ -684,7 +684,7 @@
       "scrapeError": "No results",
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1274&lot=11",
-      "taxRate": 0.04388
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0012",
@@ -748,7 +748,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1000&lot=1",
-      "taxRate": 0.04186
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0013",
@@ -812,7 +812,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=758&lot=37",
-      "taxRate": 0.03386
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0014",
@@ -876,7 +876,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1376&lot=36",
-      "taxRate": 0.04171
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0015",
@@ -940,7 +940,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1018&lot=1001",
-      "taxRate": 0.04245
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0016",
@@ -1004,7 +1004,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=645&lot=11",
-      "taxRate": 0.04337
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0017",
@@ -1060,7 +1060,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1000&lot=1201",
-      "taxRate": 0.0461
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0018",
@@ -1116,7 +1116,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1000&lot=1201",
-      "taxRate": 0.0461
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0019",
@@ -1180,7 +1180,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1026&lot=1101",
-      "taxRate": 0.04309
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0020",
@@ -1244,7 +1244,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1026&lot=1101",
-      "taxRate": 0.04309
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0021",
@@ -1308,7 +1308,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=998&lot=15",
-      "taxRate": 0.04443
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0022",
@@ -1372,7 +1372,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=803&lot=62",
-      "taxRate": 0.04501
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0023",
@@ -1436,7 +1436,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=803&lot=62",
-      "taxRate": 0.04501
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0024",
@@ -1500,7 +1500,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=427&lot=1601",
-      "taxRate": 0.04213
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0025",
@@ -1564,7 +1564,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1260&lot=14",
-      "taxRate": 0.0482
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0026",
@@ -1628,7 +1628,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=759&lot=61",
-      "taxRate": 0.04407
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0027",
@@ -1692,7 +1692,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=759&lot=61",
-      "taxRate": 0.04407
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0028",
@@ -1756,7 +1756,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=80&lot=4",
-      "taxRate": 0.04137
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0029",
@@ -1820,7 +1820,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=762&lot=6",
-      "taxRate": 0.03903
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0030",
@@ -1884,7 +1884,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1018&lot=6",
-      "taxRate": 0.04164
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0031",
@@ -1948,7 +1948,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=784&lot=54",
-      "taxRate": 0.04354
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0032",
@@ -2012,7 +2012,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=732&lot=1",
-      "taxRate": 0.04362
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0033",
@@ -2076,7 +2076,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=853&lot=1",
-      "taxRate": 0.03741
+      "taxRate": 0.09242
     },
     {
       "id": "COMP-0034",
@@ -2140,7 +2140,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1026&lot=12",
-      "taxRate": 0.04385
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0035",
@@ -2204,7 +2204,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=211&lot=29",
-      "taxRate": 0.04558
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0036",
@@ -2268,7 +2268,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=762&lot=67",
-      "taxRate": 0.04204
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0037",
@@ -2332,7 +2332,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1274&lot=1301",
-      "taxRate": 0.04567
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0038",
@@ -2396,7 +2396,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=233&lot=2",
-      "taxRate": 0.04709
+      "taxRate": 0.11229
     },
     {
       "id": "COMP-0039",
@@ -2460,7 +2460,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=858&lot=1201",
-      "taxRate": 0.03971
+      "taxRate": 0.09914
     },
     {
       "id": "COMP-0040",
@@ -2524,7 +2524,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=763&lot=28",
-      "taxRate": 0.04478
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0041",
@@ -2588,7 +2588,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1039&lot=17",
-      "taxRate": 0.04253
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0042",
@@ -2652,7 +2652,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=838&lot=1202",
-      "taxRate": 0.04378
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0043",
@@ -2716,7 +2716,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1009&lot=44",
-      "taxRate": 0.03955
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0044",
@@ -2780,7 +2780,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=893&lot=25",
-      "taxRate": 0.04025
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0045",
@@ -2844,7 +2844,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=803&lot=58",
-      "taxRate": 0.04882
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0046",
@@ -2908,7 +2908,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=760&lot=51",
-      "taxRate": 0.0432
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0047",
@@ -2972,7 +2972,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=556&lot=16",
-      "taxRate": 0.02387
+      "taxRate": 0.10298
     },
     {
       "id": "COMP-0048",
@@ -3036,7 +3036,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=37&lot=8",
-      "taxRate": 0.0457
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0049",
@@ -3100,7 +3100,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=89&lot=3",
-      "taxRate": 0.0448
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0050",
@@ -3164,7 +3164,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1095&lot=35",
-      "taxRate": 0.04422
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0051",
@@ -3228,7 +3228,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=10&lot=33",
-      "taxRate": 0.04422
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0052",
@@ -3292,7 +3292,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1305&lot=33",
-      "taxRate": 0.04369
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0053",
@@ -3356,7 +3356,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1019&lot=55",
-      "taxRate": 0.04395
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0054",
@@ -3420,7 +3420,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=425&lot=4",
-      "taxRate": 0.04331
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0055",
@@ -3484,7 +3484,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=69&lot=1",
-      "taxRate": 0.0409
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0056",
@@ -3548,7 +3548,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=69&lot=1",
-      "taxRate": 0.0409
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0057",
@@ -3612,7 +3612,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=806&lot=13",
-      "taxRate": 0.04157
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0058",
@@ -3676,7 +3676,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1012&lot=42",
-      "taxRate": 0.04254
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0059",
@@ -3740,7 +3740,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=52&lot=8",
-      "taxRate": 0.04273
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0060",
@@ -3804,7 +3804,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1051&lot=1501",
-      "taxRate": 0.02532
+      "taxRate": 0.06448
     },
     {
       "id": "COMP-0061",
@@ -3868,7 +3868,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=56&lot=1",
-      "taxRate": 0.04351
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0062",
@@ -3932,7 +3932,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1263&lot=55",
-      "taxRate": 0.04882
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0063",
@@ -3996,7 +3996,7 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=837&lot=6",
-      "taxRate": 0.04341
+      "taxRate": 0.10863
     },
     {
       "id": "COMP-0064",
@@ -4039,74 +4039,10 @@
       "scrapeError": "No results",
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=840&lot=6",
-      "taxRate": 0.04255
+      "taxRate": 0.10848
     },
     {
       "id": "COMP-0065",
-      "hotelName": "MOXY NYC Times Square",
-      "brand": "MOXY",
-      "parentCompany": "Marriott International",
-      "hotelClass": "upper-midscale",
-      "hotelClassDisplay": "Upper Midscale",
-      "scale": "Upper Midscale",
-      "operationType": "Franchise",
-      "buildingClass": "RH",
-      "buildingClassDesc": "HOTEL/BOATEL",
-      "address": "485 7th Ave",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown South",
-      "borough": "Manhattan",
-      "zip": "10018",
-      "bbl": "1-00812-1001",
-      "keys": 612,
-      "stories": 17,
-      "yearBuilt": 1906,
-      "yearRenovated": 2017,
-      "meetingRooms": 4,
-      "totalMeetingSpace": 1050,
-      "locationType": "Urban",
-      "owner": "485 SEVENTH AVE ASSOC LLC",
-      "lat": null,
-      "lng": null,
-      "marketValue": 136935587,
-      "marketAV": 61621014,
-      "taxableAV": 43311762,
-      "taxClass": "4",
-      "annualTax": 2023292,
-      "taxPerKey": 3306,
-      "mvPerKey": 223751,
-      "grossSqft": null,
-      "marketValueHistory": [
-        {
-          "year": "2025 - 2026",
-          "marketValue": 136935587
-        },
-        {
-          "year": "2024 - 2025",
-          "marketValue": 97046000
-        },
-        {
-          "year": "2023 - 2024",
-          "marketValue": 85596000
-        },
-        {
-          "year": "2022 - 2023",
-          "marketValue": 81442000
-        },
-        {
-          "year": "2021 - 2022",
-          "marketValue": 106786000
-        }
-      ],
-      "scrapeStatus": "verified",
-      "scrapeError": null,
-      "notes": "",
-      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=812&lot=1001",
-      "taxRate": 0.01478
-    },
-    {
-      "id": "COMP-0066",
       "hotelName": "The Bowery Hotel",
       "brand": null,
       "parentCompany": null,
@@ -4167,10 +4103,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=458&lot=6",
-      "taxRate": 0.04469
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0067",
+      "id": "COMP-0066",
       "hotelName": "Hilton Garden Inn New York Times Square South",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -4231,10 +4167,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=760&lot=58",
-      "taxRate": 0.0437
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0068",
+      "id": "COMP-0067",
       "hotelName": "Hyatt Centric Midtown 5th Avenue New York",
       "brand": "Hyatt Centric",
       "parentCompany": "Hyatt Corporation",
@@ -4295,10 +4231,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=868&lot=64",
-      "taxRate": 0.04474
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0069",
+      "id": "COMP-0068",
       "hotelName": "Moxy NYC Lower East Side",
       "brand": "MOXY",
       "parentCompany": "Marriott International",
@@ -4359,10 +4295,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=423&lot=9",
-      "taxRate": 0.03494
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0070",
+      "id": "COMP-0069",
       "hotelName": "The Gregorian Hotel",
       "brand": null,
       "parentCompany": null,
@@ -4423,10 +4359,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=733&lot=23",
-      "taxRate": 0.03357
+      "taxRate": 0.12149
     },
     {
-      "id": "COMP-0071",
+      "id": "COMP-0070",
       "hotelName": "Hotel Belleclaire",
       "brand": null,
       "parentCompany": null,
@@ -4487,10 +4423,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1168&lot=56",
-      "taxRate": 0.03845
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0072",
+      "id": "COMP-0071",
       "hotelName": "Westgate New York Grand Central",
       "brand": "Westgate",
       "parentCompany": "Westgate Resorts",
@@ -4551,10 +4487,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1334&lot=5",
-      "taxRate": 0.04389
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0073",
+      "id": "COMP-0072",
       "hotelName": "Fairfield Inn & Suites New York Manhattan Times Square",
       "brand": "Fairfield Inn",
       "parentCompany": "Marriott International",
@@ -4615,10 +4551,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=763&lot=56",
-      "taxRate": 0.04434
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0074",
+      "id": "COMP-0073",
       "hotelName": "Crowne Plaza HY36 Midtown Manhattan",
       "brand": "Crowne Plaza",
       "parentCompany": "IHG Hotels & Resorts",
@@ -4679,10 +4615,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=759&lot=55",
-      "taxRate": 0.04521
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0075",
+      "id": "COMP-0074",
       "hotelName": "AC Hotel New York Downtown",
       "brand": "AC Hotels by Marriott",
       "parentCompany": "Marriott International",
@@ -4743,10 +4679,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=72&lot=7",
-      "taxRate": 0.0407
+      "taxRate": 0.10794
     },
     {
-      "id": "COMP-0076",
+      "id": "COMP-0075",
       "hotelName": "Le M\u00e9ridien New York, Fifth Avenue",
       "brand": "Le Meridien",
       "parentCompany": "Marriott International",
@@ -4807,10 +4743,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=832&lot=44",
-      "taxRate": 0.04634
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0077",
+      "id": "COMP-0076",
       "hotelName": "Renaissance New York Times Square Hotel",
       "brand": "Renaissance",
       "parentCompany": "Marriott International",
@@ -4871,10 +4807,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1019&lot=1001",
-      "taxRate": 0.04787
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0078",
+      "id": "COMP-0077",
       "hotelName": "Four Points by Sheraton Midtown - Times Square",
       "brand": "Four Points by Sheraton",
       "parentCompany": "Marriott International",
@@ -4935,10 +4871,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=763&lot=54",
-      "taxRate": 0.04516
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0079",
+      "id": "COMP-0078",
       "hotelName": "Arlo NoMad",
       "brand": null,
       "parentCompany": null,
@@ -4999,10 +4935,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=861&lot=10",
-      "taxRate": 0.04272
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0080",
+      "id": "COMP-0079",
       "hotelName": "The Standard, East Village, NYC",
       "brand": "The Standard",
       "parentCompany": "Hyatt Corporation",
@@ -5063,10 +4999,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=461&lot=3",
-      "taxRate": 0.04478
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0081",
+      "id": "COMP-0080",
       "hotelName": "Holiday Inn Express New York City Chelsea",
       "brand": "Holiday Inn Express",
       "parentCompany": "IHG Hotels & Resorts",
@@ -5127,10 +5063,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=778&lot=57",
-      "taxRate": 0.04406
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0082",
+      "id": "COMP-0081",
       "hotelName": "Hotel 50 Bowery",
       "brand": "JdV by Hyatt",
       "parentCompany": "Hyatt Corporation",
@@ -5191,10 +5127,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=202&lot=23",
-      "taxRate": 0.03869
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0083",
+      "id": "COMP-0082",
       "hotelName": "Hilton Club West 57th Street New York",
       "brand": "Hilton Grand Vacations",
       "parentCompany": "Hilton Grand Vacations",
@@ -5255,10 +5191,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1009&lot=37",
-      "taxRate": 0.04481
+      "taxRate": 0.10794
     },
     {
-      "id": "COMP-0084",
+      "id": "COMP-0083",
       "hotelName": "The Ludlow Hotel",
       "brand": null,
       "parentCompany": null,
@@ -5319,10 +5255,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=412&lot=48",
-      "taxRate": 0.03687
+      "taxRate": 0.10881
     },
     {
-      "id": "COMP-0085",
+      "id": "COMP-0084",
       "hotelName": "Aura Hotel Times Square",
       "brand": null,
       "parentCompany": null,
@@ -5383,10 +5319,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=996&lot=43",
-      "taxRate": 0.04317
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0086",
+      "id": "COMP-0085",
       "hotelName": "Hilton Garden Inn New York/Midtown Park Ave",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -5426,10 +5362,10 @@
       "scrapeError": "No results",
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=863&lot=1002",
-      "taxRate": 0.04294
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0087",
+      "id": "COMP-0086",
       "hotelName": "citizenM New York Times Square",
       "brand": "citizenM",
       "parentCompany": "Marriott International",
@@ -5490,10 +5426,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1021&lot=50",
-      "taxRate": 0.04245
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0088",
+      "id": "COMP-0087",
       "hotelName": "Fairfield by Marriott Inn & Suites New York Midtown Manhattan/Penn Station",
       "brand": "Fairfield Inn",
       "parentCompany": "Marriott International",
@@ -5554,10 +5490,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=757&lot=17",
-      "taxRate": 0.04535
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0089",
+      "id": "COMP-0088",
       "hotelName": "Hotel Indigo NYC Financial District",
       "brand": "Hotel Indigo",
       "parentCompany": "IHG Hotels & Resorts",
@@ -5618,10 +5554,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=19&lot=24",
-      "taxRate": 0.04505
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0090",
+      "id": "COMP-0089",
       "hotelName": "Holiday Inn Express New York City Times Square",
       "brand": "Holiday Inn Express",
       "parentCompany": "IHG Hotels & Resorts",
@@ -5682,10 +5618,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=763&lot=12",
-      "taxRate": 0.04405
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0091",
+      "id": "COMP-0090",
       "hotelName": "Civilian Hotel",
       "brand": null,
       "parentCompany": null,
@@ -5746,10 +5682,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1039&lot=27",
-      "taxRate": 0.04896
+      "taxRate": 0.10881
     },
     {
-      "id": "COMP-0092",
+      "id": "COMP-0091",
       "hotelName": "The Gardens ES Suites New York",
       "brand": "Sonesta ES Suites",
       "parentCompany": "Sonesta International Hotels Corp",
@@ -5810,10 +5746,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1419&lot=10",
-      "taxRate": 0.04359
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0093",
+      "id": "COMP-0092",
       "hotelName": "Hilton Garden Inn New York/Manhattan-Midtown East",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -5874,10 +5810,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1325&lot=50",
-      "taxRate": 0.04351
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0094",
+      "id": "COMP-0093",
       "hotelName": "The Maritime Hotel",
       "brand": null,
       "parentCompany": null,
@@ -5938,10 +5874,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=740&lot=1",
-      "taxRate": 0.04381
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0095",
+      "id": "COMP-0094",
       "hotelName": "The FIDI Hotel",
       "brand": null,
       "parentCompany": null,
@@ -6002,10 +5938,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=11&lot=29",
-      "taxRate": 0.04356
+      "taxRate": 0.10431
     },
     {
-      "id": "COMP-0096",
+      "id": "COMP-0095",
       "hotelName": "Courtyard New York Manhattan/Times Square West",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -6066,10 +6002,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=761&lot=28",
-      "taxRate": 0.04425
+      "taxRate": 0.11069
     },
     {
-      "id": "COMP-0097",
+      "id": "COMP-0096",
       "hotelName": "Kimberly Hotel",
       "brand": null,
       "parentCompany": null,
@@ -6130,10 +6066,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1305&lot=28",
-      "taxRate": 0.04415
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0098",
+      "id": "COMP-0097",
       "hotelName": "Hilton Garden Inn NYC Financial Center/Manhattan Downtown",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -6194,10 +6130,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=8&lot=51",
-      "taxRate": 0.04358
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0099",
+      "id": "COMP-0098",
       "hotelName": "Courtyard New York Manhattan 5th Avenue",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -6237,10 +6173,10 @@
       "scrapeError": "No results",
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1275&lot=6",
-      "taxRate": 0.04156
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0100",
+      "id": "COMP-0099",
       "hotelName": "Algonquin Hotel Times Square Autograph Collection",
       "brand": "Autograph Collection",
       "parentCompany": "Marriott International",
@@ -6301,10 +6237,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1260&lot=7",
-      "taxRate": 0.04231
+      "taxRate": 0.10858
     },
     {
-      "id": "COMP-0101",
+      "id": "COMP-0100",
       "hotelName": "Virgin Hotels New York City",
       "brand": "Virgin Hotels",
       "parentCompany": "Virgin Management Ltd.",
@@ -6349,10 +6285,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=831&lot=1201",
-      "taxRate": 0.04677
+      "taxRate": 0.11035
     },
     {
-      "id": "COMP-0102",
+      "id": "COMP-0101",
       "hotelName": "Innside by Melia NoMad",
       "brand": "Innside by Melia",
       "parentCompany": "Melia Hotels International, S.A",
@@ -6392,10 +6328,10 @@
       "scrapeError": "No results",
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=802&lot=61",
-      "taxRate": 0.04355
+      "taxRate": 0.10945
     },
     {
-      "id": "COMP-0103",
+      "id": "COMP-0102",
       "hotelName": "The Surrey, A Corinthia Hotel",
       "brand": "Corinthia",
       "parentCompany": "Corinthia Hotels International",
@@ -6440,10 +6376,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1390&lot=1501",
-      "taxRate": 0.03819
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0104",
+      "id": "COMP-0103",
       "hotelName": "Smyth Tribeca",
       "brand": null,
       "parentCompany": null,
@@ -6504,10 +6440,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=136&lot=1401",
-      "taxRate": 0.04341
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0105",
+      "id": "COMP-0104",
       "hotelName": "Marriott New York Downtown",
       "brand": "Marriott",
       "parentCompany": "Marriott International",
@@ -6568,10 +6504,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=136&lot=1401",
-      "taxRate": 0.04341
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0106",
+      "id": "COMP-0105",
       "hotelName": "Hyatt Place New York/Midtown-South",
       "brand": "Hyatt Place",
       "parentCompany": "Hyatt Corporation",
@@ -6632,10 +6568,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=837&lot=74",
-      "taxRate": 0.04312
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0107",
+      "id": "COMP-0106",
       "hotelName": "TRYP by Wyndham New York City Times Square / Midtown",
       "brand": "Tryp by Wyndham",
       "parentCompany": "Wyndham Hotels & Resorts",
@@ -6696,10 +6632,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=759&lot=14",
-      "taxRate": 0.04462
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0108",
+      "id": "COMP-0107",
       "hotelName": "SpringHill Suites New York Midtown Manhattan/Fifth Avenue",
       "brand": "SpringHill Suites",
       "parentCompany": "Marriott International",
@@ -6760,10 +6696,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=786&lot=76",
-      "taxRate": 0.04882
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0109",
+      "id": "COMP-0108",
       "hotelName": "Hilton Garden Inn New York Times Square North",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -6824,10 +6760,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1261&lot=54",
-      "taxRate": 0.03813
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0110",
+      "id": "COMP-0109",
       "hotelName": "Hotel RIU Plaza New York Times Square",
       "brand": "RIU Plaza",
       "parentCompany": "Riu Hotels & Resorts",
@@ -6888,10 +6824,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1037&lot=29",
-      "taxRate": 0.04236
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0111",
+      "id": "COMP-0110",
       "hotelName": "The Time New York",
       "brand": "JdV by Hyatt",
       "parentCompany": "Hyatt Corporation",
@@ -6952,10 +6888,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1020&lot=51",
-      "taxRate": 0.04377
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0112",
+      "id": "COMP-0111",
       "hotelName": "Courtyard New York Manhattan Upper East Side",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -7016,10 +6952,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1571&lot=1006",
-      "taxRate": 0.0434
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0113",
+      "id": "COMP-0112",
       "hotelName": "Hotel Aliz",
       "brand": null,
       "parentCompany": null,
@@ -7080,10 +7016,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=763&lot=47",
-      "taxRate": 0.03623
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0114",
+      "id": "COMP-0113",
       "hotelName": "SpringHill Suites New York Manhattan Times Square",
       "brand": "SpringHill Suites",
       "parentCompany": "Marriott International",
@@ -7144,10 +7080,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1018&lot=16",
-      "taxRate": 0.04371
+      "taxRate": 0.10849
     },
     {
-      "id": "COMP-0115",
+      "id": "COMP-0114",
       "hotelName": "Hampton by Hilton Inn Manhattan/Times Square South",
       "brand": "Hampton by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -7208,10 +7144,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=763&lot=14",
-      "taxRate": 0.04358
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0116",
+      "id": "COMP-0115",
       "hotelName": "Residence Inn New York Downtown Manhattan/World Trade Center Area",
       "brand": "Residence Inn",
       "parentCompany": "Marriott International",
@@ -7272,10 +7208,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=64&lot=1101",
-      "taxRate": 0.04231
+      "taxRate": 0.10378
     },
     {
-      "id": "COMP-0117",
+      "id": "COMP-0116",
       "hotelName": "Executive Hotel le Soleil New York",
       "brand": "Executive Hotel",
       "parentCompany": "Executive Hotels and Resorts",
@@ -7336,10 +7272,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=837&lot=67",
-      "taxRate": 0.04348
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0118",
+      "id": "COMP-0117",
       "hotelName": "LUMA Hotel Times Square",
       "brand": null,
       "parentCompany": null,
@@ -7400,10 +7336,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=993&lot=43",
-      "taxRate": 0.03931
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0119",
+      "id": "COMP-0118",
       "hotelName": "OYO Times Square",
       "brand": "OYO",
       "parentCompany": "Prism",
@@ -7464,10 +7400,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1000&lot=7",
-      "taxRate": 0.04257
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0120",
+      "id": "COMP-0119",
       "hotelName": "The Knickerbocker",
       "brand": null,
       "parentCompany": null,
@@ -7528,10 +7464,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=994&lot=1101",
-      "taxRate": 0.04059
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0121",
+      "id": "COMP-0120",
       "hotelName": "Pestana CR7 Times Square",
       "brand": "Pestana CR7",
       "parentCompany": "Pestana Management, S.A.",
@@ -7592,10 +7528,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=762&lot=61",
-      "taxRate": 0.04447
+      "taxRate": 0.10869
     },
     {
-      "id": "COMP-0122",
+      "id": "COMP-0121",
       "hotelName": "Four Points by Sheraton Manhattan Midtown West",
       "brand": "Four Points by Sheraton",
       "parentCompany": "Marriott International",
@@ -7656,10 +7592,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=732&lot=70",
-      "taxRate": 0.04301
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0123",
+      "id": "COMP-0122",
       "hotelName": "AKA Central Park",
       "brand": "AKA",
       "parentCompany": "Korman Communities",
@@ -7720,10 +7656,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1273&lot=60",
-      "taxRate": 0.04377
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0124",
+      "id": "COMP-0123",
       "hotelName": "Four Points by Sheraton Manhattan SoHo Village",
       "brand": "Four Points by Sheraton",
       "parentCompany": "Marriott International",
@@ -7784,10 +7720,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=580&lot=15",
-      "taxRate": 0.04521
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0125",
+      "id": "COMP-0124",
       "hotelName": "Fairfield Inn & Suites New York Manhattan/Financial District",
       "brand": "Fairfield Inn",
       "parentCompany": "Marriott International",
@@ -7848,10 +7784,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=72&lot=12",
-      "taxRate": 0.04309
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0126",
+      "id": "COMP-0125",
       "hotelName": "Hilton Garden Inn New York Chelsea",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -7912,10 +7848,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=804&lot=24",
-      "taxRate": 0.0409
+      "taxRate": 0.10911
     },
     {
-      "id": "COMP-0127",
+      "id": "COMP-0126",
       "hotelName": "The Marmara Park Avenue",
       "brand": "The Marmara",
       "parentCompany": "The Marmara Group",
@@ -7976,10 +7912,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=887&lot=88",
-      "taxRate": 0.04111
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0128",
+      "id": "COMP-0127",
       "hotelName": "ModernHaus SoHo",
       "brand": null,
       "parentCompany": null,
@@ -8040,10 +7976,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=227&lot=52",
-      "taxRate": 0.04466
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0129",
+      "id": "COMP-0128",
       "hotelName": "Kimpton Ashbel New York Park Avenue",
       "brand": "Kimpton",
       "parentCompany": "IHG Hotels & Resorts",
@@ -8104,10 +8040,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=868&lot=36",
-      "taxRate": 0.04348
+      "taxRate": 0.10931
     },
     {
-      "id": "COMP-0130",
+      "id": "COMP-0129",
       "hotelName": "Distrikt Hotel New York City, Tapestry Collection by Hilton",
       "brand": "Tapestry Collection by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -8168,10 +8104,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=763&lot=65",
-      "taxRate": 0.04492
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0131",
+      "id": "COMP-0130",
       "hotelName": "Courtyard New York World Trade Center Area",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -8232,10 +8168,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=53&lot=38",
-      "taxRate": 0.04117
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0132",
+      "id": "COMP-0131",
       "hotelName": "AKA Times Square",
       "brand": "AKA",
       "parentCompany": "Korman Communities",
@@ -8296,10 +8232,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=997&lot=19",
-      "taxRate": 0.04478
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0133",
+      "id": "COMP-0132",
       "hotelName": "The Wallace",
       "brand": null,
       "parentCompany": null,
@@ -8360,10 +8296,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1167&lot=55",
-      "taxRate": 0.03599
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0134",
+      "id": "COMP-0133",
       "hotelName": "Concorde Hotel New York",
       "brand": null,
       "parentCompany": null,
@@ -8424,10 +8360,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1310&lot=12",
-      "taxRate": 0.04013
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0135",
+      "id": "COMP-0134",
       "hotelName": "The Hotel at Fifth Avenue",
       "brand": null,
       "parentCompany": null,
@@ -8488,10 +8424,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=834&lot=29",
-      "taxRate": 0.04244
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0136",
+      "id": "COMP-0135",
       "hotelName": "Courtyard New York Manhattan/Midtown East",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -8552,10 +8488,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1307&lot=1001",
-      "taxRate": 0.04528
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0137",
+      "id": "COMP-0136",
       "hotelName": "Cambria Hotels New York-Chelsea",
       "brand": "Cambria Hotels",
       "parentCompany": "Choice Hotels International, Inc.",
@@ -8595,10 +8531,10 @@
       "scrapeError": "No results",
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=804&lot=22",
-      "taxRate": 0.04285
+      "taxRate": 0.10933
     },
     {
-      "id": "COMP-0138",
+      "id": "COMP-0137",
       "hotelName": "Hampton Inn Manhattan-Madison Square Garden Area",
       "brand": "Hampton by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -8659,10 +8595,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=806&lot=52",
-      "taxRate": 0.04368
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0139",
+      "id": "COMP-0138",
       "hotelName": "Hotel 48LEX New York",
       "brand": null,
       "parentCompany": null,
@@ -8723,10 +8659,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1303&lot=1301",
-      "taxRate": 0.04341
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0140",
+      "id": "COMP-0139",
       "hotelName": "Holiday Inn Express Manhattan Times Square South",
       "brand": "Holiday Inn Express",
       "parentCompany": "IHG Hotels & Resorts",
@@ -8766,10 +8702,10 @@
       "scrapeError": "No results",
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=837&lot=78",
-      "taxRate": 0.04333
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0141",
+      "id": "COMP-0140",
       "hotelName": "Hampton Inn Manhattan Grand Central",
       "brand": "Hampton by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -8809,10 +8745,10 @@
       "scrapeError": "No results",
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1317&lot=19",
-      "taxRate": 0.04298
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0142",
+      "id": "COMP-0141",
       "hotelName": "Hotel Indigo NYC Downtown Wall Street",
       "brand": "Hotel Indigo",
       "parentCompany": "IHG Hotels & Resorts",
@@ -8852,10 +8788,10 @@
       "scrapeError": "No results",
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=39&lot=41",
-      "taxRate": 0.04893
+      "taxRate": 0.10872
     },
     {
-      "id": "COMP-0143",
+      "id": "COMP-0142",
       "hotelName": "Courtyard New York Manhattan/SoHo",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -8916,10 +8852,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=580&lot=63",
-      "taxRate": 0.03924
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0144",
+      "id": "COMP-0143",
       "hotelName": "Best Western Premier Empire State Hotel",
       "brand": "Best Western Premier",
       "parentCompany": "BWH Hotels",
@@ -8980,10 +8916,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=859&lot=75",
-      "taxRate": 0.04357
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0145",
+      "id": "COMP-0144",
       "hotelName": "San Carlos Hotel",
       "brand": null,
       "parentCompany": null,
@@ -9044,10 +8980,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1304&lot=41",
-      "taxRate": 0.04314
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0146",
+      "id": "COMP-0145",
       "hotelName": "The Renwick",
       "brand": null,
       "parentCompany": null,
@@ -9108,10 +9044,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=895&lot=79",
-      "taxRate": 0.03709
+      "taxRate": 0.09886
     },
     {
-      "id": "COMP-0147",
+      "id": "COMP-0146",
       "hotelName": "Gild Hall a Thompson Hotel",
       "brand": "Thompson Hotels",
       "parentCompany": "Hyatt Corporation",
@@ -9172,10 +9108,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=68&lot=28",
-      "taxRate": 0.04151
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0148",
+      "id": "COMP-0147",
       "hotelName": "Aloft Manhattan Downtown - Financial District",
       "brand": "aloft Hotel",
       "parentCompany": "Marriott International",
@@ -9215,10 +9151,10 @@
       "scrapeError": "No results",
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=92&lot=14",
-      "taxRate": 0.04293
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0149",
+      "id": "COMP-0148",
       "hotelName": "MADE Hotel",
       "brand": null,
       "parentCompany": null,
@@ -9279,10 +9215,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=830&lot=73",
-      "taxRate": 0.04204
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0150",
+      "id": "COMP-0149",
       "hotelName": "Hudson Yards Hotel",
       "brand": null,
       "parentCompany": null,
@@ -9343,10 +9279,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1070&lot=20",
-      "taxRate": 0.04882
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0151",
+      "id": "COMP-0150",
       "hotelName": "Radio City Apartments",
       "brand": null,
       "parentCompany": null,
@@ -9407,10 +9343,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1001&lot=55",
-      "taxRate": 0.04433
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0152",
+      "id": "COMP-0151",
       "hotelName": "Hyatt Herald Square New York",
       "brand": "Hyatt",
       "parentCompany": "Hyatt Corporation",
@@ -9471,10 +9407,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=832&lot=62",
-      "taxRate": 0.04325
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0153",
+      "id": "COMP-0152",
       "hotelName": "Hotel Hayden",
       "brand": null,
       "parentCompany": null,
@@ -9535,10 +9471,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=804&lot=20",
-      "taxRate": 0.04327
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0154",
+      "id": "COMP-0153",
       "hotelName": "Travel Inn Hotel",
       "brand": null,
       "parentCompany": null,
@@ -9599,10 +9535,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1071&lot=23",
-      "taxRate": 0.04812
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0155",
+      "id": "COMP-0154",
       "hotelName": "SpringHill Suites New York Midtown Manhattan/Park Avenue",
       "brand": "SpringHill Suites",
       "parentCompany": "Marriott International",
@@ -9642,10 +9578,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=880&lot=9",
-      "taxRate": 0.04455
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0156",
+      "id": "COMP-0155",
       "hotelName": "Hotel on Rivington",
       "brand": null,
       "parentCompany": null,
@@ -9706,10 +9642,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=410&lot=48",
-      "taxRate": 0.04072
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0157",
+      "id": "COMP-0156",
       "hotelName": "Fairfield Inn & Suites New York Manhattan/Chelsea",
       "brand": "Fairfield Inn",
       "parentCompany": "Marriott International",
@@ -9770,10 +9706,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=803&lot=49",
-      "taxRate": 0.04323
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0158",
+      "id": "COMP-0157",
       "hotelName": "Holiday Inn New York City Wall Street",
       "brand": "Holiday Inn",
       "parentCompany": "IHG Hotels & Resorts",
@@ -9834,10 +9770,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=64&lot=1",
-      "taxRate": 0.04283
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0159",
+      "id": "COMP-0158",
       "hotelName": "Hotel Stanford",
       "brand": null,
       "parentCompany": null,
@@ -9898,10 +9834,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=834&lot=16",
-      "taxRate": 0.04587
+      "taxRate": 0.10995
     },
     {
-      "id": "COMP-0160",
+      "id": "COMP-0159",
       "hotelName": "Hilton Garden Inn New York Times Square Central",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -9962,10 +9898,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=994&lot=1201",
-      "taxRate": 0.04606
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0161",
+      "id": "COMP-0160",
       "hotelName": "Citadines Connect Fifth Avenue New York",
       "brand": "Citadines",
       "parentCompany": "Ascott International Management (2001) Pte Ltd",
@@ -10026,10 +9962,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1261&lot=29",
-      "taxRate": 0.03584
+      "taxRate": 0.10586
     },
     {
-      "id": "COMP-0162",
+      "id": "COMP-0161",
       "hotelName": "The Prince Kitano New York",
       "brand": "The Prince",
       "parentCompany": "Seibu Prince Hotels Worldwide Inc.",
@@ -10090,10 +10026,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1382&lot=36",
-      "taxRate": 0.04394
+      "taxRate": 0.10708
     },
     {
-      "id": "COMP-0163",
+      "id": "COMP-0162",
       "hotelName": "Holiday Inn Express New York City Wall Street",
       "brand": "Holiday Inn Express",
       "parentCompany": "IHG Hotels & Resorts",
@@ -10154,10 +10090,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=39&lot=38",
-      "taxRate": 0.04098
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0164",
+      "id": "COMP-0163",
       "hotelName": "Holiday Inn New York City - Lower East Side",
       "brand": "Holiday Inn",
       "parentCompany": "IHG Hotels & Resorts",
@@ -10218,10 +10154,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=348&lot=36",
-      "taxRate": 0.04882
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0165",
+      "id": "COMP-0164",
       "hotelName": "TownePlace Suites New York Manhattan/Times Square",
       "brand": "TownePlace Suites",
       "parentCompany": "Marriott International",
@@ -10282,10 +10218,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1034&lot=44",
-      "taxRate": 0.03963
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0166",
+      "id": "COMP-0165",
       "hotelName": "Washington Square Hotel",
       "brand": null,
       "parentCompany": null,
@@ -10346,10 +10282,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=553&lot=1202",
-      "taxRate": 0.0426
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0167",
+      "id": "COMP-0166",
       "hotelName": "St James Hotel",
       "brand": null,
       "parentCompany": null,
@@ -10410,10 +10346,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=998&lot=26",
-      "taxRate": 0.04252
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0168",
+      "id": "COMP-0167",
       "hotelName": "The Jane Hotel",
       "brand": null,
       "parentCompany": null,
@@ -10474,10 +10410,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=642&lot=1",
-      "taxRate": 0.0443
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0169",
+      "id": "COMP-0168",
       "hotelName": "Murray Hill Suites",
       "brand": null,
       "parentCompany": null,
@@ -10538,10 +10474,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=895&lot=38",
-      "taxRate": 0.04135
+      "taxRate": 0.10577
     },
     {
-      "id": "COMP-0170",
+      "id": "COMP-0169",
       "hotelName": "Romer Hell's Kitchen",
       "brand": null,
       "parentCompany": null,
@@ -10602,10 +10538,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1042&lot=1001",
-      "taxRate": 0.03763
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0171",
+      "id": "COMP-0170",
       "hotelName": "Sanctuary Hotel New York",
       "brand": null,
       "parentCompany": null,
@@ -10666,10 +10602,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=999&lot=48",
-      "taxRate": 0.04285
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0172",
+      "id": "COMP-0171",
       "hotelName": "Trump International Hotel & Tower New York",
       "brand": "Trump International",
       "parentCompany": "Trump Organization",
@@ -10730,10 +10666,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1113&lot=1201",
-      "taxRate": 0.04655
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0173",
+      "id": "COMP-0172",
       "hotelName": "Hotel Hendricks",
       "brand": null,
       "parentCompany": null,
@@ -10794,10 +10730,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=787&lot=70",
-      "taxRate": 0.04882
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0174",
+      "id": "COMP-0173",
       "hotelName": "Hotel Alexander",
       "brand": null,
       "parentCompany": null,
@@ -10858,10 +10794,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1252&lot=60",
-      "taxRate": 0.04274
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0175",
+      "id": "COMP-0174",
       "hotelName": "SunBright Hotel",
       "brand": null,
       "parentCompany": null,
@@ -10922,10 +10858,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=203&lot=17",
-      "taxRate": 0.0446
+      "taxRate": 0.10848
     },
     {
-      "id": "COMP-0176",
+      "id": "COMP-0175",
       "hotelName": "The Shoreham Hotel",
       "brand": null,
       "parentCompany": null,
@@ -10986,10 +10922,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1045&lot=50",
-      "taxRate": 0.05139
+      "taxRate": 0.12453
     },
     {
-      "id": "COMP-0177",
+      "id": "COMP-0176",
       "hotelName": "Riverside Tower Hotel",
       "brand": null,
       "parentCompany": null,
@@ -11050,10 +10986,10 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1244&lot=33",
-      "taxRate": 0.04268
+      "taxRate": 0.10794
     },
     {
-      "id": "COMP-0178",
+      "id": "COMP-0177",
       "hotelName": "Kimpton Hotel Theta",
       "brand": "Kimpton",
       "parentCompany": "IHG Hotels & Resorts",
@@ -11114,7 +11050,71 @@
       "scrapeError": null,
       "notes": "",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1020&lot=1001",
-      "taxRate": 0.03788
+      "taxRate": 0.10848
+    },
+    {
+      "id": "COMP-0178",
+      "hotelName": "MOXY NYC Times Square",
+      "brand": "MOXY",
+      "parentCompany": "Marriott International",
+      "hotelClass": "upper-midscale",
+      "hotelClassDisplay": "Upper Midscale",
+      "scale": "Upper Midscale",
+      "operationType": "Franchise",
+      "buildingClass": "RH",
+      "buildingClassDesc": "HOTEL/BOATEL",
+      "address": "485 7th Ave",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown South",
+      "borough": "Manhattan",
+      "zip": "10018",
+      "bbl": "1-00812-1001",
+      "keys": 612,
+      "stories": 17,
+      "yearBuilt": 1906,
+      "yearRenovated": 2017,
+      "meetingRooms": 4,
+      "totalMeetingSpace": 1050,
+      "locationType": "Urban",
+      "owner": "485 SEVENTH AVE ASSOC LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": null,
+      "marketAV": 61621014,
+      "taxableAV": null,
+      "taxClass": "4",
+      "annualTax": null,
+      "taxPerKey": null,
+      "mvPerKey": null,
+      "grossSqft": null,
+      "marketValueHistory": [
+        {
+          "year": "2025 - 2026",
+          "marketValue": 136935587
+        },
+        {
+          "year": "2024 - 2025",
+          "marketValue": 97046000
+        },
+        {
+          "year": "2023 - 2024",
+          "marketValue": 85596000
+        },
+        {
+          "year": "2022 - 2023",
+          "marketValue": 81442000
+        },
+        {
+          "year": "2021 - 2022",
+          "marketValue": 106786000
+        }
+      ],
+      "scrapeStatus": "needs_manual_bbl",
+      "scrapeError": null,
+      "notes": "Bad data nulled (tax/MV=1.478%) - needs manual BBL lookup",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=812&lot=1001",
+      "taxRate": null
     },
     {
       "id": "COMP-0179",
@@ -11144,13 +11144,13 @@
       "owner": "ERY NORTH TOWER RHC TENANT LLC",
       "lat": null,
       "lng": null,
-      "marketValue": 26302649,
+      "marketValue": null,
       "marketAV": 11836192,
-      "taxableAV": 1394461,
+      "taxableAV": null,
       "taxClass": "4",
-      "annualTax": 151271,
-      "taxPerKey": 714,
-      "mvPerKey": 124069,
+      "annualTax": null,
+      "taxPerKey": null,
+      "mvPerKey": null,
       "grossSqft": null,
       "marketValueHistory": [
         {
@@ -11174,11 +11174,11 @@
           "marketValue": 20454000
         }
       ],
-      "scrapeStatus": "verified",
+      "scrapeStatus": "needs_manual_bbl",
       "scrapeError": null,
-      "notes": "",
+      "notes": "Bad data nulled (tax/MV=0.575%) - needs manual BBL lookup",
       "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=702&lot=1402",
-      "taxRate": 0.00575
+      "taxRate": null
     },
     {
       "id": "COMP-0180",
