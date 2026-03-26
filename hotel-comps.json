@@ -33,6 +33,49 @@
   "hotels": [
     {
       "id": "COMP-0001",
+      "hotelName": "Waldorf Astoria New York",
+      "brand": "Waldorf Astoria",
+      "parentCompany": "Hilton Worldwide",
+      "hotelClass": "luxury",
+      "hotelClassDisplay": "Luxury",
+      "scale": "Luxury",
+      "operationType": "Chain Management",
+      "buildingClass": "RH",
+      "buildingClassDesc": "HOTEL/BOATEL",
+      "address": "301 Park Ave",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown East",
+      "borough": "Manhattan",
+      "zip": "10022",
+      "bbl": "1-01304-1003",
+      "keys": 375,
+      "stories": 47,
+      "yearBuilt": 1931,
+      "yearRenovated": 2025,
+      "meetingRooms": 13,
+      "totalMeetingSpace": 25891,
+      "locationType": "Urban",
+      "owner": "UNAVAILABLE OWNER",
+      "lat": null,
+      "lng": null,
+      "marketValue": 296185365,
+      "marketAV": 0,
+      "taxableAV": 133283415,
+      "taxClass": "4",
+      "annualTax": 14458585,
+      "taxPerKey": 38556,
+      "mvPerKey": 789828,
+      "grossSqft": null,
+      "marketValueHistory": [],
+      "scrapeStatus": "verified",
+      "scrapeError": null,
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1304&lot=1003",
+      "taxRate": 0.04882
+    },
+    {
+      "id": "COMP-0002",
       "hotelName": "Lotte New York Palace",
       "brand": "Lotte Hotel",
       "parentCompany": "Lotte Hotels & Resorts",
@@ -96,7 +139,7 @@
       "taxRate": 0.044
     },
     {
-      "id": "COMP-0002",
+      "id": "COMP-0003",
       "hotelName": "The Luxury Collection Hotel Manhattan Midtown",
       "brand": "Luxury Collection",
       "parentCompany": "Marriott International",
@@ -160,7 +203,7 @@
       "taxRate": 0.04207
     },
     {
-      "id": "COMP-0003",
+      "id": "COMP-0004",
       "hotelName": "Westin New York at Times Square",
       "brand": "Westin",
       "parentCompany": "Marriott International",
@@ -224,7 +267,7 @@
       "taxRate": 0.04436
     },
     {
-      "id": "COMP-0004",
+      "id": "COMP-0005",
       "hotelName": "InterContinental New York Barclay",
       "brand": "InterContinental",
       "parentCompany": "IHG Hotels & Resorts",
@@ -288,7 +331,7 @@
       "taxRate": 0.04357
     },
     {
-      "id": "COMP-0005",
+      "id": "COMP-0006",
       "hotelName": "Mandarin Oriental New York",
       "brand": "Mandarin Oriental",
       "parentCompany": "Mandarin Oriental Hotel Group Limited",
@@ -352,7 +395,7 @@
       "taxRate": 0.04506
     },
     {
-      "id": "COMP-0006",
+      "id": "COMP-0007",
       "hotelName": "The Ritz-Carlton New York, Central Park",
       "brand": "Ritz-Carlton",
       "parentCompany": "Marriott International",
@@ -416,7 +459,7 @@
       "taxRate": 0.04331
     },
     {
-      "id": "COMP-0007",
+      "id": "COMP-0008",
       "hotelName": "JW Marriott Essex House New York",
       "brand": "JW Marriott",
       "parentCompany": "Marriott International",
@@ -480,7 +523,7 @@
       "taxRate": 0.04327
     },
     {
-      "id": "COMP-0008",
+      "id": "COMP-0009",
       "hotelName": "RIU Plaza Manhattan Times Square",
       "brand": "RIU Plaza",
       "parentCompany": "Riu Hotels & Resorts",
@@ -536,7 +579,7 @@
       "taxRate": 0.04708
     },
     {
-      "id": "COMP-0009",
+      "id": "COMP-0010",
       "hotelName": "The St. Regis New York",
       "brand": "St. Regis",
       "parentCompany": "Marriott International",
@@ -600,7 +643,7 @@
       "taxRate": 0.03916
     },
     {
-      "id": "COMP-0010",
+      "id": "COMP-0011",
       "hotelName": "The Times Square EDITION",
       "brand": "Edition",
       "parentCompany": "Marriott International",
@@ -664,7 +707,7 @@
       "taxRate": 0.04186
     },
     {
-      "id": "COMP-0011",
+      "id": "COMP-0012",
       "hotelName": "The New Yorker Hotel by Lotte Hotels",
       "brand": "Lotte Hotel",
       "parentCompany": "Lotte Hotels & Resorts",
@@ -728,7 +771,7 @@
       "taxRate": 0.03386
     },
     {
-      "id": "COMP-0012",
+      "id": "COMP-0013",
       "hotelName": "Loews Regency New York",
       "brand": "Loews",
       "parentCompany": "Loews Hotels, LLC",
@@ -792,7 +835,71 @@
       "taxRate": 0.04171
     },
     {
-      "id": "COMP-0013",
+      "id": "COMP-0014",
+      "hotelName": "W New York - Times Square",
+      "brand": "W Hotel",
+      "parentCompany": "Marriott International",
+      "hotelClass": "luxury",
+      "hotelClassDisplay": "Luxury",
+      "scale": "Luxury",
+      "operationType": "Chain Management",
+      "buildingClass": "RH",
+      "buildingClassDesc": "HOTEL/BOATEL",
+      "address": "1567 Broadway",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown West/Times Square",
+      "borough": "Manhattan",
+      "zip": "10036",
+      "bbl": "1-01018-1001",
+      "keys": 509,
+      "stories": 54,
+      "yearBuilt": 1918,
+      "yearRenovated": 2020,
+      "meetingRooms": 6,
+      "totalMeetingSpace": 2201,
+      "locationType": "Urban",
+      "owner": "INTELL TIMES SQUARE, LLC.",
+      "lat": null,
+      "lng": null,
+      "marketValue": 140687165,
+      "marketAV": 80550,
+      "taxableAV": 55052116,
+      "taxClass": "4",
+      "annualTax": 5972054,
+      "taxPerKey": 11733,
+      "mvPerKey": 276399,
+      "grossSqft": null,
+      "marketValueHistory": [
+        {
+          "year": "2025 - 2026",
+          "marketValue": 179000
+        },
+        {
+          "year": "2024 - 2025",
+          "marketValue": 174000
+        },
+        {
+          "year": "2023 - 2024",
+          "marketValue": 169000
+        },
+        {
+          "year": "2022 - 2023",
+          "marketValue": 164000
+        },
+        {
+          "year": "2021 - 2022",
+          "marketValue": 159000
+        }
+      ],
+      "scrapeStatus": "verified",
+      "scrapeError": null,
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1018&lot=1001",
+      "taxRate": 0.04245
+    },
+    {
+      "id": "COMP-0015",
       "hotelName": "The Standard High Line, NYC",
       "brand": "The Standard",
       "parentCompany": "Hyatt Corporation",
@@ -856,7 +963,7 @@
       "taxRate": 0.04337
     },
     {
-      "id": "COMP-0014",
+      "id": "COMP-0016",
       "hotelName": "Home2 Suites by Hilton New York Times Square",
       "brand": "Home2 Suites by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -912,7 +1019,7 @@
       "taxRate": 0.0461
     },
     {
-      "id": "COMP-0015",
+      "id": "COMP-0017",
       "hotelName": "Hampton Inn by Hilton New York Times Square",
       "brand": "Hampton by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -968,7 +1075,7 @@
       "taxRate": 0.0461
     },
     {
-      "id": "COMP-0016",
+      "id": "COMP-0018",
       "hotelName": "Courtyard New York Manhattan /Central Park",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -1032,7 +1139,7 @@
       "taxRate": 0.04309
     },
     {
-      "id": "COMP-0017",
+      "id": "COMP-0019",
       "hotelName": "Residence Inn New York Manhattan Central Park",
       "brand": "Residence Inn",
       "parentCompany": "Marriott International",
@@ -1096,7 +1203,7 @@
       "taxRate": 0.04309
     },
     {
-      "id": "COMP-0018",
+      "id": "COMP-0020",
       "hotelName": "Hyatt Centric Times Square New York",
       "brand": "Hyatt Centric",
       "parentCompany": "Hyatt Corporation",
@@ -1160,7 +1267,7 @@
       "taxRate": 0.04443
     },
     {
-      "id": "COMP-0019",
+      "id": "COMP-0021",
       "hotelName": "SpringHill Suites New York Manhattan/Chelsea",
       "brand": "SpringHill Suites",
       "parentCompany": "Marriott International",
@@ -1224,7 +1331,7 @@
       "taxRate": 0.04501
     },
     {
-      "id": "COMP-0020",
+      "id": "COMP-0022",
       "hotelName": "TownePlace Suites New York Manhattan/Chelsea",
       "brand": "TownePlace Suites",
       "parentCompany": "Marriott International",
@@ -1288,7 +1395,7 @@
       "taxRate": 0.04501
     },
     {
-      "id": "COMP-0021",
+      "id": "COMP-0023",
       "hotelName": "Public Hotel",
       "brand": null,
       "parentCompany": null,
@@ -1352,7 +1459,71 @@
       "taxRate": 0.04213
     },
     {
-      "id": "COMP-0022",
+      "id": "COMP-0024",
+      "hotelName": "Sofitel New York",
+      "brand": "Sofitel",
+      "parentCompany": "Accor",
+      "hotelClass": "luxury",
+      "hotelClassDisplay": "Luxury",
+      "scale": "Luxury",
+      "operationType": "Chain Management",
+      "buildingClass": "H1",
+      "buildingClassDesc": "LUXURY: SPAS, FINE DINING, ELEGENT ROOMS",
+      "address": "45 W 44th St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown West/Times Square",
+      "borough": "Manhattan",
+      "zip": "10036-6613",
+      "bbl": "1-01260-0014",
+      "keys": 398,
+      "stories": 30,
+      "yearBuilt": 2000,
+      "yearRenovated": 2025,
+      "meetingRooms": 7,
+      "totalMeetingSpace": 5725,
+      "locationType": "Urban",
+      "owner": "KSSNY INC.",
+      "lat": null,
+      "lng": null,
+      "marketValue": 97933000,
+      "marketAV": 396300,
+      "taxableAV": 43514260,
+      "taxClass": "4",
+      "annualTax": 4720447,
+      "taxPerKey": 11860,
+      "mvPerKey": 246063,
+      "grossSqft": null,
+      "marketValueHistory": [
+        {
+          "year": "2025 - 2026",
+          "marketValue": 6605000
+        },
+        {
+          "year": "2024 - 2025",
+          "marketValue": 6206000
+        },
+        {
+          "year": "2023 - 2024",
+          "marketValue": 5586000
+        },
+        {
+          "year": "2022 - 2023",
+          "marketValue": 5023000
+        },
+        {
+          "year": "2021 - 2022",
+          "marketValue": 4379000
+        }
+      ],
+      "scrapeStatus": "verified",
+      "scrapeError": null,
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1260&lot=14",
+      "taxRate": 0.0482
+    },
+    {
+      "id": "COMP-0025",
       "hotelName": "Fairfield Inn & Suites New York Manhattan/Times Square South",
       "brand": "Fairfield Inn",
       "parentCompany": "Marriott International",
@@ -1416,7 +1587,7 @@
       "taxRate": 0.04407
     },
     {
-      "id": "COMP-0023",
+      "id": "COMP-0026",
       "hotelName": "SpringHill Suites New York Manhattan Times Square South",
       "brand": "SpringHill Suites",
       "parentCompany": "Marriott International",
@@ -1480,7 +1651,7 @@
       "taxRate": 0.04407
     },
     {
-      "id": "COMP-0024",
+      "id": "COMP-0027",
       "hotelName": "M Social Hotel New York Downtown",
       "brand": "Millennium",
       "parentCompany": "Millennium Hotels & Resorts (MHR)",
@@ -1544,7 +1715,7 @@
       "taxRate": 0.04137
     },
     {
-      "id": "COMP-0025",
+      "id": "COMP-0028",
       "hotelName": "Arlo Midtown",
       "brand": null,
       "parentCompany": null,
@@ -1608,7 +1779,7 @@
       "taxRate": 0.03903
     },
     {
-      "id": "COMP-0026",
+      "id": "COMP-0029",
       "hotelName": "Paramount Times Square - A Generator Hotel",
       "brand": "Generator Hostel",
       "parentCompany": "Generator Hostels",
@@ -1672,7 +1843,7 @@
       "taxRate": 0.04164
     },
     {
-      "id": "COMP-0027",
+      "id": "COMP-0030",
       "hotelName": "Renaissance New York Midtown Hotel",
       "brand": "Renaissance",
       "parentCompany": "Marriott International",
@@ -1736,7 +1907,7 @@
       "taxRate": 0.04354
     },
     {
-      "id": "COMP-0028",
+      "id": "COMP-0031",
       "hotelName": "Courtyard New York Manhattan/Midtown West",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -1800,7 +1971,7 @@
       "taxRate": 0.04362
     },
     {
-      "id": "COMP-0029",
+      "id": "COMP-0032",
       "hotelName": "The New York EDITION",
       "brand": "Edition",
       "parentCompany": "Marriott International",
@@ -1864,7 +2035,7 @@
       "taxRate": 0.03741
     },
     {
-      "id": "COMP-0030",
+      "id": "COMP-0033",
       "hotelName": "Hilton Garden Inn New York/Central Park South-Midtown West",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -1928,7 +2099,7 @@
       "taxRate": 0.04385
     },
     {
-      "id": "COMP-0031",
+      "id": "COMP-0034",
       "hotelName": "Sheraton Tribeca New York Hotel",
       "brand": "Sheraton Hotel",
       "parentCompany": "Marriott International",
@@ -1992,7 +2163,7 @@
       "taxRate": 0.04558
     },
     {
-      "id": "COMP-0032",
+      "id": "COMP-0035",
       "hotelName": "Hyatt Place New York City /Times Square",
       "brand": "Hyatt Place",
       "parentCompany": "Hyatt Corporation",
@@ -2056,7 +2227,7 @@
       "taxRate": 0.04204
     },
     {
-      "id": "COMP-0033",
+      "id": "COMP-0036",
       "hotelName": "The Plaza, A Fairmont Managed Hotel",
       "brand": "Fairmont",
       "parentCompany": "Accor",
@@ -2120,7 +2291,7 @@
       "taxRate": 0.04567
     },
     {
-      "id": "COMP-0034",
+      "id": "COMP-0037",
       "hotelName": "NoMo SoHo",
       "brand": null,
       "parentCompany": null,
@@ -2184,7 +2355,7 @@
       "taxRate": 0.04709
     },
     {
-      "id": "COMP-0035",
+      "id": "COMP-0038",
       "hotelName": "Hotel Seville NoMad",
       "brand": "The Unbound Collection",
       "parentCompany": "Hyatt Corporation",
@@ -2248,7 +2419,7 @@
       "taxRate": 0.03971
     },
     {
-      "id": "COMP-0036",
+      "id": "COMP-0039",
       "hotelName": "Element New York Times Square West",
       "brand": "element",
       "parentCompany": "Marriott International",
@@ -2312,7 +2483,7 @@
       "taxRate": 0.04478
     },
     {
-      "id": "COMP-0037",
+      "id": "COMP-0040",
       "hotelName": "Belvedere Hotel",
       "brand": null,
       "parentCompany": null,
@@ -2376,7 +2547,71 @@
       "taxRate": 0.04253
     },
     {
-      "id": "COMP-0038",
+      "id": "COMP-0041",
+      "hotelName": "Embassy Suites by Hilton New York Midtown Manhattan",
+      "brand": "Embassy Suites by Hilton",
+      "parentCompany": "Hilton Worldwide",
+      "hotelClass": "upper-upscale",
+      "hotelClassDisplay": "Upper Upscale",
+      "scale": "Upper Upscale",
+      "operationType": "Franchise",
+      "buildingClass": "RH",
+      "buildingClassDesc": "HOTEL/BOATEL",
+      "address": "60 W 37th St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown South",
+      "borough": "Manhattan",
+      "zip": "10018",
+      "bbl": "1-00838-1202",
+      "keys": 310,
+      "stories": 40,
+      "yearBuilt": 2018,
+      "yearRenovated": null,
+      "meetingRooms": 1,
+      "totalMeetingSpace": 575,
+      "locationType": "Urban",
+      "owner": "NY 37TH ES LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 60761216,
+      "marketAV": 1316603,
+      "taxableAV": 24522360,
+      "taxClass": "4",
+      "annualTax": 2660186,
+      "taxPerKey": 8581,
+      "mvPerKey": 196004,
+      "grossSqft": null,
+      "marketValueHistory": [
+        {
+          "year": "2025 - 2026",
+          "marketValue": 2925784
+        },
+        {
+          "year": "2024 - 2025",
+          "marketValue": 3528784
+        },
+        {
+          "year": "2023 - 2024",
+          "marketValue": 3351000
+        },
+        {
+          "year": "2022 - 2023",
+          "marketValue": 3293000
+        },
+        {
+          "year": "2021 - 2022",
+          "marketValue": 3112000
+        }
+      ],
+      "scrapeStatus": "verified",
+      "scrapeError": null,
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=838&lot=1202",
+      "taxRate": 0.04378
+    },
+    {
+      "id": "COMP-0042",
       "hotelName": "Le M\u00e9ridien New York, Central Park",
       "brand": "Le Meridien",
       "parentCompany": "Marriott International",
@@ -2440,7 +2675,7 @@
       "taxRate": 0.03955
     },
     {
-      "id": "COMP-0039",
+      "id": "COMP-0043",
       "hotelName": "The Shelburne Sonesta New York",
       "brand": "Sonesta Hotel",
       "parentCompany": "Sonesta International Hotels Corp",
@@ -2504,7 +2739,7 @@
       "taxRate": 0.04025
     },
     {
-      "id": "COMP-0040",
+      "id": "COMP-0044",
       "hotelName": "Aloft New York Chelsea",
       "brand": "aloft Hotel",
       "parentCompany": "Marriott International",
@@ -2568,7 +2803,7 @@
       "taxRate": 0.04882
     },
     {
-      "id": "COMP-0041",
+      "id": "COMP-0045",
       "hotelName": "Homewood Suites by Hilton New York/Midtown Manhattan Times Square-South, NY",
       "brand": "Homewood Suites by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -2632,7 +2867,7 @@
       "taxRate": 0.0432
     },
     {
-      "id": "COMP-0042",
+      "id": "COMP-0046",
       "hotelName": "MOXY NYC East Village",
       "brand": "MOXY",
       "parentCompany": "Marriott International",
@@ -2696,7 +2931,7 @@
       "taxRate": 0.02387
     },
     {
-      "id": "COMP-0043",
+      "id": "COMP-0047",
       "hotelName": "Placemakr Wall Street",
       "brand": null,
       "parentCompany": null,
@@ -2760,7 +2995,7 @@
       "taxRate": 0.0457
     },
     {
-      "id": "COMP-0044",
+      "id": "COMP-0048",
       "hotelName": "Moxy NYC Downtown",
       "brand": "MOXY",
       "parentCompany": "Marriott International",
@@ -2824,7 +3059,7 @@
       "taxRate": 0.0448
     },
     {
-      "id": "COMP-0045",
+      "id": "COMP-0049",
       "hotelName": "Ink 48 Hotel",
       "brand": null,
       "parentCompany": null,
@@ -2888,7 +3123,7 @@
       "taxRate": 0.04422
     },
     {
-      "id": "COMP-0046",
+      "id": "COMP-0050",
       "hotelName": "DoubleTree by Hilton New York Downtown",
       "brand": "DoubleTree by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -2952,7 +3187,7 @@
       "taxRate": 0.04422
     },
     {
-      "id": "COMP-0047",
+      "id": "COMP-0051",
       "hotelName": "The Fifty Sonesta Hotel New York",
       "brand": "Sonesta Hotel",
       "parentCompany": "Sonesta International Hotels Corp",
@@ -3016,7 +3251,7 @@
       "taxRate": 0.04369
     },
     {
-      "id": "COMP-0048",
+      "id": "COMP-0052",
       "hotelName": "The Gallivant Times Square",
       "brand": null,
       "parentCompany": null,
@@ -3080,7 +3315,7 @@
       "taxRate": 0.04395
     },
     {
-      "id": "COMP-0049",
+      "id": "COMP-0053",
       "hotelName": "citizenM New York Bowery",
       "brand": "citizenM",
       "parentCompany": "Marriott International",
@@ -3144,7 +3379,7 @@
       "taxRate": 0.04331
     },
     {
-      "id": "COMP-0050",
+      "id": "COMP-0054",
       "hotelName": "Courtyard By Marriott New York Downtown Manhattan/Financial District",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -3208,7 +3443,7 @@
       "taxRate": 0.0409
     },
     {
-      "id": "COMP-0051",
+      "id": "COMP-0055",
       "hotelName": "Residence Inn By Marriott New York Downtown Manhattan/Financial District",
       "brand": "Residence Inn",
       "parentCompany": "Marriott International",
@@ -3272,7 +3507,7 @@
       "taxRate": 0.0409
     },
     {
-      "id": "COMP-0052",
+      "id": "COMP-0056",
       "hotelName": "Courtyard New York Manhattan Chelsea",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -3336,7 +3571,7 @@
       "taxRate": 0.04157
     },
     {
-      "id": "COMP-0053",
+      "id": "COMP-0057",
       "hotelName": "Hampton by Hilton Inn Manhattan/Times Square Central",
       "brand": "Hampton by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -3400,7 +3635,7 @@
       "taxRate": 0.04254
     },
     {
-      "id": "COMP-0054",
+      "id": "COMP-0058",
       "hotelName": "The Cloud One New York-Downtown",
       "brand": "The Cloud One",
       "parentCompany": "Motel One GmbH",
@@ -3464,7 +3699,7 @@
       "taxRate": 0.04273
     },
     {
-      "id": "COMP-0055",
+      "id": "COMP-0059",
       "hotelName": "The Pod Hotel Times Square",
       "brand": null,
       "parentCompany": null,
@@ -3528,7 +3763,7 @@
       "taxRate": 0.02532
     },
     {
-      "id": "COMP-0056",
+      "id": "COMP-0060",
       "hotelName": "Club Quarters World Trade Center",
       "brand": "Club Quarters",
       "parentCompany": "Shared Mutual Services",
@@ -3592,7 +3827,71 @@
       "taxRate": 0.04351
     },
     {
-      "id": "COMP-0057",
+      "id": "COMP-0061",
+      "hotelName": "Kimpton Era Midtown New York",
+      "brand": "Kimpton",
+      "parentCompany": "IHG Hotels & Resorts",
+      "hotelClass": "upper-upscale",
+      "hotelClassDisplay": "Upper Upscale",
+      "scale": "Upper Upscale",
+      "operationType": "Franchise",
+      "buildingClass": "H1",
+      "buildingClassDesc": "LUXURY: SPAS, FINE DINING, ELEGENT ROOMS",
+      "address": "32 W 48th St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown West/Times Square",
+      "borough": "Manhattan",
+      "zip": "10036",
+      "bbl": "1-01263-0055",
+      "keys": 529,
+      "stories": 33,
+      "yearBuilt": 2026,
+      "yearRenovated": null,
+      "meetingRooms": 1,
+      "totalMeetingSpace": 1226,
+      "locationType": "Urban",
+      "owner": "N47 ASSOCIATES LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 43441000,
+      "marketAV": 1722150,
+      "taxableAV": 19548450,
+      "taxClass": "4",
+      "annualTax": 2120616,
+      "taxPerKey": 4009,
+      "mvPerKey": 82119,
+      "grossSqft": null,
+      "marketValueHistory": [
+        {
+          "year": "2025 - 2026",
+          "marketValue": 3827000
+        },
+        {
+          "year": "2024 - 2025",
+          "marketValue": 3772000
+        },
+        {
+          "year": "2023 - 2024",
+          "marketValue": 3981000
+        },
+        {
+          "year": "2022 - 2023",
+          "marketValue": 3752000
+        },
+        {
+          "year": "2021 - 2022",
+          "marketValue": 3394000
+        }
+      ],
+      "scrapeStatus": "verified",
+      "scrapeError": null,
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1263&lot=55",
+      "taxRate": 0.04882
+    },
+    {
+      "id": "COMP-0062",
       "hotelName": "Hilton Garden Inn New York/West 35th Street",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -3656,7 +3955,50 @@
       "taxRate": 0.04341
     },
     {
-      "id": "COMP-0058",
+      "id": "COMP-0063",
+      "hotelName": "Refinery Hotel",
+      "brand": null,
+      "parentCompany": null,
+      "hotelClass": "luxury",
+      "hotelClassDisplay": "Luxury",
+      "scale": "Independent",
+      "operationType": "Independent",
+      "buildingClass": "HB",
+      "buildingClassDesc": "BOUTIQUE: 10-100 ROOMS, W/LUXURY FACILIT",
+      "address": "63-67 W 38th St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown South",
+      "borough": "Manhattan",
+      "zip": "10018-3818",
+      "bbl": "1-00840-0006",
+      "keys": 197,
+      "stories": 13,
+      "yearBuilt": 1930,
+      "yearRenovated": 2012,
+      "meetingRooms": 3,
+      "totalMeetingSpace": 1200,
+      "locationType": "Urban",
+      "owner": "REFINERY AA LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 47606000,
+      "marketAV": null,
+      "taxableAV": 18673840,
+      "taxClass": "4",
+      "annualTax": 2025738,
+      "taxPerKey": 10283,
+      "mvPerKey": 241655,
+      "grossSqft": null,
+      "marketValueHistory": [],
+      "scrapeStatus": "verified",
+      "scrapeError": "No results",
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=840&lot=6",
+      "taxRate": 0.04255
+    },
+    {
+      "id": "COMP-0064",
       "hotelName": "MOXY NYC Times Square",
       "brand": "MOXY",
       "parentCompany": "Marriott International",
@@ -3720,7 +4062,7 @@
       "taxRate": 0.01478
     },
     {
-      "id": "COMP-0059",
+      "id": "COMP-0065",
       "hotelName": "The Bowery Hotel",
       "brand": null,
       "parentCompany": null,
@@ -3784,7 +4126,7 @@
       "taxRate": 0.04469
     },
     {
-      "id": "COMP-0060",
+      "id": "COMP-0066",
       "hotelName": "Hilton Garden Inn New York Times Square South",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -3848,7 +4190,7 @@
       "taxRate": 0.0437
     },
     {
-      "id": "COMP-0061",
+      "id": "COMP-0067",
       "hotelName": "Hyatt Centric Midtown 5th Avenue New York",
       "brand": "Hyatt Centric",
       "parentCompany": "Hyatt Corporation",
@@ -3912,7 +4254,7 @@
       "taxRate": 0.04474
     },
     {
-      "id": "COMP-0062",
+      "id": "COMP-0068",
       "hotelName": "Moxy NYC Lower East Side",
       "brand": "MOXY",
       "parentCompany": "Marriott International",
@@ -3976,7 +4318,7 @@
       "taxRate": 0.03494
     },
     {
-      "id": "COMP-0063",
+      "id": "COMP-0069",
       "hotelName": "The Gregorian Hotel",
       "brand": null,
       "parentCompany": null,
@@ -4040,7 +4382,7 @@
       "taxRate": 0.03357
     },
     {
-      "id": "COMP-0064",
+      "id": "COMP-0070",
       "hotelName": "Hotel Belleclaire",
       "brand": null,
       "parentCompany": null,
@@ -4104,7 +4446,7 @@
       "taxRate": 0.03845
     },
     {
-      "id": "COMP-0065",
+      "id": "COMP-0071",
       "hotelName": "Westgate New York Grand Central",
       "brand": "Westgate",
       "parentCompany": "Westgate Resorts",
@@ -4168,7 +4510,7 @@
       "taxRate": 0.04389
     },
     {
-      "id": "COMP-0066",
+      "id": "COMP-0072",
       "hotelName": "Fairfield Inn & Suites New York Manhattan Times Square",
       "brand": "Fairfield Inn",
       "parentCompany": "Marriott International",
@@ -4232,7 +4574,7 @@
       "taxRate": 0.04434
     },
     {
-      "id": "COMP-0067",
+      "id": "COMP-0073",
       "hotelName": "Crowne Plaza HY36 Midtown Manhattan",
       "brand": "Crowne Plaza",
       "parentCompany": "IHG Hotels & Resorts",
@@ -4296,7 +4638,7 @@
       "taxRate": 0.04521
     },
     {
-      "id": "COMP-0068",
+      "id": "COMP-0074",
       "hotelName": "AC Hotel New York Downtown",
       "brand": "AC Hotels by Marriott",
       "parentCompany": "Marriott International",
@@ -4360,7 +4702,7 @@
       "taxRate": 0.0407
     },
     {
-      "id": "COMP-0069",
+      "id": "COMP-0075",
       "hotelName": "Le M\u00e9ridien New York, Fifth Avenue",
       "brand": "Le Meridien",
       "parentCompany": "Marriott International",
@@ -4424,7 +4766,7 @@
       "taxRate": 0.04634
     },
     {
-      "id": "COMP-0070",
+      "id": "COMP-0076",
       "hotelName": "Renaissance New York Times Square Hotel",
       "brand": "Renaissance",
       "parentCompany": "Marriott International",
@@ -4488,7 +4830,7 @@
       "taxRate": 0.04787
     },
     {
-      "id": "COMP-0071",
+      "id": "COMP-0077",
       "hotelName": "Four Points by Sheraton Midtown - Times Square",
       "brand": "Four Points by Sheraton",
       "parentCompany": "Marriott International",
@@ -4552,7 +4894,7 @@
       "taxRate": 0.04516
     },
     {
-      "id": "COMP-0072",
+      "id": "COMP-0078",
       "hotelName": "Arlo NoMad",
       "brand": null,
       "parentCompany": null,
@@ -4616,7 +4958,7 @@
       "taxRate": 0.04272
     },
     {
-      "id": "COMP-0073",
+      "id": "COMP-0079",
       "hotelName": "The Standard, East Village, NYC",
       "brand": "The Standard",
       "parentCompany": "Hyatt Corporation",
@@ -4680,7 +5022,7 @@
       "taxRate": 0.04478
     },
     {
-      "id": "COMP-0074",
+      "id": "COMP-0080",
       "hotelName": "Holiday Inn Express New York City Chelsea",
       "brand": "Holiday Inn Express",
       "parentCompany": "IHG Hotels & Resorts",
@@ -4744,7 +5086,7 @@
       "taxRate": 0.04406
     },
     {
-      "id": "COMP-0075",
+      "id": "COMP-0081",
       "hotelName": "Hotel 50 Bowery",
       "brand": "JdV by Hyatt",
       "parentCompany": "Hyatt Corporation",
@@ -4808,7 +5150,7 @@
       "taxRate": 0.03869
     },
     {
-      "id": "COMP-0076",
+      "id": "COMP-0082",
       "hotelName": "Hilton Club West 57th Street New York",
       "brand": "Hilton Grand Vacations",
       "parentCompany": "Hilton Grand Vacations",
@@ -4872,7 +5214,7 @@
       "taxRate": 0.04481
     },
     {
-      "id": "COMP-0077",
+      "id": "COMP-0083",
       "hotelName": "The Ludlow Hotel",
       "brand": null,
       "parentCompany": null,
@@ -4936,7 +5278,7 @@
       "taxRate": 0.03687
     },
     {
-      "id": "COMP-0078",
+      "id": "COMP-0084",
       "hotelName": "Aura Hotel Times Square",
       "brand": null,
       "parentCompany": null,
@@ -5000,7 +5342,50 @@
       "taxRate": 0.04317
     },
     {
-      "id": "COMP-0079",
+      "id": "COMP-0085",
+      "hotelName": "Hilton Garden Inn New York/Midtown Park Ave",
+      "brand": "Hilton Garden Inn",
+      "parentCompany": "Hilton Worldwide",
+      "hotelClass": "upscale",
+      "hotelClassDisplay": "Upscale",
+      "scale": "Upscale",
+      "operationType": "Franchise",
+      "buildingClass": "RH",
+      "buildingClassDesc": "HOTEL/BOATEL",
+      "address": "45-47 E 33rd St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown South",
+      "borough": "Manhattan",
+      "zip": "10016-5336",
+      "bbl": "1-00863-1002",
+      "keys": 232,
+      "stories": 24,
+      "yearBuilt": 2014,
+      "yearRenovated": null,
+      "meetingRooms": 3,
+      "totalMeetingSpace": 1803,
+      "locationType": "Urban",
+      "owner": "UNAVAILABLE OWNER",
+      "lat": null,
+      "lng": null,
+      "marketValue": 40849308,
+      "marketAV": null,
+      "taxableAV": 16168223,
+      "taxClass": "4",
+      "annualTax": 1753929,
+      "taxPerKey": 7560,
+      "mvPerKey": 176075,
+      "grossSqft": null,
+      "marketValueHistory": [],
+      "scrapeStatus": "verified",
+      "scrapeError": "No results",
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=863&lot=1002",
+      "taxRate": 0.04294
+    },
+    {
+      "id": "COMP-0086",
       "hotelName": "citizenM New York Times Square",
       "brand": "citizenM",
       "parentCompany": "Marriott International",
@@ -5064,7 +5449,7 @@
       "taxRate": 0.04245
     },
     {
-      "id": "COMP-0080",
+      "id": "COMP-0087",
       "hotelName": "Fairfield by Marriott Inn & Suites New York Midtown Manhattan/Penn Station",
       "brand": "Fairfield Inn",
       "parentCompany": "Marriott International",
@@ -5128,7 +5513,7 @@
       "taxRate": 0.04535
     },
     {
-      "id": "COMP-0081",
+      "id": "COMP-0088",
       "hotelName": "Hotel Indigo NYC Financial District",
       "brand": "Hotel Indigo",
       "parentCompany": "IHG Hotels & Resorts",
@@ -5192,7 +5577,7 @@
       "taxRate": 0.04505
     },
     {
-      "id": "COMP-0082",
+      "id": "COMP-0089",
       "hotelName": "Holiday Inn Express New York City Times Square",
       "brand": "Holiday Inn Express",
       "parentCompany": "IHG Hotels & Resorts",
@@ -5256,7 +5641,7 @@
       "taxRate": 0.04405
     },
     {
-      "id": "COMP-0083",
+      "id": "COMP-0090",
       "hotelName": "Civilian Hotel",
       "brand": null,
       "parentCompany": null,
@@ -5320,7 +5705,7 @@
       "taxRate": 0.04896
     },
     {
-      "id": "COMP-0084",
+      "id": "COMP-0091",
       "hotelName": "The Gardens ES Suites New York",
       "brand": "Sonesta ES Suites",
       "parentCompany": "Sonesta International Hotels Corp",
@@ -5384,7 +5769,7 @@
       "taxRate": 0.04359
     },
     {
-      "id": "COMP-0085",
+      "id": "COMP-0092",
       "hotelName": "Hilton Garden Inn New York/Manhattan-Midtown East",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -5448,7 +5833,7 @@
       "taxRate": 0.04351
     },
     {
-      "id": "COMP-0086",
+      "id": "COMP-0093",
       "hotelName": "The Maritime Hotel",
       "brand": null,
       "parentCompany": null,
@@ -5512,7 +5897,7 @@
       "taxRate": 0.04381
     },
     {
-      "id": "COMP-0087",
+      "id": "COMP-0094",
       "hotelName": "The FIDI Hotel",
       "brand": null,
       "parentCompany": null,
@@ -5576,7 +5961,7 @@
       "taxRate": 0.04356
     },
     {
-      "id": "COMP-0088",
+      "id": "COMP-0095",
       "hotelName": "Courtyard New York Manhattan/Times Square West",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -5640,7 +6025,7 @@
       "taxRate": 0.04425
     },
     {
-      "id": "COMP-0089",
+      "id": "COMP-0096",
       "hotelName": "Kimberly Hotel",
       "brand": null,
       "parentCompany": null,
@@ -5704,7 +6089,7 @@
       "taxRate": 0.04415
     },
     {
-      "id": "COMP-0090",
+      "id": "COMP-0097",
       "hotelName": "Hilton Garden Inn NYC Financial Center/Manhattan Downtown",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -5768,7 +6153,50 @@
       "taxRate": 0.04358
     },
     {
-      "id": "COMP-0091",
+      "id": "COMP-0098",
+      "hotelName": "Courtyard New York Manhattan 5th Avenue",
+      "brand": "Courtyard",
+      "parentCompany": "Marriott International",
+      "hotelClass": "upscale",
+      "hotelClassDisplay": "Upscale",
+      "scale": "Upscale",
+      "operationType": "Franchise",
+      "buildingClass": "H3",
+      "buildingClassDesc": "LIMITED SERVICE: LIMITED AMENITIES, BUDG",
+      "address": "3-5 E 40th St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown East",
+      "borough": "Manhattan",
+      "zip": "10016-0101",
+      "bbl": "1-01275-0006",
+      "keys": 189,
+      "stories": 31,
+      "yearBuilt": 1988,
+      "yearRenovated": null,
+      "meetingRooms": null,
+      "totalMeetingSpace": null,
+      "locationType": "Urban",
+      "owner": "VERILEN REPRODUCTIONS",
+      "lat": null,
+      "lng": null,
+      "marketValue": 39705000,
+      "marketAV": null,
+      "taxableAV": 15211870,
+      "taxClass": "4",
+      "annualTax": 1650184,
+      "taxPerKey": 8731,
+      "mvPerKey": 210079,
+      "grossSqft": null,
+      "marketValueHistory": [],
+      "scrapeStatus": "verified",
+      "scrapeError": "No results",
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1275&lot=6",
+      "taxRate": 0.04156
+    },
+    {
+      "id": "COMP-0099",
       "hotelName": "Algonquin Hotel Times Square Autograph Collection",
       "brand": "Autograph Collection",
       "parentCompany": "Marriott International",
@@ -5832,7 +6260,7 @@
       "taxRate": 0.04231
     },
     {
-      "id": "COMP-0092",
+      "id": "COMP-0100",
       "hotelName": "Virgin Hotels New York City",
       "brand": "Virgin Hotels",
       "parentCompany": "Virgin Management Ltd.",
@@ -5880,7 +6308,50 @@
       "taxRate": 0.04677
     },
     {
-      "id": "COMP-0093",
+      "id": "COMP-0101",
+      "hotelName": "Innside by Melia NoMad",
+      "brand": "Innside by Melia",
+      "parentCompany": "Melia Hotels International, S.A",
+      "hotelClass": "upscale",
+      "hotelClassDisplay": "Upscale",
+      "scale": "Upscale",
+      "operationType": "Chain Management",
+      "buildingClass": "H2",
+      "buildingClassDesc": "FULL SERVICE: IN HOUSE DINING, FITNESS C",
+      "address": "132-142 W 27th St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown South",
+      "borough": "Manhattan",
+      "zip": "10001",
+      "bbl": "1-00802-0061",
+      "keys": 313,
+      "stories": 21,
+      "yearBuilt": 2016,
+      "yearRenovated": null,
+      "meetingRooms": 1,
+      "totalMeetingSpace": 700,
+      "locationType": "Urban",
+      "owner": "27 STREET EQUITIES LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 37086000,
+      "marketAV": null,
+      "taxableAV": 14755410,
+      "taxClass": "4",
+      "annualTax": 1614933,
+      "taxPerKey": 5160,
+      "mvPerKey": 118486,
+      "grossSqft": null,
+      "marketValueHistory": [],
+      "scrapeStatus": "verified",
+      "scrapeError": "No results",
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=802&lot=61",
+      "taxRate": 0.04355
+    },
+    {
+      "id": "COMP-0102",
       "hotelName": "The Surrey, A Corinthia Hotel",
       "brand": "Corinthia",
       "parentCompany": "Corinthia Hotels International",
@@ -5928,7 +6399,7 @@
       "taxRate": 0.03819
     },
     {
-      "id": "COMP-0094",
+      "id": "COMP-0103",
       "hotelName": "Smyth Tribeca",
       "brand": null,
       "parentCompany": null,
@@ -5992,7 +6463,7 @@
       "taxRate": 0.04341
     },
     {
-      "id": "COMP-0095",
+      "id": "COMP-0104",
       "hotelName": "Marriott New York Downtown",
       "brand": "Marriott",
       "parentCompany": "Marriott International",
@@ -6056,7 +6527,71 @@
       "taxRate": 0.04341
     },
     {
-      "id": "COMP-0096",
+      "id": "COMP-0105",
+      "hotelName": "Hyatt Place New York/Midtown-South",
+      "brand": "Hyatt Place",
+      "parentCompany": "Hyatt Corporation",
+      "hotelClass": "upscale",
+      "hotelClassDisplay": "Upscale",
+      "scale": "Upscale",
+      "operationType": "Franchise",
+      "buildingClass": "H3",
+      "buildingClassDesc": "LIMITED SERVICE: LIMITED AMENITIES, BUDG",
+      "address": "52 W 36th St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown South",
+      "borough": "Manhattan",
+      "zip": "10018-8029",
+      "bbl": "1-00837-0074",
+      "keys": 185,
+      "stories": 25,
+      "yearBuilt": 2013,
+      "yearRenovated": null,
+      "meetingRooms": 1,
+      "totalMeetingSpace": 225,
+      "locationType": "Urban",
+      "owner": "BLUE 36TH STREET NYC LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 36402000,
+      "marketAV": 1472850,
+      "taxableAV": 14470380,
+      "taxClass": "4",
+      "annualTax": 1569747,
+      "taxPerKey": 8485,
+      "mvPerKey": 196768,
+      "grossSqft": null,
+      "marketValueHistory": [
+        {
+          "year": "2025 - 2026",
+          "marketValue": 3273000
+        },
+        {
+          "year": "2024 - 2025",
+          "marketValue": 3178000
+        },
+        {
+          "year": "2023 - 2024",
+          "marketValue": 3084984
+        },
+        {
+          "year": "2022 - 2023",
+          "marketValue": 2588000
+        },
+        {
+          "year": "2021 - 2022",
+          "marketValue": 2459000
+        }
+      ],
+      "scrapeStatus": "verified",
+      "scrapeError": null,
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=837&lot=74",
+      "taxRate": 0.04312
+    },
+    {
+      "id": "COMP-0106",
       "hotelName": "TRYP by Wyndham New York City Times Square / Midtown",
       "brand": "Tryp by Wyndham",
       "parentCompany": "Wyndham Hotels & Resorts",
@@ -6120,7 +6655,7 @@
       "taxRate": 0.04462
     },
     {
-      "id": "COMP-0097",
+      "id": "COMP-0107",
       "hotelName": "SpringHill Suites New York Midtown Manhattan/Fifth Avenue",
       "brand": "SpringHill Suites",
       "parentCompany": "Marriott International",
@@ -6184,7 +6719,71 @@
       "taxRate": 0.04882
     },
     {
-      "id": "COMP-0098",
+      "id": "COMP-0108",
+      "hotelName": "Hilton Garden Inn New York Times Square North",
+      "brand": "Hilton Garden Inn",
+      "parentCompany": "Hilton Worldwide",
+      "hotelClass": "upscale",
+      "hotelClassDisplay": "Upscale",
+      "scale": "Upscale",
+      "operationType": "Franchise",
+      "buildingClass": "H6",
+      "buildingClassDesc": "APARTMENT HOTEL",
+      "address": "30 W 46th St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown West/Times Square",
+      "borough": "Manhattan",
+      "zip": "10036-4500",
+      "bbl": "1-01261-0054",
+      "keys": 196,
+      "stories": 21,
+      "yearBuilt": 2015,
+      "yearRenovated": null,
+      "meetingRooms": 1,
+      "totalMeetingSpace": 600,
+      "locationType": "Urban",
+      "owner": "NY 46 LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 39759000,
+      "marketAV": 2581200,
+      "taxableAV": 13976280,
+      "taxClass": "4",
+      "annualTax": 1516147,
+      "taxPerKey": 7735,
+      "mvPerKey": 202852,
+      "grossSqft": null,
+      "marketValueHistory": [
+        {
+          "year": "2025 - 2026",
+          "marketValue": 5736000
+        },
+        {
+          "year": "2024 - 2025",
+          "marketValue": 5652000
+        },
+        {
+          "year": "2023 - 2024",
+          "marketValue": 5538000
+        },
+        {
+          "year": "2022 - 2023",
+          "marketValue": 5222000
+        },
+        {
+          "year": "2021 - 2022",
+          "marketValue": 4790000
+        }
+      ],
+      "scrapeStatus": "verified",
+      "scrapeError": null,
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1261&lot=54",
+      "taxRate": 0.03813
+    },
+    {
+      "id": "COMP-0109",
       "hotelName": "Hotel RIU Plaza New York Times Square",
       "brand": "RIU Plaza",
       "parentCompany": "Riu Hotels & Resorts",
@@ -6248,7 +6847,7 @@
       "taxRate": 0.04236
     },
     {
-      "id": "COMP-0099",
+      "id": "COMP-0110",
       "hotelName": "The Time New York",
       "brand": "JdV by Hyatt",
       "parentCompany": "Hyatt Corporation",
@@ -6312,7 +6911,71 @@
       "taxRate": 0.04377
     },
     {
-      "id": "COMP-0100",
+      "id": "COMP-0111",
+      "hotelName": "Courtyard New York Manhattan Upper East Side",
+      "brand": "Courtyard",
+      "parentCompany": "Marriott International",
+      "hotelClass": "upscale",
+      "hotelClassDisplay": "Upscale",
+      "scale": "Upscale",
+      "operationType": "Franchise",
+      "buildingClass": "RH",
+      "buildingClassDesc": "HOTEL/BOATEL",
+      "address": "410 E 92nd St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Uptown",
+      "borough": "Manhattan",
+      "zip": "10128",
+      "bbl": "1-01571-1006",
+      "keys": 226,
+      "stories": 15,
+      "yearBuilt": 2006,
+      "yearRenovated": 2014,
+      "meetingRooms": 3,
+      "totalMeetingSpace": 1364,
+      "locationType": "Urban",
+      "owner": "RLJ C NY UPPER EASTSIDE, LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 32283000,
+      "marketAV": 1876702,
+      "taxableAV": 12916397,
+      "taxClass": "4",
+      "annualTax": 1401171,
+      "taxPerKey": 6200,
+      "mvPerKey": 142845,
+      "grossSqft": null,
+      "marketValueHistory": [
+        {
+          "year": "2025 - 2026",
+          "marketValue": 4170449
+        },
+        {
+          "year": "2024 - 2025",
+          "marketValue": 4079119
+        },
+        {
+          "year": "2023 - 2024",
+          "marketValue": 3928934
+        },
+        {
+          "year": "2022 - 2023",
+          "marketValue": 3640841
+        },
+        {
+          "year": "2021 - 2022",
+          "marketValue": 3288488
+        }
+      ],
+      "scrapeStatus": "verified",
+      "scrapeError": null,
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1571&lot=1006",
+      "taxRate": 0.0434
+    },
+    {
+      "id": "COMP-0112",
       "hotelName": "Hotel Aliz",
       "brand": null,
       "parentCompany": null,
@@ -6376,7 +7039,7 @@
       "taxRate": 0.03623
     },
     {
-      "id": "COMP-0101",
+      "id": "COMP-0113",
       "hotelName": "SpringHill Suites New York Manhattan Times Square",
       "brand": "SpringHill Suites",
       "parentCompany": "Marriott International",
@@ -6440,7 +7103,7 @@
       "taxRate": 0.04371
     },
     {
-      "id": "COMP-0102",
+      "id": "COMP-0114",
       "hotelName": "Hampton by Hilton Inn Manhattan/Times Square South",
       "brand": "Hampton by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -6504,7 +7167,7 @@
       "taxRate": 0.04358
     },
     {
-      "id": "COMP-0103",
+      "id": "COMP-0115",
       "hotelName": "Residence Inn New York Downtown Manhattan/World Trade Center Area",
       "brand": "Residence Inn",
       "parentCompany": "Marriott International",
@@ -6568,7 +7231,7 @@
       "taxRate": 0.04231
     },
     {
-      "id": "COMP-0104",
+      "id": "COMP-0116",
       "hotelName": "Executive Hotel le Soleil New York",
       "brand": "Executive Hotel",
       "parentCompany": "Executive Hotels and Resorts",
@@ -6632,7 +7295,7 @@
       "taxRate": 0.04348
     },
     {
-      "id": "COMP-0105",
+      "id": "COMP-0117",
       "hotelName": "LUMA Hotel Times Square",
       "brand": null,
       "parentCompany": null,
@@ -6696,7 +7359,7 @@
       "taxRate": 0.03931
     },
     {
-      "id": "COMP-0106",
+      "id": "COMP-0118",
       "hotelName": "OYO Times Square",
       "brand": "OYO",
       "parentCompany": "Prism",
@@ -6760,7 +7423,7 @@
       "taxRate": 0.04257
     },
     {
-      "id": "COMP-0107",
+      "id": "COMP-0119",
       "hotelName": "The Knickerbocker",
       "brand": null,
       "parentCompany": null,
@@ -6824,7 +7487,7 @@
       "taxRate": 0.04059
     },
     {
-      "id": "COMP-0108",
+      "id": "COMP-0120",
       "hotelName": "Pestana CR7 Times Square",
       "brand": "Pestana CR7",
       "parentCompany": "Pestana Management, S.A.",
@@ -6888,7 +7551,7 @@
       "taxRate": 0.04447
     },
     {
-      "id": "COMP-0109",
+      "id": "COMP-0121",
       "hotelName": "Four Points by Sheraton Manhattan Midtown West",
       "brand": "Four Points by Sheraton",
       "parentCompany": "Marriott International",
@@ -6952,7 +7615,71 @@
       "taxRate": 0.04301
     },
     {
-      "id": "COMP-0110",
+      "id": "COMP-0122",
+      "hotelName": "AKA Central Park",
+      "brand": "AKA",
+      "parentCompany": "Korman Communities",
+      "hotelClass": "luxury",
+      "hotelClassDisplay": "Luxury",
+      "scale": "Luxury",
+      "operationType": "Chain Management",
+      "buildingClass": "HS",
+      "buildingClassDesc": "EXTENDED STAY/SUITE: AMENITIES SIMILAR",
+      "address": "42 W 58th St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown West/Times Square",
+      "borough": "Manhattan",
+      "zip": "10019-2505",
+      "bbl": "1-01273-0060",
+      "keys": 134,
+      "stories": 17,
+      "yearBuilt": 1926,
+      "yearRenovated": null,
+      "meetingRooms": 1,
+      "totalMeetingSpace": 90,
+      "locationType": "Urban",
+      "owner": "METROPOLITAN 58TH STREET ASSOCIATES, LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 29015000,
+      "marketAV": 316020,
+      "taxableAV": 11708280,
+      "taxClass": "4",
+      "annualTax": 1270114,
+      "taxPerKey": 9478,
+      "mvPerKey": 216530,
+      "grossSqft": null,
+      "marketValueHistory": [
+        {
+          "year": "2025 - 2026",
+          "marketValue": 5267000
+        },
+        {
+          "year": "2024 - 2025",
+          "marketValue": 4314000
+        },
+        {
+          "year": "2023 - 2024",
+          "marketValue": 3883000
+        },
+        {
+          "year": "2022 - 2023",
+          "marketValue": 4118000
+        },
+        {
+          "year": "2021 - 2022",
+          "marketValue": 4425000
+        }
+      ],
+      "scrapeStatus": "verified",
+      "scrapeError": null,
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1273&lot=60",
+      "taxRate": 0.04377
+    },
+    {
+      "id": "COMP-0123",
       "hotelName": "Four Points by Sheraton Manhattan SoHo Village",
       "brand": "Four Points by Sheraton",
       "parentCompany": "Marriott International",
@@ -7016,7 +7743,7 @@
       "taxRate": 0.04521
     },
     {
-      "id": "COMP-0111",
+      "id": "COMP-0124",
       "hotelName": "Fairfield Inn & Suites New York Manhattan/Financial District",
       "brand": "Fairfield Inn",
       "parentCompany": "Marriott International",
@@ -7080,7 +7807,7 @@
       "taxRate": 0.04309
     },
     {
-      "id": "COMP-0112",
+      "id": "COMP-0125",
       "hotelName": "Hilton Garden Inn New York Chelsea",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -7144,7 +7871,7 @@
       "taxRate": 0.0409
     },
     {
-      "id": "COMP-0113",
+      "id": "COMP-0126",
       "hotelName": "The Marmara Park Avenue",
       "brand": "The Marmara",
       "parentCompany": "The Marmara Group",
@@ -7208,7 +7935,7 @@
       "taxRate": 0.04111
     },
     {
-      "id": "COMP-0114",
+      "id": "COMP-0127",
       "hotelName": "ModernHaus SoHo",
       "brand": null,
       "parentCompany": null,
@@ -7272,7 +7999,7 @@
       "taxRate": 0.04466
     },
     {
-      "id": "COMP-0115",
+      "id": "COMP-0128",
       "hotelName": "Kimpton Ashbel New York Park Avenue",
       "brand": "Kimpton",
       "parentCompany": "IHG Hotels & Resorts",
@@ -7336,7 +8063,7 @@
       "taxRate": 0.04348
     },
     {
-      "id": "COMP-0116",
+      "id": "COMP-0129",
       "hotelName": "Distrikt Hotel New York City, Tapestry Collection by Hilton",
       "brand": "Tapestry Collection by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -7400,7 +8127,7 @@
       "taxRate": 0.04492
     },
     {
-      "id": "COMP-0117",
+      "id": "COMP-0130",
       "hotelName": "Courtyard New York World Trade Center Area",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -7464,7 +8191,7 @@
       "taxRate": 0.04117
     },
     {
-      "id": "COMP-0118",
+      "id": "COMP-0131",
       "hotelName": "AKA Times Square",
       "brand": "AKA",
       "parentCompany": "Korman Communities",
@@ -7528,7 +8255,7 @@
       "taxRate": 0.04478
     },
     {
-      "id": "COMP-0119",
+      "id": "COMP-0132",
       "hotelName": "The Wallace",
       "brand": null,
       "parentCompany": null,
@@ -7592,7 +8319,7 @@
       "taxRate": 0.03599
     },
     {
-      "id": "COMP-0120",
+      "id": "COMP-0133",
       "hotelName": "Concorde Hotel New York",
       "brand": null,
       "parentCompany": null,
@@ -7656,7 +8383,7 @@
       "taxRate": 0.04013
     },
     {
-      "id": "COMP-0121",
+      "id": "COMP-0134",
       "hotelName": "The Hotel at Fifth Avenue",
       "brand": null,
       "parentCompany": null,
@@ -7720,7 +8447,7 @@
       "taxRate": 0.04244
     },
     {
-      "id": "COMP-0122",
+      "id": "COMP-0135",
       "hotelName": "Courtyard New York Manhattan/Midtown East",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -7784,7 +8511,50 @@
       "taxRate": 0.04528
     },
     {
-      "id": "COMP-0123",
+      "id": "COMP-0136",
+      "hotelName": "Cambria Hotels New York-Chelsea",
+      "brand": "Cambria Hotels",
+      "parentCompany": "Choice Hotels International, Inc.",
+      "hotelClass": "upscale",
+      "hotelClassDisplay": "Upscale",
+      "scale": "Upscale",
+      "operationType": "Franchise",
+      "buildingClass": "H3",
+      "buildingClassDesc": "LIMITED SERVICE: LIMITED AMENITIES, BUDG",
+      "address": "123-125 W 28th St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown South",
+      "borough": "Manhattan",
+      "zip": "10001",
+      "bbl": "1-00804-0022",
+      "keys": 135,
+      "stories": 18,
+      "yearBuilt": 2015,
+      "yearRenovated": null,
+      "meetingRooms": 2,
+      "totalMeetingSpace": 597,
+      "locationType": "Urban",
+      "owner": "CONCORD PANORAMA CHELSEA HOTEL LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 25347000,
+      "marketAV": null,
+      "taxableAV": 9935100,
+      "taxClass": "4",
+      "annualTax": 1086155,
+      "taxPerKey": 8046,
+      "mvPerKey": 187756,
+      "grossSqft": null,
+      "marketValueHistory": [],
+      "scrapeStatus": "verified",
+      "scrapeError": "No results",
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=804&lot=22",
+      "taxRate": 0.04285
+    },
+    {
+      "id": "COMP-0137",
       "hotelName": "Hampton Inn Manhattan-Madison Square Garden Area",
       "brand": "Hampton by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -7848,7 +8618,7 @@
       "taxRate": 0.04368
     },
     {
-      "id": "COMP-0124",
+      "id": "COMP-0138",
       "hotelName": "Hotel 48LEX New York",
       "brand": null,
       "parentCompany": null,
@@ -7912,7 +8682,136 @@
       "taxRate": 0.04341
     },
     {
-      "id": "COMP-0125",
+      "id": "COMP-0139",
+      "hotelName": "Holiday Inn Express Manhattan Times Square South",
+      "brand": "Holiday Inn Express",
+      "parentCompany": "IHG Hotels & Resorts",
+      "hotelClass": "upper-midscale",
+      "hotelClassDisplay": "Upper Midscale",
+      "scale": "Upper Midscale",
+      "operationType": "Franchise",
+      "buildingClass": "H3",
+      "buildingClassDesc": "LIMITED SERVICE: LIMITED AMENITIES, BUDG",
+      "address": "60-62 W 36th St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown South",
+      "borough": "Manhattan",
+      "zip": "10018-8039",
+      "bbl": "1-00837-0078",
+      "keys": 135,
+      "stories": 18,
+      "yearBuilt": 2012,
+      "yearRenovated": null,
+      "meetingRooms": null,
+      "totalMeetingSpace": null,
+      "locationType": "Urban",
+      "owner": "HOSPITALITY FINANCE COMPANY ONE, LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 24182000,
+      "marketAV": null,
+      "taxableAV": 9659120,
+      "taxClass": "4",
+      "annualTax": 1047821,
+      "taxPerKey": 7762,
+      "mvPerKey": 179126,
+      "grossSqft": null,
+      "marketValueHistory": [],
+      "scrapeStatus": "verified",
+      "scrapeError": "No results",
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=837&lot=78",
+      "taxRate": 0.04333
+    },
+    {
+      "id": "COMP-0140",
+      "hotelName": "Hampton Inn Manhattan Grand Central",
+      "brand": "Hampton by Hilton",
+      "parentCompany": "Hilton Worldwide",
+      "hotelClass": "upper-midscale",
+      "hotelClassDisplay": "Upper Midscale",
+      "scale": "Upper Midscale",
+      "operationType": "Franchise",
+      "buildingClass": "H3",
+      "buildingClassDesc": "LIMITED SERVICE: LIMITED AMENITIES, BUDG",
+      "address": "231-233 E 43rd St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Midtown East",
+      "borough": "Manhattan",
+      "zip": "10017-4701",
+      "bbl": "1-01317-0019",
+      "keys": 148,
+      "stories": 20,
+      "yearBuilt": 2012,
+      "yearRenovated": null,
+      "meetingRooms": null,
+      "totalMeetingSpace": null,
+      "locationType": "Urban",
+      "owner": "HOSPITALITY FINANCE COMPANY TWO, LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 24107000,
+      "marketAV": null,
+      "taxableAV": 9551670,
+      "taxClass": "4",
+      "annualTax": 1036165,
+      "taxPerKey": 7001,
+      "mvPerKey": 162885,
+      "grossSqft": null,
+      "marketValueHistory": [],
+      "scrapeStatus": "verified",
+      "scrapeError": "No results",
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1317&lot=19",
+      "taxRate": 0.04298
+    },
+    {
+      "id": "COMP-0141",
+      "hotelName": "Hotel Indigo NYC Downtown Wall Street",
+      "brand": "Hotel Indigo",
+      "parentCompany": "IHG Hotels & Resorts",
+      "hotelClass": "upper-upscale",
+      "hotelClassDisplay": "Upper Upscale",
+      "scale": "Upper Upscale",
+      "operationType": "Franchise",
+      "buildingClass": "HB",
+      "buildingClassDesc": "BOUTIQUE: 10-100 ROOMS, W/LUXURY FACILIT",
+      "address": "120-122 Water St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Financial District",
+      "borough": "Manhattan",
+      "zip": "10005-1638",
+      "bbl": "1-00039-0041",
+      "keys": 127,
+      "stories": 25,
+      "yearBuilt": 2022,
+      "yearRenovated": null,
+      "meetingRooms": null,
+      "totalMeetingSpace": null,
+      "locationType": "Urban",
+      "owner": "120-122 WATER STREET LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 21147000,
+      "marketAV": null,
+      "taxableAV": 9516150,
+      "taxClass": "4",
+      "annualTax": 1034617,
+      "taxPerKey": 8147,
+      "mvPerKey": 166512,
+      "grossSqft": null,
+      "marketValueHistory": [],
+      "scrapeStatus": "verified",
+      "scrapeError": "No results",
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=39&lot=41",
+      "taxRate": 0.04893
+    },
+    {
+      "id": "COMP-0142",
       "hotelName": "Courtyard New York Manhattan/SoHo",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -7976,7 +8875,7 @@
       "taxRate": 0.03924
     },
     {
-      "id": "COMP-0126",
+      "id": "COMP-0143",
       "hotelName": "Best Western Premier Empire State Hotel",
       "brand": "Best Western Premier",
       "parentCompany": "BWH Hotels",
@@ -8040,7 +8939,7 @@
       "taxRate": 0.04357
     },
     {
-      "id": "COMP-0127",
+      "id": "COMP-0144",
       "hotelName": "San Carlos Hotel",
       "brand": null,
       "parentCompany": null,
@@ -8104,7 +9003,7 @@
       "taxRate": 0.04314
     },
     {
-      "id": "COMP-0128",
+      "id": "COMP-0145",
       "hotelName": "The Renwick",
       "brand": null,
       "parentCompany": null,
@@ -8168,7 +9067,7 @@
       "taxRate": 0.03709
     },
     {
-      "id": "COMP-0129",
+      "id": "COMP-0146",
       "hotelName": "Gild Hall a Thompson Hotel",
       "brand": "Thompson Hotels",
       "parentCompany": "Hyatt Corporation",
@@ -8232,7 +9131,50 @@
       "taxRate": 0.04151
     },
     {
-      "id": "COMP-0130",
+      "id": "COMP-0147",
+      "hotelName": "Aloft Manhattan Downtown - Financial District",
+      "brand": "aloft Hotel",
+      "parentCompany": "Marriott International",
+      "hotelClass": "upscale",
+      "hotelClassDisplay": "Upscale",
+      "scale": "Upscale",
+      "operationType": "Franchise",
+      "buildingClass": "H2",
+      "buildingClassDesc": "FULL SERVICE: IN HOUSE DINING, FITNESS C",
+      "address": "49-53 Ann St",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Financial District",
+      "borough": "Manhattan",
+      "zip": "10038",
+      "bbl": "1-00092-0014",
+      "keys": 128,
+      "stories": 18,
+      "yearBuilt": 2015,
+      "yearRenovated": null,
+      "meetingRooms": 1,
+      "totalMeetingSpace": 220,
+      "locationType": "Urban",
+      "owner": "FKAL 49 ANN STREET LLC",
+      "lat": null,
+      "lng": null,
+      "marketValue": 21560000,
+      "marketAV": null,
+      "taxableAV": 8532630,
+      "taxClass": "4",
+      "annualTax": 925620,
+      "taxPerKey": 7231,
+      "mvPerKey": 168438,
+      "grossSqft": null,
+      "marketValueHistory": [],
+      "scrapeStatus": "verified",
+      "scrapeError": "No results",
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=92&lot=14",
+      "taxRate": 0.04293
+    },
+    {
+      "id": "COMP-0148",
       "hotelName": "MADE Hotel",
       "brand": null,
       "parentCompany": null,
@@ -8296,7 +9238,7 @@
       "taxRate": 0.04204
     },
     {
-      "id": "COMP-0131",
+      "id": "COMP-0149",
       "hotelName": "Hudson Yards Hotel",
       "brand": null,
       "parentCompany": null,
@@ -8360,7 +9302,7 @@
       "taxRate": 0.04882
     },
     {
-      "id": "COMP-0132",
+      "id": "COMP-0150",
       "hotelName": "Radio City Apartments",
       "brand": null,
       "parentCompany": null,
@@ -8424,7 +9366,7 @@
       "taxRate": 0.04433
     },
     {
-      "id": "COMP-0133",
+      "id": "COMP-0151",
       "hotelName": "Hyatt Herald Square New York",
       "brand": "Hyatt",
       "parentCompany": "Hyatt Corporation",
@@ -8488,7 +9430,7 @@
       "taxRate": 0.04325
     },
     {
-      "id": "COMP-0134",
+      "id": "COMP-0152",
       "hotelName": "Hotel Hayden",
       "brand": null,
       "parentCompany": null,
@@ -8552,7 +9494,7 @@
       "taxRate": 0.04327
     },
     {
-      "id": "COMP-0135",
+      "id": "COMP-0153",
       "hotelName": "Travel Inn Hotel",
       "brand": null,
       "parentCompany": null,
@@ -8616,7 +9558,7 @@
       "taxRate": 0.04812
     },
     {
-      "id": "COMP-0136",
+      "id": "COMP-0154",
       "hotelName": "SpringHill Suites New York Midtown Manhattan/Park Avenue",
       "brand": "SpringHill Suites",
       "parentCompany": "Marriott International",
@@ -8659,7 +9601,7 @@
       "taxRate": 0.04455
     },
     {
-      "id": "COMP-0137",
+      "id": "COMP-0155",
       "hotelName": "Hotel on Rivington",
       "brand": null,
       "parentCompany": null,
@@ -8723,7 +9665,7 @@
       "taxRate": 0.04072
     },
     {
-      "id": "COMP-0138",
+      "id": "COMP-0156",
       "hotelName": "Fairfield Inn & Suites New York Manhattan/Chelsea",
       "brand": "Fairfield Inn",
       "parentCompany": "Marriott International",
@@ -8787,7 +9729,7 @@
       "taxRate": 0.04323
     },
     {
-      "id": "COMP-0139",
+      "id": "COMP-0157",
       "hotelName": "Holiday Inn New York City Wall Street",
       "brand": "Holiday Inn",
       "parentCompany": "IHG Hotels & Resorts",
@@ -8851,7 +9793,7 @@
       "taxRate": 0.04283
     },
     {
-      "id": "COMP-0140",
+      "id": "COMP-0158",
       "hotelName": "Hotel Stanford",
       "brand": null,
       "parentCompany": null,
@@ -8915,7 +9857,7 @@
       "taxRate": 0.04587
     },
     {
-      "id": "COMP-0141",
+      "id": "COMP-0159",
       "hotelName": "Hilton Garden Inn New York Times Square Central",
       "brand": "Hilton Garden Inn",
       "parentCompany": "Hilton Worldwide",
@@ -8979,7 +9921,7 @@
       "taxRate": 0.04606
     },
     {
-      "id": "COMP-0142",
+      "id": "COMP-0160",
       "hotelName": "Citadines Connect Fifth Avenue New York",
       "brand": "Citadines",
       "parentCompany": "Ascott International Management (2001) Pte Ltd",
@@ -9043,7 +9985,7 @@
       "taxRate": 0.03584
     },
     {
-      "id": "COMP-0143",
+      "id": "COMP-0161",
       "hotelName": "The Prince Kitano New York",
       "brand": "The Prince",
       "parentCompany": "Seibu Prince Hotels Worldwide Inc.",
@@ -9107,7 +10049,7 @@
       "taxRate": 0.04394
     },
     {
-      "id": "COMP-0144",
+      "id": "COMP-0162",
       "hotelName": "Holiday Inn Express New York City Wall Street",
       "brand": "Holiday Inn Express",
       "parentCompany": "IHG Hotels & Resorts",
@@ -9171,7 +10113,7 @@
       "taxRate": 0.04098
     },
     {
-      "id": "COMP-0145",
+      "id": "COMP-0163",
       "hotelName": "Holiday Inn New York City - Lower East Side",
       "brand": "Holiday Inn",
       "parentCompany": "IHG Hotels & Resorts",
@@ -9235,7 +10177,7 @@
       "taxRate": 0.04882
     },
     {
-      "id": "COMP-0146",
+      "id": "COMP-0164",
       "hotelName": "TownePlace Suites New York Manhattan/Times Square",
       "brand": "TownePlace Suites",
       "parentCompany": "Marriott International",
@@ -9299,7 +10241,71 @@
       "taxRate": 0.03963
     },
     {
-      "id": "COMP-0147",
+      "id": "COMP-0165",
+      "hotelName": "Washington Square Hotel",
+      "brand": null,
+      "parentCompany": null,
+      "hotelClass": "upper-upscale",
+      "hotelClassDisplay": "Upper Upscale",
+      "scale": "Independent",
+      "operationType": "Independent",
+      "buildingClass": "RH",
+      "buildingClassDesc": "HOTEL/BOATEL",
+      "address": "103 Waverly Pl",
+      "dofAddress": null,
+      "neighborhood": null,
+      "submarket": "Village/Soho/Tribeca",
+      "borough": "Manhattan",
+      "zip": "10011",
+      "bbl": "1-00553-1202",
+      "keys": 152,
+      "stories": 9,
+      "yearBuilt": 1910,
+      "yearRenovated": 2006,
+      "meetingRooms": null,
+      "totalMeetingSpace": null,
+      "locationType": "Urban",
+      "owner": "UNAVAILABLE OWNER",
+      "lat": null,
+      "lng": null,
+      "marketValue": 16956000,
+      "marketAV": 1680750,
+      "taxableAV": 6657838,
+      "taxClass": "4",
+      "annualTax": 722242,
+      "taxPerKey": 4752,
+      "mvPerKey": 111553,
+      "grossSqft": null,
+      "marketValueHistory": [
+        {
+          "year": "2025 - 2026",
+          "marketValue": 3735000
+        },
+        {
+          "year": "2024 - 2025",
+          "marketValue": 3648004
+        },
+        {
+          "year": "2023 - 2024",
+          "marketValue": 3806000
+        },
+        {
+          "year": "2022 - 2023",
+          "marketValue": 3548000
+        },
+        {
+          "year": "2021 - 2022",
+          "marketValue": 3363000
+        }
+      ],
+      "scrapeStatus": "verified",
+      "scrapeError": null,
+      "notes": "",
+      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=553&lot=1202",
+      "taxRate": 0.0426
+    },
+    {
+      "id": "COMP-0166",
       "hotelName": "St James Hotel",
       "brand": null,
       "parentCompany": null,
@@ -9363,7 +10369,7 @@
       "taxRate": 0.04252
     },
     {
-      "id": "COMP-0148",
+      "id": "COMP-0167",
       "hotelName": "The Jane Hotel",
       "brand": null,
       "parentCompany": null,
@@ -9427,7 +10433,7 @@
       "taxRate": 0.0443
     },
     {
-      "id": "COMP-0149",
+      "id": "COMP-0168",
       "hotelName": "New York Marriott Marquis",
       "brand": "Marriott",
       "parentCompany": "Marriott International",
@@ -9491,7 +10497,7 @@
       "taxRate": 0.04579
     },
     {
-      "id": "COMP-0150",
+      "id": "COMP-0169",
       "hotelName": "Murray Hill Suites",
       "brand": null,
       "parentCompany": null,
@@ -9555,7 +10561,7 @@
       "taxRate": 0.04135
     },
     {
-      "id": "COMP-0151",
+      "id": "COMP-0170",
       "hotelName": "Romer Hell's Kitchen",
       "brand": null,
       "parentCompany": null,
@@ -9619,7 +10625,7 @@
       "taxRate": 0.03763
     },
     {
-      "id": "COMP-0152",
+      "id": "COMP-0171",
       "hotelName": "Sanctuary Hotel New York",
       "brand": null,
       "parentCompany": null,
@@ -9683,7 +10689,7 @@
       "taxRate": 0.04285
     },
     {
-      "id": "COMP-0153",
+      "id": "COMP-0172",
       "hotelName": "Trump International Hotel & Tower New York",
       "brand": "Trump International",
       "parentCompany": "Trump Organization",
@@ -9747,7 +10753,7 @@
       "taxRate": 0.04655
     },
     {
-      "id": "COMP-0154",
+      "id": "COMP-0173",
       "hotelName": "Hotel Hendricks",
       "brand": null,
       "parentCompany": null,
@@ -9811,7 +10817,7 @@
       "taxRate": 0.04882
     },
     {
-      "id": "COMP-0155",
+      "id": "COMP-0174",
       "hotelName": "Hotel Alexander",
       "brand": null,
       "parentCompany": null,
@@ -9875,7 +10881,7 @@
       "taxRate": 0.04274
     },
     {
-      "id": "COMP-0156",
+      "id": "COMP-0175",
       "hotelName": "SunBright Hotel",
       "brand": null,
       "parentCompany": null,
@@ -9939,7 +10945,7 @@
       "taxRate": 0.0446
     },
     {
-      "id": "COMP-0157",
+      "id": "COMP-0176",
       "hotelName": "The Shoreham Hotel",
       "brand": null,
       "parentCompany": null,
@@ -10003,7 +11009,7 @@
       "taxRate": 0.05139
     },
     {
-      "id": "COMP-0158",
+      "id": "COMP-0177",
       "hotelName": "Riverside Tower Hotel",
       "brand": null,
       "parentCompany": null,
@@ -10067,7 +11073,7 @@
       "taxRate": 0.04268
     },
     {
-      "id": "COMP-0159",
+      "id": "COMP-0178",
       "hotelName": "Kimpton Hotel Theta",
       "brand": "Kimpton",
       "parentCompany": "IHG Hotels & Resorts",
@@ -10131,7 +11137,7 @@
       "taxRate": 0.03788
     },
     {
-      "id": "COMP-0160",
+      "id": "COMP-0179",
       "hotelName": "Freehand New York",
       "brand": "Generator Hostel",
       "parentCompany": "Generator Hostels",
@@ -10195,7 +11201,7 @@
       "taxRate": 0.04881
     },
     {
-      "id": "COMP-0161",
+      "id": "COMP-0180",
       "hotelName": "SIXTY LES",
       "brand": "Sixty Hotels",
       "parentCompany": "Sixty Hotels LLC",
@@ -10259,7 +11265,7 @@
       "taxRate": 0.04518
     },
     {
-      "id": "COMP-0162",
+      "id": "COMP-0181",
       "hotelName": "DoubleTree by Hilton New York Midtown Fifth Ave",
       "brand": "DoubleTree by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -10323,7 +11329,7 @@
       "taxRate": 0.04155
     },
     {
-      "id": "COMP-0163",
+      "id": "COMP-0182",
       "hotelName": "The Pierre  New York A Taj Hotel",
       "brand": "Taj",
       "parentCompany": "The Indian Hotels Company Limited",
@@ -10387,71 +11393,7 @@
       "taxRate": 0.04076
     },
     {
-      "id": "COMP-0164",
-      "hotelName": "Kimpton Era Midtown New York",
-      "brand": "Kimpton",
-      "parentCompany": "IHG Hotels & Resorts",
-      "hotelClass": "upper-upscale",
-      "hotelClassDisplay": "Upper Upscale",
-      "scale": "Upper Upscale",
-      "operationType": "Franchise",
-      "buildingClass": "O5",
-      "buildingClassDesc": "OFFICE WITH OTHER COMMERCIAL,LT 7 STORIE",
-      "address": "32 W 48th St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown West/Times Square",
-      "borough": "Manhattan",
-      "zip": "10036",
-      "bbl": "1-01038-0043",
-      "keys": 529,
-      "stories": 6,
-      "yearBuilt": 2026,
-      "yearRenovated": null,
-      "meetingRooms": 1,
-      "totalMeetingSpace": 1226,
-      "locationType": "Urban",
-      "owner": "GREATER NY MUSICIANETAL",
-      "lat": null,
-      "lng": null,
-      "marketValue": 3827000,
-      "marketAV": 1722150,
-      "taxableAV": 1685340,
-      "taxClass": "4",
-      "annualTax": 182826,
-      "taxPerKey": 346,
-      "mvPerKey": 7234,
-      "grossSqft": null,
-      "marketValueHistory": [
-        {
-          "year": "2025 - 2026",
-          "marketValue": 3827000
-        },
-        {
-          "year": "2024 - 2025",
-          "marketValue": 3772000
-        },
-        {
-          "year": "2023 - 2024",
-          "marketValue": 3981000
-        },
-        {
-          "year": "2022 - 2023",
-          "marketValue": 3752000
-        },
-        {
-          "year": "2021 - 2022",
-          "marketValue": 3394000
-        }
-      ],
-      "scrapeStatus": "verified",
-      "scrapeError": null,
-      "notes": "",
-      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1038&lot=43",
-      "taxRate": 0.04777
-    },
-    {
-      "id": "COMP-0165",
+      "id": "COMP-0183",
       "hotelName": "Nine Orchard",
       "brand": null,
       "parentCompany": null,
@@ -10515,7 +11457,7 @@
       "taxRate": 0.05285
     },
     {
-      "id": "COMP-0166",
+      "id": "COMP-0184",
       "hotelName": "The Carlyle, A Rosewood Hotel",
       "brand": "Rosewood",
       "parentCompany": "Rosewood Hotel Group",
@@ -10579,71 +11521,7 @@
       "taxRate": 0.05411
     },
     {
-      "id": "COMP-0167",
-      "hotelName": "Washington Square Hotel",
-      "brand": null,
-      "parentCompany": null,
-      "hotelClass": "upper-upscale",
-      "hotelClassDisplay": "Upper Upscale",
-      "scale": "Independent",
-      "operationType": "Independent",
-      "buildingClass": "RK",
-      "buildingClassDesc": "RETAIL SPACE",
-      "address": "103 Waverly Pl",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Village/Soho/Tribeca",
-      "borough": "Manhattan",
-      "zip": "10011",
-      "bbl": "1-00553-1201",
-      "keys": 152,
-      "stories": 9,
-      "yearBuilt": 1910,
-      "yearRenovated": 2006,
-      "meetingRooms": null,
-      "totalMeetingSpace": null,
-      "locationType": "Urban",
-      "owner": "THE WAVERLY GROUP, LLC",
-      "lat": null,
-      "lng": null,
-      "marketValue": 3735000,
-      "marketAV": 1680750,
-      "taxableAV": 1502350,
-      "taxClass": "4",
-      "annualTax": 162975,
-      "taxPerKey": 1072,
-      "mvPerKey": 24572,
-      "grossSqft": null,
-      "marketValueHistory": [
-        {
-          "year": "2025 - 2026",
-          "marketValue": 3735000
-        },
-        {
-          "year": "2024 - 2025",
-          "marketValue": 3648004
-        },
-        {
-          "year": "2023 - 2024",
-          "marketValue": 3806000
-        },
-        {
-          "year": "2022 - 2023",
-          "marketValue": 3548000
-        },
-        {
-          "year": "2021 - 2022",
-          "marketValue": 3363000
-        }
-      ],
-      "scrapeStatus": "verified",
-      "scrapeError": null,
-      "notes": "",
-      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=553&lot=1201",
-      "taxRate": 0.04363
-    },
-    {
-      "id": "COMP-0168",
+      "id": "COMP-0185",
       "hotelName": "Bowery Grand Hotel",
       "brand": null,
       "parentCompany": null,
@@ -10707,7 +11585,7 @@
       "taxRate": 0.04241
     },
     {
-      "id": "COMP-0169",
+      "id": "COMP-0186",
       "hotelName": "Equinox Hotel New York",
       "brand": null,
       "parentCompany": null,
@@ -10771,71 +11649,7 @@
       "taxRate": 0.00575
     },
     {
-      "id": "COMP-0170",
-      "hotelName": "Embassy Suites by Hilton New York Midtown Manhattan",
-      "brand": "Embassy Suites by Hilton",
-      "parentCompany": "Hilton Worldwide",
-      "hotelClass": "upper-upscale",
-      "hotelClassDisplay": "Upper Upscale",
-      "scale": "Upper Upscale",
-      "operationType": "Franchise",
-      "buildingClass": "RG",
-      "buildingClassDesc": "INDOOR PARKING",
-      "address": "60 W 37th St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown South",
-      "borough": "Manhattan",
-      "zip": "10018",
-      "bbl": "1-00838-1201",
-      "keys": 310,
-      "stories": 40,
-      "yearBuilt": 2018,
-      "yearRenovated": null,
-      "meetingRooms": 1,
-      "totalMeetingSpace": 575,
-      "locationType": "Urban",
-      "owner": "NY 37TH ES LLC",
-      "lat": null,
-      "lng": null,
-      "marketValue": 2925784,
-      "marketAV": 1316603,
-      "taxableAV": 1303424,
-      "taxClass": "4",
-      "annualTax": 141395,
-      "taxPerKey": 456,
-      "mvPerKey": 9438,
-      "grossSqft": null,
-      "marketValueHistory": [
-        {
-          "year": "2025 - 2026",
-          "marketValue": 2925784
-        },
-        {
-          "year": "2024 - 2025",
-          "marketValue": 3528784
-        },
-        {
-          "year": "2023 - 2024",
-          "marketValue": 3351000
-        },
-        {
-          "year": "2022 - 2023",
-          "marketValue": 3293000
-        },
-        {
-          "year": "2021 - 2022",
-          "marketValue": 3112000
-        }
-      ],
-      "scrapeStatus": "verified",
-      "scrapeError": null,
-      "notes": "",
-      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=838&lot=1201",
-      "taxRate": 0.04833
-    },
-    {
-      "id": "COMP-0171",
+      "id": "COMP-0187",
       "hotelName": "Hilton Millennium New York One UN Plaza",
       "brand": "Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -10899,7 +11713,7 @@
       "taxRate": 0.04882
     },
     {
-      "id": "COMP-0172",
+      "id": "COMP-0188",
       "hotelName": "Omni Berkshire Place",
       "brand": "Omni",
       "parentCompany": "Omni Hotels & Resorts",
@@ -10963,7 +11777,7 @@
       "taxRate": 0.02709
     },
     {
-      "id": "COMP-0173",
+      "id": "COMP-0189",
       "hotelName": "Club Wyndham Midtown 45",
       "brand": null,
       "parentCompany": null,
@@ -11027,7 +11841,7 @@
       "taxRate": 0.04639
     },
     {
-      "id": "COMP-0174",
+      "id": "COMP-0190",
       "hotelName": "Marriott Vacation Club Pulse, New York City",
       "brand": "Marriott Vacation Club",
       "parentCompany": "Marriott Vacations Worldwide",
@@ -11091,7 +11905,7 @@
       "taxRate": 0.05598
     },
     {
-      "id": "COMP-0175",
+      "id": "COMP-0191",
       "hotelName": "Hilton Club The Quin New York",
       "brand": "Hilton Grand Vacations",
       "parentCompany": "Hilton Grand Vacations",
@@ -11147,7 +11961,7 @@
       "taxRate": 0.04572
     },
     {
-      "id": "COMP-0176",
+      "id": "COMP-0192",
       "hotelName": "Grayson Hotel",
       "brand": "The Unbound Collection",
       "parentCompany": "Hyatt Corporation",
@@ -11211,7 +12025,7 @@
       "taxRate": 0.05205
     },
     {
-      "id": "COMP-0177",
+      "id": "COMP-0193",
       "hotelName": "Royalton New York",
       "brand": null,
       "parentCompany": null,
@@ -11275,7 +12089,7 @@
       "taxRate": 0.02772
     },
     {
-      "id": "COMP-0178",
+      "id": "COMP-0194",
       "hotelName": "NH Collection New York Madison Avenue",
       "brand": "NH Collection",
       "parentCompany": "Minor Hotel Group Limited",
@@ -11339,7 +12153,7 @@
       "taxRate": 0.0459
     },
     {
-      "id": "COMP-0179",
+      "id": "COMP-0195",
       "hotelName": "Mint House at 70 Pine by Kasa",
       "brand": "Mint House by Kasa",
       "parentCompany": "Kasa, Inc.",
@@ -11403,7 +12217,7 @@
       "taxRate": 0.04746
     },
     {
-      "id": "COMP-0180",
+      "id": "COMP-0196",
       "hotelName": "Hotel AKA NoMad",
       "brand": "AKA",
       "parentCompany": "Korman Communities",
@@ -11467,7 +12281,7 @@
       "taxRate": 0.00784
     },
     {
-      "id": "COMP-0181",
+      "id": "COMP-0197",
       "hotelName": "Ace Hotel New York",
       "brand": "Ace Hotel",
       "parentCompany": "Ace Hotel Group",
@@ -11531,7 +12345,7 @@
       "taxRate": 0.04567
     },
     {
-      "id": "COMP-0182",
+      "id": "COMP-0198",
       "hotelName": "Residence Midtown East",
       "brand": null,
       "parentCompany": null,
@@ -11595,7 +12409,7 @@
       "taxRate": 0.04884
     },
     {
-      "id": "COMP-0183",
+      "id": "COMP-0199",
       "hotelName": "Hilton Club The Central at 5th New York",
       "brand": "Hilton Grand Vacations",
       "parentCompany": "Hilton Grand Vacations",
@@ -11655,7 +12469,7 @@
       "taxRate": 0.04665
     },
     {
-      "id": "COMP-0184",
+      "id": "COMP-0200",
       "hotelName": "Hyatt Centric Wall Street New York",
       "brand": "Hyatt Centric",
       "parentCompany": "Hyatt Corporation",
@@ -11719,135 +12533,7 @@
       "taxRate": 0.0523
     },
     {
-      "id": "COMP-0185",
-      "hotelName": "AKA Central Park",
-      "brand": "AKA",
-      "parentCompany": "Korman Communities",
-      "hotelClass": "luxury",
-      "hotelClassDisplay": "Luxury",
-      "scale": "Luxury",
-      "operationType": "Chain Management",
-      "buildingClass": "A4",
-      "buildingClassDesc": "CITY RESIDENCE ONE FAMILY",
-      "address": "42 W 58th St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown West/Times Square",
-      "borough": "Manhattan",
-      "zip": "10019-2505",
-      "bbl": "1-01067-0140",
-      "keys": 134,
-      "stories": 4,
-      "yearBuilt": 1926,
-      "yearRenovated": null,
-      "meetingRooms": 1,
-      "totalMeetingSpace": 90,
-      "locationType": "Urban",
-      "owner": "SHERMAN, MICHAEL",
-      "lat": null,
-      "lng": null,
-      "marketValue": 5267000,
-      "marketAV": 316020,
-      "taxableAV": 147706,
-      "taxClass": "1",
-      "annualTax": 29474,
-      "taxPerKey": 220,
-      "mvPerKey": 39306,
-      "grossSqft": null,
-      "marketValueHistory": [
-        {
-          "year": "2025 - 2026",
-          "marketValue": 5267000
-        },
-        {
-          "year": "2024 - 2025",
-          "marketValue": 4314000
-        },
-        {
-          "year": "2023 - 2024",
-          "marketValue": 3883000
-        },
-        {
-          "year": "2022 - 2023",
-          "marketValue": 4118000
-        },
-        {
-          "year": "2021 - 2022",
-          "marketValue": 4425000
-        }
-      ],
-      "scrapeStatus": "verified",
-      "scrapeError": null,
-      "notes": "",
-      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1067&lot=140",
-      "taxRate": 0.0056
-    },
-    {
-      "id": "COMP-0186",
-      "hotelName": "Sofitel New York",
-      "brand": "Sofitel",
-      "parentCompany": "Accor",
-      "hotelClass": "luxury",
-      "hotelClassDisplay": "Luxury",
-      "scale": "Luxury",
-      "operationType": "Chain Management",
-      "buildingClass": "S1",
-      "buildingClassDesc": "PRIMARILY 1 FAMILY WITH 1 STORE OR OFF",
-      "address": "45 W 44th St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown West/Times Square",
-      "borough": "Manhattan",
-      "zip": "10036-6613",
-      "bbl": "1-01053-0056",
-      "keys": 398,
-      "stories": 4,
-      "yearBuilt": 2000,
-      "yearRenovated": 2025,
-      "meetingRooms": 7,
-      "totalMeetingSpace": 5725,
-      "locationType": "Urban",
-      "owner": "JC SPLENDID LLC",
-      "lat": null,
-      "lng": null,
-      "marketValue": 6605000,
-      "marketAV": 396300,
-      "taxableAV": 135425,
-      "taxClass": "1",
-      "annualTax": 26872,
-      "taxPerKey": 68,
-      "mvPerKey": 16595,
-      "grossSqft": null,
-      "marketValueHistory": [
-        {
-          "year": "2025 - 2026",
-          "marketValue": 6605000
-        },
-        {
-          "year": "2024 - 2025",
-          "marketValue": 6206000
-        },
-        {
-          "year": "2023 - 2024",
-          "marketValue": 5586000
-        },
-        {
-          "year": "2022 - 2023",
-          "marketValue": 5023000
-        },
-        {
-          "year": "2021 - 2022",
-          "marketValue": 4379000
-        }
-      ],
-      "scrapeStatus": "verified",
-      "scrapeError": null,
-      "notes": "",
-      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1053&lot=56",
-      "taxRate": 0.00407
-    },
-    {
-      "id": "COMP-0187",
+      "id": "COMP-0201",
       "hotelName": "The Beekman, A Thompson Hotel",
       "brand": "Thompson Hotels",
       "parentCompany": "Hyatt Corporation",
@@ -11911,7 +12597,7 @@
       "taxRate": 0.03981
     },
     {
-      "id": "COMP-0188",
+      "id": "COMP-0202",
       "hotelName": "The Bryant Park Hotel",
       "brand": null,
       "parentCompany": null,
@@ -11975,7 +12661,7 @@
       "taxRate": 0.00333
     },
     {
-      "id": "COMP-0189",
+      "id": "COMP-0203",
       "hotelName": "The Manhattan Club",
       "brand": null,
       "parentCompany": null,
@@ -12039,7 +12725,7 @@
       "taxRate": 0.04458
     },
     {
-      "id": "COMP-0190",
+      "id": "COMP-0204",
       "hotelName": "The Dominick",
       "brand": null,
       "parentCompany": null,
@@ -12103,7 +12789,7 @@
       "taxRate": 0.03812
     },
     {
-      "id": "COMP-0191",
+      "id": "COMP-0205",
       "hotelName": "Club Quarters Midtown",
       "brand": "Club Quarters",
       "parentCompany": "Shared Mutual Services",
@@ -12167,7 +12853,7 @@
       "taxRate": 0.04356
     },
     {
-      "id": "COMP-0192",
+      "id": "COMP-0206",
       "hotelName": "Walker Hotel Greenwich Village",
       "brand": null,
       "parentCompany": null,
@@ -12231,71 +12917,7 @@
       "taxRate": 0.00513
     },
     {
-      "id": "COMP-0193",
-      "hotelName": "W New York - Times Square",
-      "brand": "W Hotel",
-      "parentCompany": "Marriott International",
-      "hotelClass": "luxury",
-      "hotelClassDisplay": "Luxury",
-      "scale": "Luxury",
-      "operationType": "Chain Management",
-      "buildingClass": "Z9",
-      "buildingClassDesc": "OTHER MISCELLANEOUS",
-      "address": "1567 Broadway",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown West/Times Square",
-      "borough": "Manhattan",
-      "zip": "10036",
-      "bbl": "1-01018-0128",
-      "keys": 509,
-      "stories": 54,
-      "yearBuilt": 1918,
-      "yearRenovated": 2020,
-      "meetingRooms": 6,
-      "totalMeetingSpace": 2201,
-      "locationType": "Urban",
-      "owner": "UNAVAILABLE OWNER",
-      "lat": null,
-      "lng": null,
-      "marketValue": 179000,
-      "marketAV": 80550,
-      "taxableAV": 76050,
-      "taxClass": "4",
-      "annualTax": 8250,
-      "taxPerKey": 16,
-      "mvPerKey": 352,
-      "grossSqft": null,
-      "marketValueHistory": [
-        {
-          "year": "2025 - 2026",
-          "marketValue": 179000
-        },
-        {
-          "year": "2024 - 2025",
-          "marketValue": 174000
-        },
-        {
-          "year": "2023 - 2024",
-          "marketValue": 169000
-        },
-        {
-          "year": "2022 - 2023",
-          "marketValue": 164000
-        },
-        {
-          "year": "2021 - 2022",
-          "marketValue": 159000
-        }
-      ],
-      "scrapeStatus": "verified",
-      "scrapeError": null,
-      "notes": "",
-      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1018&lot=128",
-      "taxRate": 0.04609
-    },
-    {
-      "id": "COMP-0194",
+      "id": "COMP-0207",
       "hotelName": "Hyatt Grand Central New York",
       "brand": "Hyatt",
       "parentCompany": "Hyatt Corporation",
@@ -12359,7 +12981,7 @@
       "taxRate": null
     },
     {
-      "id": "COMP-0195",
+      "id": "COMP-0208",
       "hotelName": "Hilton New York Times Square",
       "brand": "Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -12423,199 +13045,7 @@
       "taxRate": null
     },
     {
-      "id": "COMP-0196",
-      "hotelName": "Hilton Garden Inn New York Times Square North",
-      "brand": "Hilton Garden Inn",
-      "parentCompany": "Hilton Worldwide",
-      "hotelClass": "upscale",
-      "hotelClassDisplay": "Upscale",
-      "scale": "Upscale",
-      "operationType": "Franchise",
-      "buildingClass": "M1",
-      "buildingClassDesc": "CHURCH, SYNAGOGUE, CHAPEL, MOSQUE",
-      "address": "30 W 46th St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown West/Times Square",
-      "borough": "Manhattan",
-      "zip": "10036-4500",
-      "bbl": "1-01036-0037",
-      "keys": 196,
-      "stories": 4,
-      "yearBuilt": 2015,
-      "yearRenovated": null,
-      "meetingRooms": 1,
-      "totalMeetingSpace": 600,
-      "locationType": "Urban",
-      "owner": "ST LUKES LUTHERAN CHURCH",
-      "lat": null,
-      "lng": null,
-      "marketValue": 5736000,
-      "marketAV": 2581200,
-      "taxableAV": 2424420,
-      "taxClass": "4",
-      "annualTax": 0,
-      "taxPerKey": null,
-      "mvPerKey": 29265,
-      "grossSqft": null,
-      "marketValueHistory": [
-        {
-          "year": "2025 - 2026",
-          "marketValue": 5736000
-        },
-        {
-          "year": "2024 - 2025",
-          "marketValue": 5652000
-        },
-        {
-          "year": "2023 - 2024",
-          "marketValue": 5538000
-        },
-        {
-          "year": "2022 - 2023",
-          "marketValue": 5222000
-        },
-        {
-          "year": "2021 - 2022",
-          "marketValue": 4790000
-        }
-      ],
-      "scrapeStatus": "verified",
-      "scrapeError": null,
-      "notes": "",
-      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1036&lot=37",
-      "taxRate": null
-    },
-    {
-      "id": "COMP-0197",
-      "hotelName": "Courtyard New York Manhattan Upper East Side",
-      "brand": "Courtyard",
-      "parentCompany": "Marriott International",
-      "hotelClass": "upscale",
-      "hotelClassDisplay": "Upscale",
-      "scale": "Upscale",
-      "operationType": "Franchise",
-      "buildingClass": "RB",
-      "buildingClassDesc": "OFFICE SPACE",
-      "address": "410 E 92nd St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Uptown",
-      "borough": "Manhattan",
-      "zip": "10128",
-      "bbl": "1-01571-1001",
-      "keys": 226,
-      "stories": 15,
-      "yearBuilt": 2006,
-      "yearRenovated": 2014,
-      "meetingRooms": 3,
-      "totalMeetingSpace": 1364,
-      "locationType": "Urban",
-      "owner": "GILLEN BREWER SCHOOL",
-      "lat": null,
-      "lng": null,
-      "marketValue": 4170449,
-      "marketAV": 1876702,
-      "taxableAV": 1719703,
-      "taxClass": "4",
-      "annualTax": 0,
-      "taxPerKey": null,
-      "mvPerKey": 18453,
-      "grossSqft": null,
-      "marketValueHistory": [
-        {
-          "year": "2025 - 2026",
-          "marketValue": 4170449
-        },
-        {
-          "year": "2024 - 2025",
-          "marketValue": 4079119
-        },
-        {
-          "year": "2023 - 2024",
-          "marketValue": 3928934
-        },
-        {
-          "year": "2022 - 2023",
-          "marketValue": 3640841
-        },
-        {
-          "year": "2021 - 2022",
-          "marketValue": 3288488
-        }
-      ],
-      "scrapeStatus": "verified",
-      "scrapeError": null,
-      "notes": "",
-      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1571&lot=1001",
-      "taxRate": null
-    },
-    {
-      "id": "COMP-0198",
-      "hotelName": "Hyatt Place New York/Midtown-South",
-      "brand": "Hyatt Place",
-      "parentCompany": "Hyatt Corporation",
-      "hotelClass": "upscale",
-      "hotelClassDisplay": "Upscale",
-      "scale": "Upscale",
-      "operationType": "Franchise",
-      "buildingClass": "Q1",
-      "buildingClassDesc": "PARK",
-      "address": "52 W 36th St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown South",
-      "borough": "Manhattan",
-      "zip": "10018-8029",
-      "bbl": "1-00708-0049",
-      "keys": 185,
-      "stories": 25,
-      "yearBuilt": 2013,
-      "yearRenovated": null,
-      "meetingRooms": 1,
-      "totalMeetingSpace": 225,
-      "locationType": "Urban",
-      "owner": "PARKS AND RECREATION (GENERAL)",
-      "lat": null,
-      "lng": null,
-      "marketValue": 3273000,
-      "marketAV": 1472850,
-      "taxableAV": 1274793,
-      "taxClass": "4",
-      "annualTax": 0,
-      "taxPerKey": null,
-      "mvPerKey": 17692,
-      "grossSqft": null,
-      "marketValueHistory": [
-        {
-          "year": "2025 - 2026",
-          "marketValue": 3273000
-        },
-        {
-          "year": "2024 - 2025",
-          "marketValue": 3178000
-        },
-        {
-          "year": "2023 - 2024",
-          "marketValue": 3084984
-        },
-        {
-          "year": "2022 - 2023",
-          "marketValue": 2588000
-        },
-        {
-          "year": "2021 - 2022",
-          "marketValue": 2459000
-        }
-      ],
-      "scrapeStatus": "verified",
-      "scrapeError": null,
-      "notes": "",
-      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=708&lot=49",
-      "taxRate": null
-    },
-    {
-      "id": "COMP-0199",
+      "id": "COMP-0209",
       "hotelName": "Kixby",
       "brand": null,
       "parentCompany": null,
@@ -12679,7 +13109,7 @@
       "taxRate": null
     },
     {
-      "id": "COMP-0200",
+      "id": "COMP-0210",
       "hotelName": "The Manhattan at Times Square",
       "brand": "IHG White Label Upper Midscale",
       "parentCompany": "IHG Hotels & Resorts",
@@ -12720,7 +13150,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0201",
+      "id": "COMP-0211",
       "hotelName": "M Social Hotel New York",
       "brand": "Millennium",
       "parentCompany": "Millennium Hotels & Resorts (MHR)",
@@ -12761,7 +13191,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0202",
+      "id": "COMP-0212",
       "hotelName": "Hyatt Union Square New York",
       "brand": "Hyatt",
       "parentCompany": "Hyatt Corporation",
@@ -12802,7 +13232,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0203",
+      "id": "COMP-0213",
       "hotelName": "The Lombardy",
       "brand": null,
       "parentCompany": null,
@@ -12843,7 +13273,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0204",
+      "id": "COMP-0214",
       "hotelName": "Four Seasons Hotel New York Downtown",
       "brand": "Four Seasons",
       "parentCompany": "Four Seasons Hotels & Resorts",
@@ -12884,7 +13314,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0205",
+      "id": "COMP-0215",
       "hotelName": "AMTD IDEA Tribeca Hotel",
       "brand": null,
       "parentCompany": null,
@@ -12925,7 +13355,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0206",
+      "id": "COMP-0216",
       "hotelName": "Kimpton Hotel Eventi",
       "brand": "Kimpton",
       "parentCompany": "IHG Hotels & Resorts",
@@ -12966,7 +13396,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0207",
+      "id": "COMP-0217",
       "hotelName": "1 Hotel Central Park",
       "brand": "1 Hotel",
       "parentCompany": "Starwood Hotels",
@@ -13007,7 +13437,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0208",
+      "id": "COMP-0218",
       "hotelName": "DoubleTree by Hilton New York Times Square South",
       "brand": "DoubleTree by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -13048,7 +13478,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0209",
+      "id": "COMP-0219",
       "hotelName": "The Marlton Hotel",
       "brand": null,
       "parentCompany": null,
@@ -13089,7 +13519,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0210",
+      "id": "COMP-0220",
       "hotelName": "Dream Downtown",
       "brand": "Dream Hotels",
       "parentCompany": "Hyatt Corporation",
@@ -13130,7 +13560,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0211",
+      "id": "COMP-0221",
       "hotelName": "Faena New York",
       "brand": "Faena",
       "parentCompany": "Accor",
@@ -13171,7 +13601,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0212",
+      "id": "COMP-0222",
       "hotelName": "The Hotel Chelsea",
       "brand": null,
       "parentCompany": null,
@@ -13212,7 +13642,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0213",
+      "id": "COMP-0223",
       "hotelName": "The Marcel at Gramercy Hotel",
       "brand": null,
       "parentCompany": null,
@@ -13253,7 +13683,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0214",
+      "id": "COMP-0224",
       "hotelName": "Hotel Henri NY",
       "brand": null,
       "parentCompany": null,
@@ -13294,7 +13724,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0215",
+      "id": "COMP-0225",
       "hotelName": "Hampton by Hilton Inn Manhattan-Chelsea",
       "brand": "Hampton by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -13335,7 +13765,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0216",
+      "id": "COMP-0226",
       "hotelName": "Motto by Hilton New York City Chelsea",
       "brand": "Motto by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -13376,7 +13806,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0217",
+      "id": "COMP-0227",
       "hotelName": "Hyatt Place New York / Chelsea",
       "brand": "Hyatt Place",
       "parentCompany": "Hyatt Corporation",
@@ -13417,7 +13847,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0218",
+      "id": "COMP-0228",
       "hotelName": "The Heritage Hotel New York City",
       "brand": null,
       "parentCompany": null,
@@ -13458,7 +13888,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0219",
+      "id": "COMP-0229",
       "hotelName": "Renaissance New York Chelsea Hotel",
       "brand": "Renaissance",
       "parentCompany": "Marriott International",
@@ -13499,7 +13929,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0220",
+      "id": "COMP-0230",
       "hotelName": "The Chelsean New York Hotel",
       "brand": null,
       "parentCompany": null,
@@ -13540,7 +13970,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0221",
+      "id": "COMP-0231",
       "hotelName": "Holiday Inn Manhattan 6th Avenue Chelsea",
       "brand": "Holiday Inn",
       "parentCompany": "IHG Hotels & Resorts",
@@ -13581,7 +14011,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0222",
+      "id": "COMP-0232",
       "hotelName": "Hilton New York Fashion District",
       "brand": "Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -13622,7 +14052,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0223",
+      "id": "COMP-0233",
       "hotelName": "The Evelyn",
       "brand": null,
       "parentCompany": null,
@@ -13663,48 +14093,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0224",
-      "hotelName": "Innside by Melia NoMad",
-      "brand": "Innside by Melia",
-      "parentCompany": "Melia Hotels International, S.A",
-      "hotelClass": "upscale",
-      "hotelClassDisplay": "Upscale",
-      "scale": "Upscale",
-      "operationType": "Chain Management",
-      "buildingClass": null,
-      "buildingClassDesc": "",
-      "address": "132-142 W 27th St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown South",
-      "borough": "Manhattan",
-      "zip": "10001",
-      "bbl": null,
-      "keys": 313,
-      "stories": 21,
-      "yearBuilt": 2016,
-      "yearRenovated": null,
-      "meetingRooms": 1,
-      "totalMeetingSpace": 700,
-      "locationType": "Urban",
-      "owner": null,
-      "lat": null,
-      "lng": null,
-      "marketValue": null,
-      "marketAV": null,
-      "taxableAV": null,
-      "taxClass": null,
-      "annualTax": null,
-      "taxPerKey": null,
-      "mvPerKey": null,
-      "grossSqft": null,
-      "marketValueHistory": [],
-      "scrapeStatus": "error",
-      "scrapeError": "No results",
-      "notes": ""
-    },
-    {
-      "id": "COMP-0225",
+      "id": "COMP-0234",
       "hotelName": "Park South Hotel",
       "brand": "JdV by Hyatt",
       "parentCompany": "Hyatt Corporation",
@@ -13745,7 +14134,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0226",
+      "id": "COMP-0235",
       "hotelName": "The Fifth Avenue Hotel",
       "brand": null,
       "parentCompany": null,
@@ -13786,7 +14175,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0227",
+      "id": "COMP-0236",
       "hotelName": "The Ritz-Carlton New York, NoMad",
       "brand": "Ritz-Carlton",
       "parentCompany": "Marriott International",
@@ -13827,7 +14216,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0228",
+      "id": "COMP-0237",
       "hotelName": "MOXY NYC Chelsea",
       "brand": "MOXY",
       "parentCompany": "Marriott International",
@@ -13868,48 +14257,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0229",
-      "hotelName": "Cambria Hotels New York-Chelsea",
-      "brand": "Cambria Hotels",
-      "parentCompany": "Choice Hotels International, Inc.",
-      "hotelClass": "upscale",
-      "hotelClassDisplay": "Upscale",
-      "scale": "Upscale",
-      "operationType": "Franchise",
-      "buildingClass": null,
-      "buildingClassDesc": "",
-      "address": "123-125 W 28th St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown South",
-      "borough": "Manhattan",
-      "zip": "10001",
-      "bbl": null,
-      "keys": 135,
-      "stories": 18,
-      "yearBuilt": 2015,
-      "yearRenovated": null,
-      "meetingRooms": 2,
-      "totalMeetingSpace": 597,
-      "locationType": "Urban",
-      "owner": null,
-      "lat": null,
-      "lng": null,
-      "marketValue": null,
-      "marketAV": null,
-      "taxableAV": null,
-      "taxClass": null,
-      "annualTax": null,
-      "taxPerKey": null,
-      "mvPerKey": null,
-      "grossSqft": null,
-      "marketValueHistory": [],
-      "scrapeStatus": "error",
-      "scrapeError": "No results",
-      "notes": ""
-    },
-    {
-      "id": "COMP-0230",
+      "id": "COMP-0238",
       "hotelName": "DoubleTree by Hilton Hotel New York City Chelsea",
       "brand": "DoubleTree by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -13950,7 +14298,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0231",
+      "id": "COMP-0239",
       "hotelName": "Martinique New York on Broadway, Curio Collection by Hilton",
       "brand": "Curio Collection by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -13991,48 +14339,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0232",
-      "hotelName": "Hilton Garden Inn New York/Midtown Park Ave",
-      "brand": "Hilton Garden Inn",
-      "parentCompany": "Hilton Worldwide",
-      "hotelClass": "upscale",
-      "hotelClassDisplay": "Upscale",
-      "scale": "Upscale",
-      "operationType": "Franchise",
-      "buildingClass": null,
-      "buildingClassDesc": "",
-      "address": "45-47 E 33rd St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown South",
-      "borough": "Manhattan",
-      "zip": "10016-5336",
-      "bbl": null,
-      "keys": 232,
-      "stories": 24,
-      "yearBuilt": 2014,
-      "yearRenovated": null,
-      "meetingRooms": 3,
-      "totalMeetingSpace": 1803,
-      "locationType": "Urban",
-      "owner": null,
-      "lat": null,
-      "lng": null,
-      "marketValue": null,
-      "marketAV": null,
-      "taxableAV": null,
-      "taxClass": null,
-      "annualTax": null,
-      "taxPerKey": null,
-      "mvPerKey": null,
-      "grossSqft": null,
-      "marketValueHistory": [],
-      "scrapeStatus": "error",
-      "scrapeError": "No results",
-      "notes": ""
-    },
-    {
-      "id": "COMP-0233",
+      "id": "COMP-0240",
       "hotelName": "Pendry Manhattan West",
       "brand": "Pendry",
       "parentCompany": "Montage International",
@@ -14073,7 +14380,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0234",
+      "id": "COMP-0241",
       "hotelName": "Hampton Inn Manhattan-35th St/Empire State Bldg",
       "brand": "Hampton by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -14114,7 +14421,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0235",
+      "id": "COMP-0242",
       "hotelName": "EVEN Hotels Times Square South",
       "brand": "EVEN Hotels",
       "parentCompany": "IHG Hotels & Resorts",
@@ -14155,48 +14462,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0236",
-      "hotelName": "Holiday Inn Express Manhattan Times Square South",
-      "brand": "Holiday Inn Express",
-      "parentCompany": "IHG Hotels & Resorts",
-      "hotelClass": "upper-midscale",
-      "hotelClassDisplay": "Upper Midscale",
-      "scale": "Upper Midscale",
-      "operationType": "Franchise",
-      "buildingClass": null,
-      "buildingClassDesc": "",
-      "address": "60-62 W 36th St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown South",
-      "borough": "Manhattan",
-      "zip": "10018-8039",
-      "bbl": null,
-      "keys": 135,
-      "stories": 19,
-      "yearBuilt": 2012,
-      "yearRenovated": null,
-      "meetingRooms": null,
-      "totalMeetingSpace": null,
-      "locationType": "Urban",
-      "owner": null,
-      "lat": null,
-      "lng": null,
-      "marketValue": null,
-      "marketAV": null,
-      "taxableAV": null,
-      "taxClass": null,
-      "annualTax": null,
-      "taxPerKey": null,
-      "mvPerKey": null,
-      "grossSqft": null,
-      "marketValueHistory": [],
-      "scrapeStatus": "error",
-      "scrapeError": "No results",
-      "notes": ""
-    },
-    {
-      "id": "COMP-0237",
+      "id": "COMP-0243",
       "hotelName": "voco Times Square South",
       "brand": "voco",
       "parentCompany": "IHG Hotels & Resorts",
@@ -14237,7 +14503,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0238",
+      "id": "COMP-0244",
       "hotelName": "The Draper New York, Tapestry Collection",
       "brand": "Tapestry Collection by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -14278,7 +14544,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0239",
+      "id": "COMP-0245",
       "hotelName": "Archer Hotel New York",
       "brand": null,
       "parentCompany": null,
@@ -14319,48 +14585,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0240",
-      "hotelName": "Refinery Hotel",
-      "brand": null,
-      "parentCompany": null,
-      "hotelClass": "luxury",
-      "hotelClassDisplay": "Luxury",
-      "scale": "Independent",
-      "operationType": "Independent",
-      "buildingClass": null,
-      "buildingClassDesc": "",
-      "address": "63-67 W 38th St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown South",
-      "borough": "Manhattan",
-      "zip": "10018-3818",
-      "bbl": null,
-      "keys": 197,
-      "stories": 12,
-      "yearBuilt": 1930,
-      "yearRenovated": 2012,
-      "meetingRooms": 3,
-      "totalMeetingSpace": 1200,
-      "locationType": "Urban",
-      "owner": null,
-      "lat": null,
-      "lng": null,
-      "marketValue": null,
-      "marketAV": null,
-      "taxableAV": null,
-      "taxClass": null,
-      "annualTax": null,
-      "taxPerKey": null,
-      "mvPerKey": null,
-      "grossSqft": null,
-      "marketValueHistory": [],
-      "scrapeStatus": "error",
-      "scrapeError": "No results",
-      "notes": ""
-    },
-    {
-      "id": "COMP-0241",
+      "id": "COMP-0246",
       "hotelName": "The Pod 39 Hotel",
       "brand": null,
       "parentCompany": null,
@@ -14401,7 +14626,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0242",
+      "id": "COMP-0247",
       "hotelName": "Candlewood Suites New York City - Times Square",
       "brand": "Candlewood Suites",
       "parentCompany": "IHG Hotels & Resorts",
@@ -14442,48 +14667,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0243",
-      "hotelName": "Courtyard New York Manhattan 5th Avenue",
-      "brand": "Courtyard",
-      "parentCompany": "Marriott International",
-      "hotelClass": "upscale",
-      "hotelClassDisplay": "Upscale",
-      "scale": "Upscale",
-      "operationType": "Franchise",
-      "buildingClass": null,
-      "buildingClassDesc": "",
-      "address": "3-5 E 40th St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown East",
-      "borough": "Manhattan",
-      "zip": "10016-0101",
-      "bbl": null,
-      "keys": 189,
-      "stories": 30,
-      "yearBuilt": 1988,
-      "yearRenovated": null,
-      "meetingRooms": null,
-      "totalMeetingSpace": null,
-      "locationType": "Urban",
-      "owner": null,
-      "lat": null,
-      "lng": null,
-      "marketValue": null,
-      "marketAV": null,
-      "taxableAV": null,
-      "taxClass": null,
-      "annualTax": null,
-      "taxPerKey": null,
-      "mvPerKey": null,
-      "grossSqft": null,
-      "marketValueHistory": [],
-      "scrapeStatus": "error",
-      "scrapeError": "No results",
-      "notes": ""
-    },
-    {
-      "id": "COMP-0244",
+      "id": "COMP-0248",
       "hotelName": "Park Terrace Hotel on Bryant Park",
       "brand": null,
       "parentCompany": null,
@@ -14524,7 +14708,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0245",
+      "id": "COMP-0249",
       "hotelName": "Courtyard New York Manhattan Times Square South",
       "brand": "Courtyard",
       "parentCompany": "Marriott International",
@@ -14565,7 +14749,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0246",
+      "id": "COMP-0250",
       "hotelName": "AC Hotels by Marriott New York Times Square",
       "brand": "AC Hotels by Marriott",
       "parentCompany": "Marriott International",
@@ -14606,7 +14790,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0247",
+      "id": "COMP-0251",
       "hotelName": "Delta Hotels New York Times Square",
       "brand": "Delta Hotel",
       "parentCompany": "Marriott International",
@@ -14647,7 +14831,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0248",
+      "id": "COMP-0252",
       "hotelName": "DoubleTree by Hilton Hotel New York Times Square West",
       "brand": "DoubleTree by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -14688,7 +14872,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0249",
+      "id": "COMP-0253",
       "hotelName": "The Chemists' Club Hotel",
       "brand": null,
       "parentCompany": null,
@@ -14729,7 +14913,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0250",
+      "id": "COMP-0254",
       "hotelName": "The Westin New York Grand Central",
       "brand": "Westin",
       "parentCompany": "Marriott International",
@@ -14770,48 +14954,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0251",
-      "hotelName": "Hampton Inn Manhattan Grand Central",
-      "brand": "Hampton by Hilton",
-      "parentCompany": "Hilton Worldwide",
-      "hotelClass": "upper-midscale",
-      "hotelClassDisplay": "Upper Midscale",
-      "scale": "Upper Midscale",
-      "operationType": "Franchise",
-      "buildingClass": null,
-      "buildingClassDesc": "",
-      "address": "231-233 E 43rd St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown East",
-      "borough": "Manhattan",
-      "zip": "10017-4701",
-      "bbl": null,
-      "keys": 148,
-      "stories": 21,
-      "yearBuilt": 2012,
-      "yearRenovated": null,
-      "meetingRooms": null,
-      "totalMeetingSpace": null,
-      "locationType": "Urban",
-      "owner": null,
-      "lat": null,
-      "lng": null,
-      "marketValue": null,
-      "marketAV": null,
-      "taxableAV": null,
-      "taxClass": null,
-      "annualTax": null,
-      "taxPerKey": null,
-      "mvPerKey": null,
-      "grossSqft": null,
-      "marketValueHistory": [],
-      "scrapeStatus": "error",
-      "scrapeError": "No results",
-      "notes": ""
-    },
-    {
-      "id": "COMP-0252",
+      "id": "COMP-0255",
       "hotelName": "Fitzpatrick Grand Central",
       "brand": null,
       "parentCompany": null,
@@ -14852,7 +14995,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0253",
+      "id": "COMP-0256",
       "hotelName": "EVEN Hotels New York Midtown East",
       "brand": "EVEN Hotels",
       "parentCompany": "IHG Hotels & Resorts",
@@ -14893,7 +15036,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0254",
+      "id": "COMP-0257",
       "hotelName": "Iroquois Hotel",
       "brand": null,
       "parentCompany": null,
@@ -14934,7 +15077,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0255",
+      "id": "COMP-0258",
       "hotelName": "Millennium Hotel Broadway Times Square",
       "brand": "Millennium",
       "parentCompany": "Millennium Hotels & Resorts (MHR)",
@@ -14975,7 +15118,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0256",
+      "id": "COMP-0259",
       "hotelName": "InterContinental New York Times Square",
       "brand": "InterContinental",
       "parentCompany": "IHG Hotels & Resorts",
@@ -15016,7 +15159,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0257",
+      "id": "COMP-0260",
       "hotelName": "Club Quarters Grand Central",
       "brand": "Club Quarters",
       "parentCompany": "Shared Mutual Services",
@@ -15057,7 +15200,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0258",
+      "id": "COMP-0261",
       "hotelName": "The Muse New York",
       "brand": null,
       "parentCompany": null,
@@ -15098,7 +15241,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0259",
+      "id": "COMP-0262",
       "hotelName": "Hotel Edison",
       "brand": null,
       "parentCompany": null,
@@ -15139,7 +15282,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0260",
+      "id": "COMP-0263",
       "hotelName": "Residence Inn New York Manhattan/Midtown East",
       "brand": "Residence Inn",
       "parentCompany": "Marriott International",
@@ -15180,7 +15323,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0261",
+      "id": "COMP-0264",
       "hotelName": "Motto by Hilton New York City Times Square",
       "brand": "Motto by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -15221,7 +15364,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0262",
+      "id": "COMP-0265",
       "hotelName": "Hard Rock Hotel New York",
       "brand": "Hard Rock",
       "parentCompany": "Hard Rock International (USA), Inc.",
@@ -15262,7 +15405,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0263",
+      "id": "COMP-0266",
       "hotelName": "voco Times Square - Broadway",
       "brand": "voco",
       "parentCompany": "IHG Hotels & Resorts",
@@ -15303,7 +15446,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0264",
+      "id": "COMP-0267",
       "hotelName": "Holiday Inn Express Manhattan Midtown West",
       "brand": "Holiday Inn Express",
       "parentCompany": "IHG Hotels & Resorts",
@@ -15344,7 +15487,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0265",
+      "id": "COMP-0268",
       "hotelName": "The Benjamin Royal Sonesta New York",
       "brand": "Royal Sonesta",
       "parentCompany": "Sonesta International Hotels Corp",
@@ -15385,7 +15528,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0266",
+      "id": "COMP-0269",
       "hotelName": "The Pod 51 Hotel",
       "brand": null,
       "parentCompany": null,
@@ -15426,7 +15569,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0267",
+      "id": "COMP-0270",
       "hotelName": "The Jewel",
       "brand": null,
       "parentCompany": null,
@@ -15467,7 +15610,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0268",
+      "id": "COMP-0271",
       "hotelName": "The Michelangelo New York - Starhotels Collezione",
       "brand": "Starhotels",
       "parentCompany": "Starhotels Finanziaria S.r.l.",
@@ -15508,7 +15651,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0269",
+      "id": "COMP-0272",
       "hotelName": "Baccarat Hotel New York",
       "brand": null,
       "parentCompany": null,
@@ -15549,7 +15692,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0270",
+      "id": "COMP-0273",
       "hotelName": "Warwick New York Hotel",
       "brand": "Warwick Hotel",
       "parentCompany": "Warwick Hotels and Resorts",
@@ -15590,7 +15733,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0271",
+      "id": "COMP-0274",
       "hotelName": "Ameritania Times Square",
       "brand": null,
       "parentCompany": null,
@@ -15631,7 +15774,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0272",
+      "id": "COMP-0275",
       "hotelName": "WestHouse Hotel New York",
       "brand": null,
       "parentCompany": null,
@@ -15672,7 +15815,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0273",
+      "id": "COMP-0276",
       "hotelName": "Dream Midtown",
       "brand": "Dream Hotels",
       "parentCompany": "Hyatt Corporation",
@@ -15713,7 +15856,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0274",
+      "id": "COMP-0277",
       "hotelName": "Thompson Central Park New York",
       "brand": "Thompson Hotels",
       "parentCompany": "Hyatt Corporation",
@@ -15754,7 +15897,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0275",
+      "id": "COMP-0278",
       "hotelName": "Four Seasons Hotel New York",
       "brand": "Four Seasons",
       "parentCompany": "Four Seasons Hotels & Resorts",
@@ -15795,7 +15938,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0276",
+      "id": "COMP-0279",
       "hotelName": "Hotel 57",
       "brand": null,
       "parentCompany": null,
@@ -15836,7 +15979,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0277",
+      "id": "COMP-0280",
       "hotelName": "Park Hyatt New York",
       "brand": "Park Hyatt",
       "parentCompany": "Hyatt Corporation",
@@ -15877,7 +16020,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0278",
+      "id": "COMP-0281",
       "hotelName": "Fairfield Inn & Suites New York Manhattan/Central Park",
       "brand": "Fairfield Inn",
       "parentCompany": "Marriott International",
@@ -15918,7 +16061,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0279",
+      "id": "COMP-0282",
       "hotelName": "The Empire Hotel",
       "brand": null,
       "parentCompany": null,
@@ -15959,7 +16102,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0280",
+      "id": "COMP-0283",
       "hotelName": "Bristol Plaza",
       "brand": null,
       "parentCompany": null,
@@ -16000,7 +16143,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0281",
+      "id": "COMP-0284",
       "hotelName": "The Lucerne",
       "brand": null,
       "parentCompany": null,
@@ -16041,7 +16184,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0282",
+      "id": "COMP-0285",
       "hotelName": "The Belnord Hotel",
       "brand": null,
       "parentCompany": null,
@@ -16082,7 +16225,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0283",
+      "id": "COMP-0286",
       "hotelName": "Night Hotel Broadway",
       "brand": null,
       "parentCompany": null,
@@ -16123,7 +16266,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0284",
+      "id": "COMP-0287",
       "hotelName": "The Langham, New York",
       "brand": "Langham",
       "parentCompany": "Great Eagle Hospitality",
@@ -16164,7 +16307,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0285",
+      "id": "COMP-0288",
       "hotelName": "Hotel Park Ave",
       "brand": null,
       "parentCompany": null,
@@ -16205,7 +16348,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0286",
+      "id": "COMP-0289",
       "hotelName": "The Washington Hotel NYC",
       "brand": null,
       "parentCompany": null,
@@ -16246,7 +16389,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0287",
+      "id": "COMP-0290",
       "hotelName": "HI New York City Hostel",
       "brand": null,
       "parentCompany": null,
@@ -16287,48 +16430,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0288",
-      "hotelName": "Aloft Manhattan Downtown - Financial District",
-      "brand": "aloft Hotel",
-      "parentCompany": "Marriott International",
-      "hotelClass": "upscale",
-      "hotelClassDisplay": "Upscale",
-      "scale": "Upscale",
-      "operationType": "Franchise",
-      "buildingClass": null,
-      "buildingClassDesc": "",
-      "address": "49-53 Ann St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Financial District",
-      "borough": "Manhattan",
-      "zip": "10038",
-      "bbl": null,
-      "keys": 128,
-      "stories": 18,
-      "yearBuilt": 2015,
-      "yearRenovated": null,
-      "meetingRooms": 1,
-      "totalMeetingSpace": 220,
-      "locationType": "Urban",
-      "owner": null,
-      "lat": null,
-      "lng": null,
-      "marketValue": null,
-      "marketAV": null,
-      "taxableAV": null,
-      "taxClass": null,
-      "annualTax": null,
-      "taxPerKey": null,
-      "mvPerKey": null,
-      "grossSqft": null,
-      "marketValueHistory": [],
-      "scrapeStatus": "error",
-      "scrapeError": "No results",
-      "notes": ""
-    },
-    {
-      "id": "COMP-0289",
+      "id": "COMP-0291",
       "hotelName": "The Roxy Hotel New York",
       "brand": null,
       "parentCompany": null,
@@ -16369,7 +16471,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0290",
+      "id": "COMP-0292",
       "hotelName": "Hyatt House New York Chelsea",
       "brand": "Hyatt House",
       "parentCompany": "Hyatt Corporation",
@@ -16410,7 +16512,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0291",
+      "id": "COMP-0293",
       "hotelName": "Residence Inn by Marriott New York Manhattan/Times Square",
       "brand": "Residence Inn",
       "parentCompany": "Marriott International",
@@ -16451,7 +16553,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0292",
+      "id": "COMP-0294",
       "hotelName": "Hilton New York Midtown",
       "brand": "Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -16492,7 +16594,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0293",
+      "id": "COMP-0295",
       "hotelName": "Wyndham Garden Chinatown",
       "brand": "Wyndham Garden",
       "parentCompany": "Wyndham Hotels & Resorts",
@@ -16533,7 +16635,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0294",
+      "id": "COMP-0296",
       "hotelName": "The Bowery House",
       "brand": null,
       "parentCompany": null,
@@ -16574,7 +16676,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0295",
+      "id": "COMP-0297",
       "hotelName": "The Ned NoMad",
       "brand": null,
       "parentCompany": null,
@@ -16615,7 +16717,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0296",
+      "id": "COMP-0298",
       "hotelName": "Tempo by Hilton New York Times Square",
       "brand": "Tempo by Hilton",
       "parentCompany": "Hilton Worldwide",
@@ -16658,7 +16760,7 @@
       "taxRate": null
     },
     {
-      "id": "COMP-0297",
+      "id": "COMP-0299",
       "hotelName": "Hyatt Regency Times Square",
       "brand": "Hyatt Regency",
       "parentCompany": "Hyatt Corporation",
@@ -16699,7 +16801,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0298",
+      "id": "COMP-0300",
       "hotelName": "Hotel Beacon NYC",
       "brand": null,
       "parentCompany": null,
@@ -16740,7 +16842,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0299",
+      "id": "COMP-0301",
       "hotelName": "The Frederick Hotel",
       "brand": null,
       "parentCompany": null,
@@ -16781,7 +16883,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0300",
+      "id": "COMP-0302",
       "hotelName": "Soho Grand Hotel",
       "brand": null,
       "parentCompany": null,
@@ -16822,7 +16924,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0301",
+      "id": "COMP-0303",
       "hotelName": "Arthouse Hotel New York City",
       "brand": null,
       "parentCompany": null,
@@ -16863,7 +16965,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0302",
+      "id": "COMP-0304",
       "hotelName": "Park Lane Hotel",
       "brand": null,
       "parentCompany": null,
@@ -16904,7 +17006,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0303",
+      "id": "COMP-0305",
       "hotelName": "Holiday Inn New York City Times Square",
       "brand": "Holiday Inn",
       "parentCompany": "IHG Hotels & Resorts",
@@ -16945,7 +17047,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0304",
+      "id": "COMP-0306",
       "hotelName": "Andaz 5th Avenue",
       "brand": "Andaz",
       "parentCompany": "Hyatt Corporation",
@@ -16986,7 +17088,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0305",
+      "id": "COMP-0307",
       "hotelName": "The Peninsula New York",
       "brand": "The Peninsula",
       "parentCompany": "The Peninsula Hotels",
@@ -17027,7 +17129,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0306",
+      "id": "COMP-0308",
       "hotelName": "UNTITLED at 3 Freeman Alley",
       "brand": null,
       "parentCompany": null,
@@ -17068,7 +17170,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0307",
+      "id": "COMP-0309",
       "hotelName": "Hotel Hugo Soho",
       "brand": null,
       "parentCompany": null,
@@ -17109,7 +17211,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0308",
+      "id": "COMP-0310",
       "hotelName": "11 Howard",
       "brand": null,
       "parentCompany": null,
@@ -17150,7 +17252,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0309",
+      "id": "COMP-0311",
       "hotelName": "Arlo SoHo",
       "brand": null,
       "parentCompany": null,
@@ -17191,7 +17293,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0310",
+      "id": "COMP-0312",
       "hotelName": "The Lexington Hotel, Autograph Collection",
       "brand": "Autograph Collection",
       "parentCompany": "Marriott International",
@@ -17232,7 +17334,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0311",
+      "id": "COMP-0313",
       "hotelName": "Hotel Indigo Lower East Side New York",
       "brand": "Hotel Indigo",
       "parentCompany": "IHG Hotels & Resorts",
@@ -17273,7 +17375,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0312",
+      "id": "COMP-0314",
       "hotelName": "The Mark",
       "brand": null,
       "parentCompany": null,
@@ -17314,7 +17416,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0313",
+      "id": "COMP-0315",
       "hotelName": "The Beekman Tower, Trademark Collection by Wyndham",
       "brand": "Trademark Collection by Wyndham",
       "parentCompany": "Wyndham Hotels & Resorts",
@@ -17355,7 +17457,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0314",
+      "id": "COMP-0316",
       "hotelName": "Gansevoort Meatpacking",
       "brand": null,
       "parentCompany": null,
@@ -17396,50 +17498,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0315",
-      "hotelName": "Waldorf Astoria New York",
-      "brand": "Waldorf Astoria",
-      "parentCompany": "Hilton Worldwide",
-      "hotelClass": "luxury",
-      "hotelClassDisplay": "Luxury",
-      "scale": "Luxury",
-      "operationType": "Chain Management",
-      "buildingClass": "U6",
-      "buildingClassDesc": "RAILROAD - PRIVATE OWNERSHIP",
-      "address": "301 Park Ave",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Midtown East",
-      "borough": "Manhattan",
-      "zip": "10022",
-      "bbl": "1-01304-0001",
-      "keys": 375,
-      "stories": 47,
-      "yearBuilt": 1931,
-      "yearRenovated": 2025,
-      "meetingRooms": 13,
-      "totalMeetingSpace": 25891,
-      "locationType": "Urban",
-      "owner": "METROPOLITAN TRANSPORTATION AUTHORITY",
-      "lat": null,
-      "lng": null,
-      "marketValue": 0,
-      "marketAV": 0,
-      "taxableAV": 0,
-      "taxClass": "3",
-      "annualTax": 0,
-      "taxPerKey": null,
-      "mvPerKey": null,
-      "grossSqft": null,
-      "marketValueHistory": [],
-      "scrapeStatus": "verified",
-      "scrapeError": null,
-      "notes": "",
-      "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1304&lot=1",
-      "taxRate": null
-    },
-    {
-      "id": "COMP-0316",
+      "id": "COMP-0317",
       "hotelName": "W New York \u2013 Union Square",
       "brand": "W Hotel",
       "parentCompany": "Marriott International",
@@ -17480,7 +17539,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0317",
+      "id": "COMP-0318",
       "hotelName": "Royalton Park Avenue",
       "brand": null,
       "parentCompany": null,
@@ -17521,7 +17580,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0318",
+      "id": "COMP-0319",
       "hotelName": "Four Points by Sheraton New York Downtown",
       "brand": "Four Points by Sheraton",
       "parentCompany": "Marriott International",
@@ -17562,7 +17621,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0319",
+      "id": "COMP-0320",
       "hotelName": "Margaritaville Resort Times Square",
       "brand": "Margaritaville",
       "parentCompany": "Margaritaville Enterprises LLC",
@@ -17603,7 +17662,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0320",
+      "id": "COMP-0321",
       "hotelName": "Sheraton New York Times Square Hotel",
       "brand": "Sheraton Hotel",
       "parentCompany": "Marriott International",
@@ -17644,7 +17703,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0321",
+      "id": "COMP-0322",
       "hotelName": "Park Central Hotel",
       "brand": null,
       "parentCompany": null,
@@ -17685,7 +17744,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0322",
+      "id": "COMP-0323",
       "hotelName": "YOTEL New York Times Square",
       "brand": "YOTEL",
       "parentCompany": "Yotel Limited",
@@ -17726,7 +17785,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0323",
+      "id": "COMP-0324",
       "hotelName": "Walker Hotel Tribeca",
       "brand": null,
       "parentCompany": null,
@@ -17767,7 +17826,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0324",
+      "id": "COMP-0325",
       "hotelName": "The Wall Street Hotel",
       "brand": null,
       "parentCompany": null,
@@ -17808,7 +17867,7 @@
       "notes": ""
     },
     {
-      "id": "COMP-0325",
+      "id": "COMP-0326",
       "hotelName": "World Center Hotel",
       "brand": null,
       "parentCompany": null,
@@ -17831,47 +17890,6 @@
       "yearRenovated": null,
       "meetingRooms": 2,
       "totalMeetingSpace": 1073,
-      "locationType": "Urban",
-      "owner": null,
-      "lat": null,
-      "lng": null,
-      "marketValue": null,
-      "marketAV": null,
-      "taxableAV": null,
-      "taxClass": null,
-      "annualTax": null,
-      "taxPerKey": null,
-      "mvPerKey": null,
-      "grossSqft": null,
-      "marketValueHistory": [],
-      "scrapeStatus": "error",
-      "scrapeError": "No results",
-      "notes": ""
-    },
-    {
-      "id": "COMP-0326",
-      "hotelName": "Hotel Indigo NYC Downtown Wall Street",
-      "brand": "Hotel Indigo",
-      "parentCompany": "IHG Hotels & Resorts",
-      "hotelClass": "upper-upscale",
-      "hotelClassDisplay": "Upper Upscale",
-      "scale": "Upper Upscale",
-      "operationType": "Franchise",
-      "buildingClass": null,
-      "buildingClassDesc": "",
-      "address": "120-122 Water St",
-      "dofAddress": null,
-      "neighborhood": null,
-      "submarket": "Financial District",
-      "borough": "Manhattan",
-      "zip": "10005-1638",
-      "bbl": null,
-      "keys": 127,
-      "stories": 29,
-      "yearBuilt": 2022,
-      "yearRenovated": null,
-      "meetingRooms": null,
-      "totalMeetingSpace": null,
       "locationType": "Urban",
       "owner": null,
       "lat": null,
