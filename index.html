@@ -245,6 +245,36 @@
             </div>
         </div>
 
+        <!-- DOF Address Lookup -->
+        <div class="lookup-bar" style="background:linear-gradient(135deg,#1a2a1e,#253d2d);border:1px solid #2a5537;border-radius:10px;padding:20px;margin-bottom:24px;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+                <h3 style="color:#4CAF50;font-size:1rem;margin:0;">🔍 Look Up Property Tax (NYC DOF)</h3>
+                <span style="color:#a0a0a0;font-size:0.8rem;">Enter any NYC address to pull live tax data</span>
+            </div>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;">
+                <div class="filter-group">
+                    <label>Street Number</label>
+                    <input type="text" id="lookupNum" placeholder="e.g. 420" style="min-width:80px;">
+                </div>
+                <div class="filter-group">
+                    <label>Street Name</label>
+                    <input type="text" id="lookupStreet" placeholder="e.g. Park Ave S" style="min-width:200px;">
+                </div>
+                <div class="filter-group">
+                    <label>Borough</label>
+                    <select id="lookupBorough" style="min-width:130px;">
+                        <option value="1">Manhattan</option>
+                        <option value="2">Bronx</option>
+                        <option value="3">Brooklyn</option>
+                        <option value="4">Queens</option>
+                        <option value="5">Staten Island</option>
+                    </select>
+                </div>
+                <button onclick="lookupAddress()" style="background:#4CAF50;color:#fff;border:none;padding:8px 20px;border-radius:6px;cursor:pointer;font-size:0.9rem;font-weight:600;height:34px;">Search DOF</button>
+            </div>
+            <div id="lookupResults" style="display:none;margin-top:16px;"></div>
+        </div>
+
         <!-- Filter Bar -->
         <div class="filter-bar">
             <div class="filter-group">
@@ -768,6 +798,146 @@
             a.href = URL.createObjectURL(blob);
             a.download = 'nyc_property_tax_export.csv';
             a.click();
+        }
+
+        // DOF Address Lookup
+        const BORO_NAMES = { '1': 'Manhattan', '2': 'Bronx', '3': 'Brooklyn', '4': 'Queens', '5': 'Staten Island' };
+        const DOF_API = 'https://data.cityofnewyork.us/resource/8y4t-faws.json';
+
+        // Allow Enter key to trigger search
+        document.getElementById('lookupStreet').addEventListener('keydown', e => { if (e.key === 'Enter') lookupAddress(); });
+        document.getElementById('lookupNum').addEventListener('keydown', e => { if (e.key === 'Enter') lookupAddress(); });
+
+        async function lookupAddress() {
+            const num = document.getElementById('lookupNum').value.trim();
+            const street = document.getElementById('lookupStreet').value.trim().toUpperCase();
+            const boro = document.getElementById('lookupBorough').value;
+            const resultsDiv = document.getElementById('lookupResults');
+
+            if (!num || !street) {
+                resultsDiv.style.display = 'block';
+                resultsDiv.innerHTML = '<div style="color:#f44336;">Please enter a street number and street name.</div>';
+                return;
+            }
+
+            resultsDiv.style.display = 'block';
+            resultsDiv.innerHTML = '<div style="color:#a0a0a0;">Searching NYC DOF...</div>';
+
+            try {
+                // Search by house number, street name, and borough
+                const query = `$where=housenum_lo='${num}' AND upper(street_name) LIKE '%${street.replace(/'/g, "''")}%' AND boro='${boro}'&$limit=10`;
+                const resp = await fetch(`${DOF_API}?${query}`);
+                const data = await resp.json();
+
+                if (!data.length) {
+                    // Try a looser match (just house number and borough)
+                    const query2 = `$where=housenum_lo='${num}' AND boro='${boro}'&$limit=50`;
+                    const resp2 = await fetch(`${DOF_API}?${query2}`);
+                    const data2 = await resp2.json();
+                    // Filter client-side for street name partial match
+                    const streetWords = street.split(/\s+/);
+                    const filtered = data2.filter(r => {
+                        const sn = (r.street_name || '').toUpperCase();
+                        return streetWords.some(w => sn.includes(w));
+                    });
+                    if (filtered.length) {
+                        renderLookupResults(filtered, num, street, boro);
+                    } else {
+                        resultsDiv.innerHTML = `<div style="color:#ff9800;">No results found for ${num} ${street}, ${BORO_NAMES[boro]}. Try adjusting the street name (e.g. "PARK AVE" instead of "PARK AVENUE SOUTH").<br><br><a href="https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=address" target="_blank" style="color:#4fc3f7;">Search directly on NYC DOF Portal ↗</a></div>`;
+                    }
+                    return;
+                }
+
+                renderLookupResults(data, num, street, boro);
+            } catch (e) {
+                resultsDiv.innerHTML = `<div style="color:#f44336;">Error searching DOF: ${e.message}. The NYC Open Data API may be temporarily unavailable.</div>`;
+            }
+        }
+
+        function renderLookupResults(data, num, street, boro) {
+            const resultsDiv = document.getElementById('lookupResults');
+            const boroName = BORO_NAMES[boro];
+
+            let html = `<div style="color:#a0a0a0;margin-bottom:10px;font-size:0.8rem;">Found ${data.length} result${data.length > 1 ? 's' : ''} — click to view details</div>`;
+            html += '<div style="display:flex;flex-direction:column;gap:8px;">';
+
+            for (const r of data) {
+                const addr = `${r.housenum_lo || ''} ${r.street_name || ''}`.trim();
+                const block = (r.block || '').replace(/^0+/, '');
+                const lot = (r.lot || '').replace(/^0+/, '');
+                const bbl = `${boro}-${(r.block||'').trim()}-${(r.lot||'').trim()}`;
+                const mv = parseInt(r.curmkttot || 0);
+                const tav = parseInt(r.curacttot || 0);
+                const tax = parseFloat(r.curtxbtot || 0);
+                const owner = r.owner || '—';
+                const bldgClass = r.bldg_class || '—';
+                const stories = r.num_bldgs || '—';
+                const sqft = parseInt(r.gross_sqft || 0);
+                const taxRate = tav > 0 ? (tax / tav * 100).toFixed(3) : '—';
+                const dofUrl = `https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop`;
+
+                html += `
+                <div style="background:#1a1f2e;border:1px solid #2a3547;border-radius:8px;padding:16px;cursor:pointer;"
+                     onmouseover="this.style.borderColor='#4CAF50'" onmouseout="this.style.borderColor='#2a3547'">
+                    <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;">
+                        <div>
+                            <div style="font-size:1.1rem;font-weight:700;color:#fff;">${addr}, ${boroName}</div>
+                            <div style="color:#a0a0a0;font-size:0.8rem;margin-top:2px;">BBL: ${bbl} · Owner: ${owner} · Class: ${bldgClass}</div>
+                        </div>
+                        <a href="${dofUrl}" target="_blank" style="background:#2a3547;color:#4fc3f7;padding:4px 10px;border-radius:4px;font-size:0.75rem;text-decoration:none;">Verify on DOF ↗</a>
+                    </div>
+                    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:12px;">
+                        <div>
+                            <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Market Value</div>
+                            <div style="color:#fff;font-size:1.1rem;font-weight:600;">${mv > 0 ? fmtM(mv) : '—'}</div>
+                        </div>
+                        <div>
+                            <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Taxable AV</div>
+                            <div style="color:#fff;font-size:1.1rem;font-weight:600;">${tav > 0 ? fmtM(tav) : '—'}</div>
+                        </div>
+                        <div>
+                            <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Annual Tax</div>
+                            <div style="color:#fff;font-size:1.1rem;font-weight:600;">${tax > 0 ? fmt(Math.round(tax)) : '—'}</div>
+                        </div>
+                        <div>
+                            <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Tax Rate (Tax/TAV)</div>
+                            <div style="color:#fff;font-size:1.1rem;font-weight:600;">${taxRate}%</div>
+                        </div>
+                        <div>
+                            <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Gross SqFt</div>
+                            <div style="color:#fff;font-size:1.1rem;font-weight:600;">${sqft > 0 ? sqft.toLocaleString() : '—'}</div>
+                        </div>
+                        <div>
+                            <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Tax / SqFt</div>
+                            <div style="color:#fff;font-size:1.1rem;font-weight:600;">${sqft > 0 && tax > 0 ? '$' + (tax/sqft).toFixed(2) : '—'}</div>
+                        </div>
+                    </div>
+                    <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap;">
+                        <a href="https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=address" target="_blank"
+                           style="background:#2a3547;color:#4fc3f7;border:none;padding:5px 12px;border-radius:4px;font-size:0.75rem;text-decoration:none;font-weight:600;">
+                            🔗 View Full Detail on DOF Portal
+                        </a>
+                        <button onclick="copyClaudeCmd('${addr.replace(/'/g, "\\'")}', '${boroName}')"
+                                style="background:#4fc3f7;color:#0f1419;border:none;padding:5px 12px;border-radius:4px;font-size:0.75rem;cursor:pointer;font-weight:600;">
+                            📋 Add to Tracker (Claude Code)
+                        </button>
+                    </div>
+                </div>`;
+            }
+
+            html += '</div>';
+            resultsDiv.innerHTML = html;
+        }
+
+        function copyClaudeCmd(addr, boro) {
+            const cmd = `cd "C:\\Users\\acarr\\Documents\\Highgate\\Tools\\nyc-tax-scraper"\n\nUse Playwright to scrape "${addr}, ${boro}" from the DOF portal at https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=address\n\nGet the full property detail: BBL, market value, taxable AV, annual tax, building class, owner, historical assessments (all available years), and the source URL.\n\nAdd it to properties.json following the same schema as the existing entries (with historicalAssessments array, tentativeAssessment, proForma projections, and redFlags). Then push to GitHub.`;
+            navigator.clipboard.writeText(cmd).then(() => {
+                const btn = event.target;
+                const orig = btn.textContent;
+                btn.textContent = '✓ Copied!';
+                btn.style.background = '#4CAF50';
+                setTimeout(() => { btn.textContent = orig; btn.style.background = '#4fc3f7'; }, 2000);
+            });
         }
 
         // Boot
