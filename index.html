@@ -971,17 +971,25 @@
                 const taxRate = (rate * 100).toFixed(3);
                 const dofUrl = `https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop`;
 
+                const cardId = `lookup-card-${boro}-${(r.block||'').trim()}-${(r.lot||'').trim()}`;
+                const taxRounded = Math.round(tax);
+
                 html += `
-                <div style="background:#1a1f2e;border:1px solid #2a3547;border-radius:8px;padding:16px;cursor:pointer;"
+                <div id="${cardId}" style="background:#1a1f2e;border:1px solid #2a3547;border-radius:8px;padding:16px;"
                      onmouseover="this.style.borderColor='#4CAF50'" onmouseout="this.style.borderColor='#2a3547'">
                     <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;">
-                        <div>
-                            <div style="font-size:1.1rem;font-weight:700;color:#fff;">${addr}, ${boroName}</div>
-                            <div style="color:#a0a0a0;font-size:0.8rem;margin-top:2px;">BBL: ${bbl} · Owner: ${owner} · Class: ${bldgClass} · FY ${taxYear}</div>
+                        <div style="flex:1;">
+                            <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
+                                <input type="text" placeholder="Property Name (e.g. Royalton Park Avenue)"
+                                    style="background:#0f1419;border:1px solid #2a3547;color:#fff;padding:5px 10px;border-radius:4px;font-size:1.05rem;font-weight:700;width:350px;"
+                                    onfocus="this.style.borderColor='#4CAF50'" onblur="this.style.borderColor='#2a3547'" />
+                            </div>
+                            <div style="font-size:0.95rem;color:#a0a0a0;">${addr}, ${boroName}</div>
+                            <div style="color:#666;font-size:0.8rem;margin-top:2px;">BBL: ${bbl} · Owner: ${owner} · Class: ${bldgClass} · FY ${taxYear}</div>
                         </div>
-                        <a href="${dofUrl}" target="_blank" style="background:#2a3547;color:#4fc3f7;padding:4px 10px;border-radius:4px;font-size:0.75rem;text-decoration:none;">Verify on DOF ↗</a>
+                        <a href="${dofUrl}" target="_blank" style="background:#2a3547;color:#4fc3f7;padding:4px 10px;border-radius:4px;font-size:0.75rem;text-decoration:none;height:fit-content;">Verify on DOF ↗</a>
                     </div>
-                    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:12px;">
+                    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:12px;">
                         <div>
                             <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Market Value</div>
                             <div style="color:#fff;font-size:1.1rem;font-weight:600;">${mv > 0 ? fmtM(mv) : '—'}</div>
@@ -992,7 +1000,7 @@
                         </div>
                         <div>
                             <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Est. Annual Tax</div>
-                            <div style="color:#fff;font-size:1.1rem;font-weight:600;">${tax > 0 ? fmt(Math.round(tax)) : '—'}</div>
+                            <div style="color:#fff;font-size:1.1rem;font-weight:600;">${tax > 0 ? fmt(taxRounded) : '—'}</div>
                         </div>
                         <div>
                             <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Statutory Rate (Class ${tc})</div>
@@ -1005,6 +1013,22 @@
                         <div>
                             <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Est. Tax / SqFt</div>
                             <div style="color:#fff;font-size:1.1rem;font-weight:600;">${sqft > 0 && tax > 0 ? '$' + (tax/sqft).toFixed(2) : '—'}</div>
+                        </div>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:12px;margin-top:14px;padding:10px;background:#151a24;border-radius:6px;border:1px solid #2a3547;">
+                        <div style="display:flex;align-items:center;gap:6px;">
+                            <span style="color:#a0a0a0;font-size:0.8rem;font-weight:600;">🔑 Keys:</span>
+                            <input type="number" placeholder="# of keys" min="1" style="background:#0f1419;border:1px solid #2a3547;color:#fff;padding:5px 8px;border-radius:4px;width:90px;font-size:0.9rem;text-align:center;"
+                                onfocus="this.style.borderColor='#4CAF50'" onblur="this.style.borderColor='#2a3547'"
+                                oninput="updateTaxPerKey(this, ${taxRounded})" />
+                        </div>
+                        <div style="display:flex;align-items:center;gap:6px;">
+                            <span style="color:#a0a0a0;font-size:0.8rem;font-weight:600;">Est. Tax / Key:</span>
+                            <span class="tax-per-key" style="color:#4CAF50;font-size:1.1rem;font-weight:700;">—</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:6px;">
+                            <span style="color:#a0a0a0;font-size:0.8rem;font-weight:600;">MV / Key:</span>
+                            <span class="mv-per-key" data-mv="${mv}" style="color:#4fc3f7;font-size:1.1rem;font-weight:700;">—</span>
                         </div>
                     </div>
                     <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap;">
@@ -1033,6 +1057,26 @@
                 btn.style.background = '#4CAF50';
                 setTimeout(() => { btn.textContent = orig; btn.style.background = '#4fc3f7'; }, 2000);
             });
+        }
+
+        function updateTaxPerKey(input, annualTax) {
+            const card = input.closest('[id^="lookup-card-"]');
+            const taxPerKeyEl = card.querySelector('.tax-per-key');
+            const mvPerKeyEl = card.querySelector('.mv-per-key');
+            const mv = parseInt(mvPerKeyEl.dataset.mv || 0);
+            const keys = parseInt(input.value);
+            if (keys > 0 && annualTax > 0) {
+                taxPerKeyEl.textContent = '$' + Math.round(annualTax / keys).toLocaleString();
+                taxPerKeyEl.style.color = (annualTax / keys) > 15000 ? '#f44336' : (annualTax / keys) > 10000 ? '#ff9800' : '#4CAF50';
+            } else {
+                taxPerKeyEl.textContent = '—';
+                taxPerKeyEl.style.color = '#4CAF50';
+            }
+            if (keys > 0 && mv > 0) {
+                mvPerKeyEl.textContent = '$' + Math.round(mv / keys).toLocaleString();
+            } else {
+                mvPerKeyEl.textContent = '—';
+            }
         }
 
         // Boot
