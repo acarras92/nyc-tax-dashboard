@@ -1,0 +1,982 @@
+{
+  "1535 Broadway": {
+    "owner": "UNAVAILABLE OWNER",
+    "taxClass": "2",
+    "buildingClass": "R0 - SPECIAL CONDOMINIUM BILLING LOT",
+    "stories": "50",
+    "marketValue": "0",
+    "transAV": "0",
+    "taxableAV": "0",
+    "block": "1017",
+    "lot": "7501",
+    "annualTaxActual": 0,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1017&lot=7501",
+    "bbl": "1-01017-7501",
+    "scraped": true
+  },
+  "23 Lexington Ave": {
+    "error": "No exact match in results"
+  },
+  "190 Allen St": {
+    "owner": "UNAVAILABLE OWNER",
+    "taxClass": "2",
+    "buildingClass": "R0 - SPECIAL CONDOMINIUM BILLING LOT",
+    "stories": "20",
+    "marketValue": "0",
+    "transAV": "0",
+    "taxableAV": "0",
+    "block": "417",
+    "lot": "7501",
+    "annualTaxActual": 0,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=417&lot=7501",
+    "bbl": "1-00417-7501",
+    "scraped": true
+  },
+  "25 W 51st St": {
+    "owner": "UNAVAILABLE OWNER",
+    "taxClass": "2",
+    "buildingClass": "R0 - SPECIAL CONDOMINIUM BILLING LOT",
+    "stories": "28",
+    "marketValue": "0",
+    "transAV": "0",
+    "taxableAV": "0",
+    "block": "1267",
+    "lot": "7501",
+    "annualTaxActual": 0,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1267&lot=7501",
+    "bbl": "1-01267-7501",
+    "scraped": true
+  },
+  "2 E 61st St": {
+    "error": "No exact match in results"
+  },
+  "32 W 48th St": {
+    "owner": "N47 ASSOCIATES LLC",
+    "taxClass": "4",
+    "buildingClass": "H1 - LUXURY: SPAS, FINE DINING, ELEGENT ROOMS",
+    "stories": "33",
+    "marketValue": "43,441,000",
+    "transAV": "19,556,820",
+    "taxableAV": "19,548,450",
+    "block": "1263",
+    "lot": "55",
+    "annualTaxActual": 2120616,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1263&lot=55",
+    "bbl": "1-01263-0055",
+    "scraped": true
+  },
+  "9 Orchard St": {
+    "error": "No exact match in results"
+  },
+  "35 E 76th St": {
+    "error": "No exact match in results"
+  },
+  "103 Waverly Pl": {
+    "owner": "UNAVAILABLE OWNER",
+    "taxClass": "4",
+    "buildingClass": "RH - HOTEL/BOATEL",
+    "stories": "9",
+    "marketValue": "16,956,000",
+    "transAV": "6,657,838",
+    "taxableAV": "6,657,838",
+    "block": "553",
+    "lot": "1202",
+    "annualTaxActual": 722242,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=553&lot=1202",
+    "bbl": "1-00553-1202",
+    "scraped": true
+  },
+  "143 Bowery": {
+    "owner": "ANCHOR REALTY CORP",
+    "taxClass": "4",
+    "buildingClass": "HH - HOSTELS: BED RENTALS IN DORMITORY-LIKE S",
+    "stories": "5",
+    "marketValue": "3,674,000",
+    "transAV": "1,436,220",
+    "taxableAV": "1,436,220",
+    "block": "423",
+    "lot": "8",
+    "annualTaxActual": 155801,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=423&lot=8",
+    "bbl": "1-00423-0008",
+    "scraped": true
+  },
+  "60 W 37th St": {
+    "owner": "NY 37TH ES LLC",
+    "taxClass": "4",
+    "buildingClass": "RH - HOTEL/BOATEL",
+    "stories": "40",
+    "marketValue": "60,761,216",
+    "transAV": "24,522,360",
+    "taxableAV": "24,522,360",
+    "block": "838",
+    "lot": "1202",
+    "annualTaxActual": 2660186,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=838&lot=1202",
+    "bbl": "1-00838-1202",
+    "scraped": true
+  },
+  "1 United Nations Plz": {
+    "error": "No exact match in results"
+  },
+  "21 E 52nd St": {
+    "error": "No exact match in results"
+  },
+  "205 E 45th St": {
+    "owner": "MIDTOWN 45 VACATION OWNERSHIP PLAN",
+    "taxClass": "4",
+    "buildingClass": "RH - HOTEL/BOATEL",
+    "stories": "32",
+    "marketValue": "182,505",
+    "transAV": "73,284",
+    "taxableAV": "73,284",
+    "block": "1319",
+    "lot": "1350",
+    "annualTaxActual": 7870,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1319&lot=1350",
+    "bbl": "1-01319-1350",
+    "scraped": true
+  },
+  "33 W 37th St": {
+    "owner": "54M 33W37 LLC",
+    "taxClass": "2",
+    "buildingClass": "R0 - SPECIAL CONDOMINIUM BILLING LOT",
+    "stories": "20",
+    "marketValue": "0",
+    "transAV": "0",
+    "taxableAV": "0",
+    "block": "839",
+    "lot": "7503",
+    "annualTaxActual": 0,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=839&lot=7503",
+    "bbl": "1-00839-7503",
+    "scraped": true
+  },
+  "101 W 57th St": {
+    "owner": "HILTON RESORTS CORPORATION",
+    "taxClass": "2",
+    "buildingClass": "R0 - SPECIAL CONDOMINIUM BILLING LOT",
+    "stories": "18",
+    "marketValue": "0",
+    "transAV": "0",
+    "taxableAV": "0",
+    "block": "1010",
+    "lot": "7508",
+    "annualTaxActual": 0,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1010&lot=7508",
+    "bbl": "1-01010-7508",
+    "scraped": true
+  },
+  "30 W 39th St": {
+    "owner": "26 WEST 39TH LLC",
+    "taxClass": "2",
+    "buildingClass": "R0 - SPECIAL CONDOMINIUM BILLING LOT",
+    "stories": "27",
+    "marketValue": "0",
+    "transAV": "0",
+    "taxableAV": "0",
+    "block": "840",
+    "lot": "7504",
+    "annualTaxActual": 0,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=840&lot=7504",
+    "bbl": "1-00840-7504",
+    "scraped": true
+  },
+  "44 W 44th St": {
+    "error": "No exact match in results"
+  },
+  "22 E 38th St": {
+    "owner": "DAMI PROPERTIES LLC",
+    "taxClass": "4",
+    "buildingClass": "O2 - OFFICE ONLY, GT 1 STORY, LT 7 STORIES",
+    "stories": "3",
+    "marketValue": "1,435,000",
+    "transAV": "607,140",
+    "taxableAV": "607,140",
+    "block": "918",
+    "lot": "45",
+    "annualTaxActual": 65863,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=918&lot=45",
+    "bbl": "1-00918-0045",
+    "scraped": true
+  },
+  "70 Pine St": {
+    "owner": "70 PINEHURST AVENUE LLC",
+    "taxClass": "2",
+    "buildingClass": "C1 - OVER SIX FAMILIES WITHOUT STORES",
+    "stories": "5",
+    "marketValue": "1,279,000",
+    "transAV": "525,330",
+    "taxableAV": "525,330",
+    "block": "2177",
+    "lot": "134",
+    "annualTaxActual": 60700,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=2177&lot=134",
+    "bbl": "1-02177-0134",
+    "scraped": true
+  },
+  "131 Madison Ave": {
+    "error": "No exact match in results"
+  },
+  "20 W 29th St": {
+    "owner": "HARDWELL ACQUISITION",
+    "taxClass": "4",
+    "buildingClass": "O5 - OFFICE WITH OTHER COMMERCIAL,LT 7 STORIE",
+    "stories": "4",
+    "marketValue": "1,055,000",
+    "transAV": "444,150",
+    "taxableAV": "444,150",
+    "block": "779",
+    "lot": "35",
+    "annualTaxActual": 48181,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=779&lot=35",
+    "bbl": "1-00779-0035",
+    "scraped": true
+  },
+  "556 3rd Ave": {
+    "owner": "ALLEZYOKO LLC",
+    "taxClass": "2",
+    "buildingClass": "R4 - CONDO; RESIDENTIAL UNIT IN ELEVATOR BLDG",
+    "stories": "31",
+    "marketValue": "1,391,151",
+    "transAV": "581,988",
+    "taxableAV": "581,988",
+    "block": "892",
+    "lot": "1105",
+    "annualTaxActual": 68063,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=892&lot=1105",
+    "bbl": "1-00892-1105",
+    "scraped": true
+  },
+  "12 E 48th St": {
+    "owner": "1248 ASSOCIATES LLC",
+    "taxClass": "2",
+    "buildingClass": "R0 - SPECIAL CONDOMINIUM BILLING LOT",
+    "stories": "33",
+    "marketValue": "0",
+    "transAV": "0",
+    "taxableAV": "0",
+    "block": "1283",
+    "lot": "7501",
+    "annualTaxActual": 0,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1283&lot=7501",
+    "bbl": "1-01283-7501",
+    "scraped": true
+  },
+  "75 Wall St": {
+    "owner": "BYUN, HEAMIN",
+    "taxClass": "2",
+    "buildingClass": "R4 - CONDO; RESIDENTIAL UNIT IN ELEVATOR BLDG",
+    "stories": "36",
+    "marketValue": "189,396",
+    "transAV": "79,630",
+    "taxableAV": "79,630",
+    "block": "31",
+    "lot": "1050",
+    "annualTaxActual": 9905,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=31&lot=1050",
+    "bbl": "1-00031-1050",
+    "scraped": true
+  },
+  "42 W 58th St": {
+    "owner": "METROPOLITAN 58TH STREET ASSOCIATES, LLC",
+    "taxClass": "4",
+    "buildingClass": "HS - EXTENDED STAY/SUITE: AMENITIES SIMILAR",
+    "stories": "17",
+    "marketValue": "29,015,000",
+    "transAV": "11,708,280",
+    "taxableAV": "11,708,280",
+    "block": "1273",
+    "lot": "60",
+    "annualTaxActual": 1270114,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1273&lot=60",
+    "bbl": "1-01273-0060",
+    "scraped": true
+  },
+  "45 W 44th St": {
+    "owner": "KSSNY INC.",
+    "taxClass": "4",
+    "buildingClass": "H1 - LUXURY: SPAS, FINE DINING, ELEGENT ROOMS",
+    "stories": "30",
+    "marketValue": "97,933,000",
+    "transAV": "43,514,260",
+    "taxableAV": "43,514,260",
+    "block": "1260",
+    "lot": "14",
+    "annualTaxActual": 4720447,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1260&lot=14",
+    "bbl": "1-01260-0014",
+    "scraped": true
+  },
+  "123 Nassau St": {
+    "owner": "5 BEEKMAN HOTEL OWNER LLC",
+    "taxClass": "4",
+    "buildingClass": "RH - HOTEL/BOATEL",
+    "stories": "46",
+    "marketValue": "626,513",
+    "transAV": "229,361",
+    "taxableAV": "229,361",
+    "block": "90",
+    "lot": "1202",
+    "annualTaxActual": 24941,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=90&lot=1202",
+    "bbl": "1-00090-1202",
+    "scraped": true
+  },
+  "40 W 40th St": {
+    "error": "No exact match in results"
+  },
+  "200 W 56th St": {
+    "owner": "T PARK CENTRAL LLC",
+    "taxClass": "4",
+    "buildingClass": "RH - HOTEL/BOATEL",
+    "stories": "",
+    "marketValue": "313,200",
+    "transAV": "128,708",
+    "taxableAV": "128,708",
+    "block": "1027",
+    "lot": "1204",
+    "annualTaxActual": 13962,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1027&lot=1204",
+    "bbl": "1-01027-1204",
+    "scraped": true
+  },
+  "246 Spring St": {
+    "owner": "BAYROCK/SAPIR ORGANIZATION LLC",
+    "taxClass": "4",
+    "buildingClass": "RH - HOTEL/BOATEL",
+    "stories": "45",
+    "marketValue": "247,658",
+    "transAV": "87,109",
+    "taxableAV": "87,109",
+    "block": "491",
+    "lot": "1250",
+    "annualTaxActual": 9442,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=491&lot=1250",
+    "bbl": "1-00491-1250",
+    "scraped": true
+  },
+  "40 W 45th St": {
+    "error": "No exact match in results"
+  },
+  "52 W 13th St": {
+    "owner": "HARRIS, BRENDA",
+    "taxClass": "1",
+    "buildingClass": "B2 - TWO FAMILY FRAME",
+    "stories": "3",
+    "marketValue": "1,989,000",
+    "taxableAV": "51,382",
+    "block": "1727",
+    "lot": "63",
+    "annualTaxActual": 10196,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1727&lot=63",
+    "bbl": "1-01727-0063",
+    "scraped": true
+  },
+  "1567 Broadway": {
+    "owner": "INTELL TIMES SQUARE, LLC.",
+    "taxClass": "4",
+    "buildingClass": "RH - HOTEL/BOATEL",
+    "stories": "54",
+    "marketValue": "140,687,165",
+    "transAV": "55,052,116",
+    "taxableAV": "55,052,116",
+    "block": "1018",
+    "lot": "1001",
+    "annualTaxActual": 5972054,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1018&lot=1001",
+    "bbl": "1-01018-1001",
+    "scraped": true
+  },
+  "30 W 46th St": {
+    "owner": "NY 46 LLC",
+    "taxClass": "4",
+    "buildingClass": "H6 - APARTMENT HOTEL",
+    "stories": "21",
+    "marketValue": "39,759,000",
+    "transAV": "13,976,280",
+    "taxableAV": "13,976,280",
+    "block": "1261",
+    "lot": "54",
+    "annualTaxActual": 1516147,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1261&lot=54",
+    "bbl": "1-01261-0054",
+    "scraped": true
+  },
+  "410 E 92nd St": {
+    "owner": "RLJ C NY UPPER EASTSIDE, LLC",
+    "taxClass": "4",
+    "buildingClass": "RH - HOTEL/BOATEL",
+    "stories": "15",
+    "marketValue": "32,283,000",
+    "transAV": "12,916,397",
+    "taxableAV": "12,916,397",
+    "block": "1571",
+    "lot": "1006",
+    "annualTaxActual": 1401171,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1571&lot=1006",
+    "bbl": "1-01571-1006",
+    "scraped": true
+  },
+  "52 W 36th St": {
+    "owner": "BLUE 36TH STREET NYC LLC",
+    "taxClass": "4",
+    "buildingClass": "H3 - LIMITED SERVICE: LIMITED AMENITIES, BUDG",
+    "stories": "25",
+    "marketValue": "36,402,000",
+    "transAV": "14,470,380",
+    "taxableAV": "14,470,380",
+    "block": "837",
+    "lot": "74",
+    "annualTaxActual": 1569747,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=837&lot=74",
+    "bbl": "1-00837-0074",
+    "scraped": true
+  },
+  "45 W 35th St": {
+    "error": "No exact match in results"
+  },
+  "790 7th Ave": {
+    "error": "No exact match in results"
+  },
+  "226 W 52nd St": {
+    "error": "No exact match in results"
+  },
+  "134 4th Ave": {
+    "error": "No exact match in results"
+  },
+  "111 E 56th St": {
+    "error": "No exact match in results"
+  },
+  "27 Barclay St": {
+    "error": "No exact match in results"
+  },
+  "39 6th Ave": {
+    "error": "No exact match in results"
+  },
+  "851 6th Ave": {
+    "error": "No exact match in results"
+  },
+  "1414 6th Ave": {
+    "error": "No exact match in results"
+  },
+  "525 8th Ave": {
+    "error": "No exact match in results"
+  },
+  "355 W 16th St": {
+    "error": "No exact match in results"
+  },
+  "222 W 23rd St": {
+    "error": "No exact match in results"
+  },
+  "201 E 24th St": {
+    "error": "No exact match in results"
+  },
+  "125 W 26th St": {
+    "error": "No exact match in results"
+  },
+  "132-142 W 27th St": {
+    "owner": "27 STREET EQUITIES LLC",
+    "taxClass": "4",
+    "buildingClass": "H2 - FULL SERVICE: IN HOUSE DINING, FITNESS C",
+    "stories": "21",
+    "marketValue": "37,086,000",
+    "transAV": "14,755,410",
+    "taxableAV": "14,755,410",
+    "block": "802",
+    "lot": "61",
+    "annualTaxActual": 1614933,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=802&lot=61",
+    "bbl": "1-00802-0061",
+    "scraped": true
+  },
+  "1 W 28th St": {
+    "error": "No exact match in results"
+  },
+  "123-125 W 28th St": {
+    "owner": "CONCORD PANORAMA CHELSEA HOTEL LLC",
+    "taxClass": "4",
+    "buildingClass": "H3 - LIMITED SERVICE: LIMITED AMENITIES, BUDG",
+    "stories": "18",
+    "marketValue": "25,347,000",
+    "transAV": "9,935,100",
+    "taxableAV": "9,935,100",
+    "block": "804",
+    "lot": "22",
+    "annualTaxActual": 1086155,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=804&lot=22",
+    "bbl": "1-00804-0022",
+    "scraped": true
+  },
+  "128 W 29th St": {
+    "error": "No exact match in results"
+  },
+  "49 W 32nd St": {
+    "error": "No exact match in results"
+  },
+  "45-47 E 33rd St": {
+    "owner": "UNAVAILABLE OWNER",
+    "taxClass": "4",
+    "buildingClass": "RH - HOTEL/BOATEL",
+    "stories": "24",
+    "marketValue": "40,849,308",
+    "transAV": "16,168,223",
+    "taxableAV": "16,168,223",
+    "block": "863",
+    "lot": "1002",
+    "annualTaxActual": 1753929,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=863&lot=1002",
+    "bbl": "1-00863-1002",
+    "scraped": true
+  },
+  "440 W 33rd St": {
+    "error": "No exact match in results"
+  },
+  "59 W 35th St": {
+    "error": "No exact match in results"
+  },
+  "321 W 35th St": {
+    "error": "No exact match in results"
+  },
+  "60-62 W 36th St": {
+    "owner": "HOSPITALITY FINANCE COMPANY ONE, LLC",
+    "taxClass": "4",
+    "buildingClass": "H3 - LIMITED SERVICE: LIMITED AMENITIES, BUDG",
+    "stories": "18",
+    "marketValue": "24,182,000",
+    "transAV": "9,659,120",
+    "taxableAV": "9,659,120",
+    "block": "837",
+    "lot": "78",
+    "annualTaxActual": 1047821,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=837&lot=78",
+    "bbl": "1-00837-0078",
+    "scraped": true
+  },
+  "343 W 36th St": {
+    "error": "No exact match in results"
+  },
+  "4-6 W 37th St": {
+    "error": "No exact match in results"
+  },
+  "43-47 W 38th St": {
+    "error": "No exact match in results"
+  },
+  "63-67 W 38th St": {
+    "owner": "REFINERY AA LLC",
+    "taxClass": "4",
+    "buildingClass": "HB - BOUTIQUE: 10-100 ROOMS, W/LUXURY FACILIT",
+    "stories": "13",
+    "marketValue": "47,606,000",
+    "transAV": "18,673,840",
+    "taxableAV": "18,673,840",
+    "block": "840",
+    "lot": "6",
+    "annualTaxActual": 2025738,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=840&lot=6",
+    "bbl": "1-00840-0006",
+    "scraped": true
+  },
+  "145 E 39th St": {
+    "error": "No exact match in results"
+  },
+  "339 W 39th St": {
+    "error": "No exact match in results"
+  },
+  "3-5 E 40th St": {
+    "owner": "VERILEN REPRODUCTIONS",
+    "taxClass": "4",
+    "buildingClass": "H3 - LIMITED SERVICE: LIMITED AMENITIES, BUDG",
+    "stories": "31",
+    "marketValue": "39,705,000",
+    "transAV": "15,211,870",
+    "taxableAV": "15,211,870",
+    "block": "1275",
+    "lot": "6",
+    "annualTaxActual": 1650184,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1275&lot=6",
+    "bbl": "1-01275-0006",
+    "scraped": true
+  },
+  "14-22 W 40th St": {
+    "owner": "WANG, KATHERINE  Y",
+    "taxClass": "2",
+    "buildingClass": "R4 - CONDO; RESIDENTIAL UNIT IN ELEVATOR BLDG",
+    "stories": "33",
+    "marketValue": "293,008",
+    "transAV": "144,335",
+    "taxableAV": "131,854",
+    "block": "841",
+    "lot": "1008",
+    "annualTaxActual": 13531,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=841&lot=1008",
+    "bbl": "1-00841-1008",
+    "scraped": true
+  },
+  "114 W 40th St": {
+    "error": "No exact match in results"
+  },
+  "260 W 40th St": {
+    "error": "No exact match in results"
+  },
+  "340 W 40th St": {
+    "error": "No exact match in results"
+  },
+  "350 W 40th St": {
+    "error": "No exact match in results"
+  },
+  "52 E 41st St": {
+    "error": "No exact match in results"
+  },
+  "212 E 42nd St": {
+    "error": "No exact match in results"
+  },
+  "231-233 E 43rd St": {
+    "owner": "HOSPITALITY FINANCE COMPANY TWO, LLC",
+    "taxClass": "4",
+    "buildingClass": "H3 - LIMITED SERVICE: LIMITED AMENITIES, BUDG",
+    "stories": "20",
+    "marketValue": "24,107,000",
+    "transAV": "9,551,670",
+    "taxableAV": "9,551,670",
+    "block": "1317",
+    "lot": "19",
+    "annualTaxActual": 1036165,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1317&lot=19",
+    "bbl": "1-01317-0019",
+    "scraped": true
+  },
+  "141 E 44th St": {
+    "error": "No exact match in results"
+  },
+  "221 E 44th St": {
+    "error": "No exact match in results"
+  },
+  "49 W 44th St": {
+    "error": "No exact match in results"
+  },
+  "145 W 44th St": {
+    "error": "No exact match in results"
+  },
+  "300 W 44th St": {
+    "error": "No exact match in results"
+  },
+  "128 E 45th St": {
+    "error": "No exact match in results"
+  },
+  "130 W 46th St": {
+    "error": "No exact match in results"
+  },
+  "228-240 W 47th St": {
+    "error": "No exact match in results"
+  },
+  "148 E 48th St": {
+    "error": "No exact match in results"
+  },
+  "150A W 48th St": {
+    "owner": "TMHCR 48TH STREET LLC",
+    "taxClass": "2",
+    "buildingClass": "R0 - SPECIAL CONDOMINIUM BILLING LOT",
+    "stories": "38",
+    "marketValue": "0",
+    "transAV": "0",
+    "taxableAV": "0",
+    "block": "1000",
+    "lot": "7502",
+    "annualTaxActual": 0,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1000&lot=7502",
+    "bbl": "1-01000-7502",
+    "scraped": true
+  },
+  "159 W 48th St": {
+    "error": "No exact match in results"
+  },
+  "170 W 48th St": {
+    "error": "No exact match in results"
+  },
+  "532-540 W 48th St": {
+    "error": "No exact match in results"
+  },
+  "125 E 50th St": {
+    "error": "No exact match in results"
+  },
+  "230 E 51st St": {
+    "error": "No exact match in results"
+  },
+  "11-13 W 51st St": {
+    "owner": "UNAVAILABLE OWNER",
+    "taxClass": "2",
+    "buildingClass": "R0 - SPECIAL CONDOMINIUM BILLING LOT",
+    "stories": "14",
+    "marketValue": "0",
+    "transAV": "0",
+    "taxableAV": "0",
+    "block": "1267",
+    "lot": "7502",
+    "annualTaxActual": 0,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1267&lot=7502",
+    "bbl": "1-01267-7502",
+    "scraped": true
+  },
+  "152 W 51st St": {
+    "error": "No exact match in results"
+  },
+  "28 W 53rd St": {
+    "error": "No exact match in results"
+  },
+  "65 W 54th St": {
+    "error": "No exact match in results"
+  },
+  "230 W 54th St": {
+    "error": "No exact match in results"
+  },
+  "201 W 55th St": {
+    "error": "No exact match in results"
+  },
+  "210 W 55th St": {
+    "error": "No exact match in results"
+  },
+  "119 W 56th St": {
+    "error": "No exact match in results"
+  },
+  "57 E 57th St": {
+    "error": "No exact match in results"
+  },
+  "130 E 57th St": {
+    "error": "No exact match in results"
+  },
+  "153 W 57th St": {
+    "error": "No exact match in results"
+  },
+  "538 W 58th St": {
+    "error": "No exact match in results"
+  },
+  "44 W 63rd St": {
+    "error": "No exact match in results"
+  },
+  "205 E 64th St": {
+    "error": "No exact match in results"
+  },
+  "201 W 79th St": {
+    "error": "No exact match in results"
+  },
+  "207-209 W 87th St": {
+    "error": "No exact match in results"
+  },
+  "215 W 94th St": {
+    "error": "No exact match in results"
+  },
+  "400 Fifth Ave": {
+    "error": "No exact match in results"
+  },
+  "444 Park Ave South": {
+    "error": "No exact match in results"
+  },
+  "8 Albany St": {
+    "error": "No exact match in results"
+  },
+  "891 Amsterdam Ave": {
+    "error": "No exact match in results"
+  },
+  "49-53 Ann St": {
+    "owner": "FKAL 49 ANN STREET LLC",
+    "taxClass": "4",
+    "buildingClass": "H2 - FULL SERVICE: IN HOUSE DINING, FITNESS C",
+    "stories": "18",
+    "marketValue": "21,560,000",
+    "transAV": "8,532,630",
+    "taxableAV": "8,532,630",
+    "block": "92",
+    "lot": "14",
+    "annualTaxActual": 925620,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=92&lot=14",
+    "bbl": "1-00092-0014",
+    "scraped": true
+  },
+  "2 Avenue of the Americas": {
+    "error": "No exact match in results"
+  },
+  "815 Avenue of the Americas": {
+    "error": "No exact match in results"
+  },
+  "1033 Avenue of the Americas": {
+    "error": "No exact match in results"
+  },
+  "1335 Avenue of the Americas": {
+    "error": "No exact match in results"
+  },
+  "93 Bowery": {
+    "error": "No exact match in results"
+  },
+  "218-220 Bowery": {
+    "owner": "BOWERY DREAM, LLC",
+    "taxClass": "4",
+    "buildingClass": "HH - HOSTELS: BED RENTALS IN DORMITORY-LIKE S",
+    "stories": "4",
+    "marketValue": "4,876,000",
+    "transAV": "2,193,280",
+    "taxableAV": "2,193,280",
+    "block": "492",
+    "lot": "25",
+    "annualTaxActual": 237927,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=492&lot=25",
+    "bbl": "1-00492-0025",
+    "scraped": true
+  },
+  "1170 Broadway": {
+    "error": "No exact match in results"
+  },
+  "1568 Broadway": {
+    "owner": "TIMES SQUARE HOTEL OWNER, LLC",
+    "taxClass": "4",
+    "buildingClass": "V9 - MISCELLANEOUS VACANT LAND",
+    "stories": "",
+    "marketValue": "0",
+    "transAV": "0",
+    "taxableAV": "0",
+    "block": "999",
+    "lot": "61",
+    "annualTaxActual": 0,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=999&lot=61",
+    "bbl": "1-00999-0061",
+    "scraped": true
+  },
+  "1605 Broadway": {
+    "error": "No exact match in results"
+  },
+  "2130 Broadway": {
+    "error": "No exact match in results"
+  },
+  "95 W Broadway": {
+    "error": "No exact match in results"
+  },
+  "310 W Broadway": {
+    "error": "No exact match in results"
+  },
+  "2178 Broadway at W 77th St": {
+    "error": "No exact match in results"
+  },
+  "36 Central Park S": {
+    "error": "No exact match in results"
+  },
+  "585-587 Eighth Ave": {
+    "error": "No exact match in results"
+  },
+  "485 Fifth Ave": {
+    "error": "No exact match in results"
+  },
+  "700 Fifth Ave": {
+    "error": "No exact match in results"
+  },
+  "3 Freeman Aly": {
+    "error": "No exact match in results"
+  },
+  "525 Greenwich St": {
+    "error": "No exact match in results"
+  },
+  "11 Howard St": {
+    "error": "No exact match in results"
+  },
+  "231 Hudson St": {
+    "error": "No exact match in results"
+  },
+  "511 Lexington Ave": {
+    "error": "No exact match in results"
+  },
+  "171 Ludlow St": {
+    "error": "No exact match in results"
+  },
+  "Madison Ave at 77th St": {
+    "error": "No exact match in results"
+  },
+  "3 Mitchell Pl": {
+    "error": "No exact match in results"
+  },
+  "18 Ninth Ave": {
+    "error": "No exact match in results"
+  },
+  "301 Park Ave": {
+    "owner": "UNAVAILABLE OWNER",
+    "taxClass": "4",
+    "buildingClass": "RH - HOTEL/BOATEL",
+    "stories": "47",
+    "marketValue": "296,185,365",
+    "transAV": "150,732,357",
+    "taxableAV": "133,283,415",
+    "block": "1304",
+    "lot": "1003",
+    "annualTaxActual": 14458585,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=1304&lot=1003",
+    "bbl": "1-01304-1003",
+    "scraped": true
+  },
+  "201 Park Ave S": {
+    "error": "No exact match in results"
+  },
+  "420 Park Ave S": {
+    "error": "No exact match in results"
+  },
+  "6 Platt St": {
+    "error": "No exact match in results"
+  },
+  "560 Seventh Ave": {
+    "error": "No exact match in results"
+  },
+  "811 Seventh Ave": {
+    "error": "No exact match in results"
+  },
+  "870 Seventh Ave": {
+    "error": "No exact match in results"
+  },
+  "570 Tenth Ave": {
+    "error": "No exact match in results"
+  },
+  "77 Walker St": {
+    "error": "No exact match in results"
+  },
+  "88 Wall St": {
+    "error": "No exact match in results"
+  },
+  "144 Washington St": {
+    "error": "No exact match in results"
+  },
+  "120-122 Water St": {
+    "owner": "120-122 WATER STREET LLC",
+    "taxClass": "4",
+    "buildingClass": "HB - BOUTIQUE: 10-100 ROOMS, W/LUXURY FACILIT",
+    "stories": "25",
+    "marketValue": "21,147,000",
+    "transAV": "10,754,610",
+    "taxableAV": "9,516,150",
+    "block": "39",
+    "lot": "41",
+    "annualTaxActual": 1034617,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=39&lot=41",
+    "bbl": "1-00039-0041",
+    "scraped": true
+  },
+  "54 Watts St": {
+    "error": "No exact match in results"
+  },
+  "500A W 18th St": {
+    "owner": "KINGSTON, BRIAN",
+    "taxClass": "2",
+    "buildingClass": "R4 - CONDO; RESIDENTIAL UNIT IN ELEVATOR BLDG",
+    "stories": "36",
+    "marketValue": "950,079",
+    "transAV": "436,203",
+    "taxableAV": "427,535",
+    "block": "689",
+    "lot": "1050",
+    "annualTaxActual": 44071,
+    "sourceUrl": "https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop&boro=1&block=689&lot=1050",
+    "bbl": "1-00689-1050",
+    "scraped": true
+  },
+  "5W 8th St": {
+    "error": "No exact match in results"
+  },
+  "1320 York Ave": {
+    "error": "No exact match in results"
+  }
+}

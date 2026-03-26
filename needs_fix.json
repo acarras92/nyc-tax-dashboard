@@ -1,0 +1,1242 @@
+[
+  {
+    "name": "New York Marriott Marquis",
+    "address": "1535 Broadway",
+    "keys": 1971,
+    "reason": "TPK too low ($292)",
+    "currentMV": 12572000,
+    "currentTPK": 292
+  },
+  {
+    "name": "Freehand New York",
+    "address": "23 Lexington Ave",
+    "keys": 401,
+    "reason": "MV too low ($4,843,000)",
+    "currentMV": 4843000,
+    "currentTPK": 589
+  },
+  {
+    "name": "SIXTY LES",
+    "address": "190 Allen St",
+    "keys": 136,
+    "reason": "MV too low ($4,904,642)",
+    "currentMV": 4904642,
+    "currentTPK": 1629
+  },
+  {
+    "name": "DoubleTree by Hilton New York Midtown Fifth Ave",
+    "address": "25 W 51st St",
+    "keys": 230,
+    "reason": "MV too low ($4,901,000)",
+    "currentMV": 4901000,
+    "currentTPK": 885
+  },
+  {
+    "name": "The Pierre  New York A Taj Hotel",
+    "address": "2 E 61st St",
+    "keys": 189,
+    "reason": "MV too low ($4,772,000)",
+    "currentMV": 4772000,
+    "currentTPK": 1029
+  },
+  {
+    "name": "Kimpton Era Midtown New York",
+    "address": "32 W 48th St",
+    "keys": 529,
+    "reason": "MV too low ($3,827,000)",
+    "currentMV": 3827000,
+    "currentTPK": 346
+  },
+  {
+    "name": "Nine Orchard",
+    "address": "9 Orchard St",
+    "keys": 113,
+    "reason": "MV too low ($3,382,000)",
+    "currentMV": 3382000,
+    "currentTPK": 1582
+  },
+  {
+    "name": "The Carlyle, A Rosewood Hotel",
+    "address": "35 E 76th St",
+    "keys": 186,
+    "reason": "MV too low ($3,106,000)",
+    "currentMV": 3106000,
+    "currentTPK": 904
+  },
+  {
+    "name": "Washington Square Hotel",
+    "address": "103 Waverly Pl",
+    "keys": 152,
+    "reason": "MV too low ($3,735,000)",
+    "currentMV": 3735000,
+    "currentTPK": 1072
+  },
+  {
+    "name": "Bowery Grand Hotel",
+    "address": "143 Bowery",
+    "keys": 100,
+    "reason": "MV too low ($3,674,000)",
+    "currentMV": 3674000,
+    "currentTPK": 1558
+  },
+  {
+    "name": "Embassy Suites by Hilton New York Midtown Manhattan",
+    "address": "60 W 37th St",
+    "keys": 310,
+    "reason": "MV too low ($2,925,784)",
+    "currentMV": 2925784,
+    "currentTPK": 456
+  },
+  {
+    "name": "Hilton Millennium New York One UN Plaza",
+    "address": "1 United Nations Plz",
+    "keys": 439,
+    "reason": "MV too low ($2,151,999)",
+    "currentMV": 2151999,
+    "currentTPK": 239
+  },
+  {
+    "name": "Omni Berkshire Place",
+    "address": "21 E 52nd St",
+    "keys": 399,
+    "reason": "MV too low ($3,426,000)",
+    "currentMV": 3426000,
+    "currentTPK": 233
+  },
+  {
+    "name": "Club Wyndham Midtown 45",
+    "address": "205 E 45th St",
+    "keys": 127,
+    "reason": "MV too low ($1,980,557)",
+    "currentMV": 1980557,
+    "currentTPK": 723
+  },
+  {
+    "name": "Marriott Vacation Club Pulse, New York City",
+    "address": "33 W 37th St",
+    "keys": 177,
+    "reason": "MV too low ($1,527,000)",
+    "currentMV": 1527000,
+    "currentTPK": 483
+  },
+  {
+    "name": "Hilton Club The Quin New York",
+    "address": "101 W 57th St",
+    "keys": 205,
+    "reason": "MV too low ($1,666,870)",
+    "currentMV": 1666870,
+    "currentTPK": 372
+  },
+  {
+    "name": "Grayson Hotel",
+    "address": "30 W 39th St",
+    "keys": 296,
+    "reason": "MV too low ($1,317,000)",
+    "currentMV": 1317000,
+    "currentTPK": 232
+  },
+  {
+    "name": "Royalton New York",
+    "address": "44 W 44th St",
+    "keys": 168,
+    "reason": "MV too low ($2,416,000)",
+    "currentMV": 2416000,
+    "currentTPK": 399
+  },
+  {
+    "name": "NH Collection New York Madison Avenue",
+    "address": "22 E 38th St",
+    "keys": 283,
+    "reason": "MV too low ($1,435,000)",
+    "currentMV": 1435000,
+    "currentTPK": 233
+  },
+  {
+    "name": "Mint House at 70 Pine by Kasa",
+    "address": "70 Pine St",
+    "keys": 165,
+    "reason": "MV too low ($1,279,000)",
+    "currentMV": 1279000,
+    "currentTPK": 368
+  },
+  {
+    "name": "Hotel AKA NoMad",
+    "address": "131 Madison Ave",
+    "keys": 178,
+    "reason": "TPK too low ($333)",
+    "currentMV": 7553000,
+    "currentTPK": 333
+  },
+  {
+    "name": "Ace Hotel New York",
+    "address": "20 W 29th St",
+    "keys": 286,
+    "reason": "MV too low ($1,055,000)",
+    "currentMV": 1055000,
+    "currentTPK": 168
+  },
+  {
+    "name": "Residence Midtown East",
+    "address": "556 3rd Ave",
+    "keys": 126,
+    "reason": "MV too low ($810,388)",
+    "currentMV": 810388,
+    "currentTPK": 314
+  },
+  {
+    "name": "Hilton Club The Central at 5th New York",
+    "address": "12 E 48th St",
+    "keys": 161,
+    "reason": "MV too low ($790,000)",
+    "currentMV": 790000,
+    "currentTPK": 229
+  },
+  {
+    "name": "Hyatt Centric Wall Street New York",
+    "address": "75 Wall St",
+    "keys": 253,
+    "reason": "MV too low ($696,767)",
+    "currentMV": 696767,
+    "currentTPK": 144
+  },
+  {
+    "name": "AKA Central Park",
+    "address": "42 W 58th St",
+    "keys": 134,
+    "reason": "TPK too low ($220)",
+    "currentMV": 5267000,
+    "currentTPK": 220
+  },
+  {
+    "name": "Sofitel New York",
+    "address": "45 W 44th St",
+    "keys": 398,
+    "reason": "TPK too low ($68)",
+    "currentMV": 6605000,
+    "currentTPK": 68
+  },
+  {
+    "name": "The Beekman, A Thompson Hotel",
+    "address": "123 Nassau St",
+    "keys": 287,
+    "reason": "MV too low ($626,513)",
+    "currentMV": 626513,
+    "currentTPK": 87
+  },
+  {
+    "name": "The Bryant Park Hotel",
+    "address": "40 W 40th St",
+    "keys": 128,
+    "reason": "TPK too low ($183)",
+    "currentMV": 7015000,
+    "currentTPK": 183
+  },
+  {
+    "name": "The Manhattan Club",
+    "address": "200 W 56th St",
+    "keys": 244,
+    "reason": "MV too low ($437,500)",
+    "currentMV": 437500,
+    "currentTPK": 80
+  },
+  {
+    "name": "The Dominick",
+    "address": "246 Spring St",
+    "keys": 390,
+    "reason": "MV too low ($453,720)",
+    "currentMV": 453720,
+    "currentTPK": 44
+  },
+  {
+    "name": "Club Quarters Midtown",
+    "address": "40 W 45th St",
+    "keys": 170,
+    "reason": "MV too low ($365,000)",
+    "currentMV": 365000,
+    "currentTPK": 94
+  },
+  {
+    "name": "Walker Hotel Greenwich Village",
+    "address": "52 W 13th St",
+    "keys": 113,
+    "reason": "MV too low ($1,989,000)",
+    "currentMV": 1989000,
+    "currentTPK": 90
+  },
+  {
+    "name": "W New York - Times Square",
+    "address": "1567 Broadway",
+    "keys": 509,
+    "reason": "MV too low ($179,000)",
+    "currentMV": 179000,
+    "currentTPK": 16
+  },
+  {
+    "name": "Hilton Garden Inn New York Times Square North",
+    "address": "30 W 46th St",
+    "keys": 196,
+    "reason": "wrong bldg class (M1)",
+    "currentMV": 5736000,
+    "currentTPK": 0
+  },
+  {
+    "name": "Courtyard New York Manhattan Upper East Side",
+    "address": "410 E 92nd St",
+    "keys": 226,
+    "reason": "MV too low ($4,170,449)",
+    "currentMV": 4170449,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hyatt Place New York/Midtown-South",
+    "address": "52 W 36th St",
+    "keys": 185,
+    "reason": "MV too low ($3,273,000)",
+    "currentMV": 3273000,
+    "currentTPK": 0
+  },
+  {
+    "name": "Kixby",
+    "address": "45 W 35th St",
+    "keys": 195,
+    "reason": "MV too low ($2,556,000)",
+    "currentMV": 2556000,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Manhattan at Times Square",
+    "address": "790 7th Ave",
+    "keys": 535,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "M Social Hotel New York",
+    "address": "226 W 52nd St",
+    "keys": 480,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hyatt Union Square New York",
+    "address": "134 4th Ave",
+    "keys": 178,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Lombardy",
+    "address": "111 E 56th St",
+    "keys": 150,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Four Seasons Hotel New York Downtown",
+    "address": "27 Barclay St",
+    "keys": 185,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "AMTD IDEA Tribeca Hotel",
+    "address": "39 6th Ave",
+    "keys": 151,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Kimpton Hotel Eventi",
+    "address": "851 6th Ave",
+    "keys": 292,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "1 Hotel Central Park",
+    "address": "1414 6th Ave",
+    "keys": 234,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "DoubleTree by Hilton New York Times Square South",
+    "address": "525 8th Ave",
+    "keys": 320,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Marlton Hotel",
+    "address": "5W 8th St",
+    "keys": 112,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Dream Downtown",
+    "address": "355 W 16th St",
+    "keys": 314,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Faena New York",
+    "address": "500A W 18th St",
+    "keys": 120,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Hotel Chelsea",
+    "address": "222 W 23rd St",
+    "keys": 160,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Marcel at Gramercy Hotel",
+    "address": "201 E 24th St",
+    "keys": 136,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Holiday Inn Manhattan 6th Avenue Chelsea",
+    "address": "125 W 26th St",
+    "keys": 226,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Innside by Melia NoMad",
+    "address": "132-142 W 27th St",
+    "keys": 313,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Fifth Avenue Hotel",
+    "address": "1 W 28th St",
+    "keys": 142,
+    "reason": "MV too low ($1,553,000)",
+    "currentMV": 1553000,
+    "currentTPK": 0
+  },
+  {
+    "name": "Cambria Hotels New York-Chelsea",
+    "address": "123-125 W 28th St",
+    "keys": 135,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "DoubleTree by Hilton Hotel New York City Chelsea",
+    "address": "128 W 29th St",
+    "keys": 236,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Martinique New York on Broadway, Curio Collection by Hilton",
+    "address": "49 W 32nd St",
+    "keys": 504,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hilton Garden Inn New York/Midtown Park Ave",
+    "address": "45-47 E 33rd St",
+    "keys": 232,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Pendry Manhattan West",
+    "address": "440 W 33rd St",
+    "keys": 164,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hampton Inn Manhattan-35th St/Empire State Bldg",
+    "address": "59 W 35th St",
+    "keys": 146,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "EVEN Hotels Times Square South",
+    "address": "321 W 35th St",
+    "keys": 150,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Holiday Inn Express Manhattan Times Square South",
+    "address": "60-62 W 36th St",
+    "keys": 135,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "voco Times Square South",
+    "address": "343 W 36th St",
+    "keys": 224,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Draper New York, Tapestry Collection",
+    "address": "4-6 W 37th St",
+    "keys": 143,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Archer Hotel New York",
+    "address": "43-47 W 38th St",
+    "keys": 180,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Refinery Hotel",
+    "address": "63-67 W 38th St",
+    "keys": 197,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Pod 39 Hotel",
+    "address": "145 E 39th St",
+    "keys": 366,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Candlewood Suites New York City - Times Square",
+    "address": "339 W 39th St",
+    "keys": 188,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Courtyard New York Manhattan 5th Avenue",
+    "address": "3-5 E 40th St",
+    "keys": 189,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Park Terrace Hotel on Bryant Park",
+    "address": "14-22 W 40th St",
+    "keys": 225,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Courtyard New York Manhattan Times Square South",
+    "address": "114 W 40th St",
+    "keys": 244,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "AC Hotels by Marriott New York Times Square",
+    "address": "260 W 40th St",
+    "keys": 290,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Delta Hotels New York Times Square",
+    "address": "340 W 40th St",
+    "keys": 310,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "DoubleTree by Hilton Hotel New York Times Square West",
+    "address": "350 W 40th St",
+    "keys": 612,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Chemists' Club Hotel",
+    "address": "52 E 41st St",
+    "keys": 107,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Westin New York Grand Central",
+    "address": "212 E 42nd St",
+    "keys": 774,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hampton Inn Manhattan Grand Central",
+    "address": "231-233 E 43rd St",
+    "keys": 148,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Fitzpatrick Grand Central",
+    "address": "141 E 44th St",
+    "keys": 155,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "EVEN Hotels New York Midtown East",
+    "address": "221 E 44th St",
+    "keys": 230,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Iroquois Hotel",
+    "address": "49 W 44th St",
+    "keys": 118,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Millennium Hotel Broadway Times Square",
+    "address": "145 W 44th St",
+    "keys": 626,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "InterContinental New York Times Square",
+    "address": "300 W 44th St",
+    "keys": 607,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Club Quarters Grand Central",
+    "address": "128 E 45th St",
+    "keys": 302,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Muse New York",
+    "address": "130 W 46th St",
+    "keys": 201,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hotel Edison",
+    "address": "228-240 W 47th St",
+    "keys": 810,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Residence Inn New York Manhattan/Midtown East",
+    "address": "148 E 48th St",
+    "keys": 211,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Motto by Hilton New York City Times Square",
+    "address": "150A W 48th St",
+    "keys": 400,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hard Rock Hotel New York",
+    "address": "159 W 48th St",
+    "keys": 446,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "voco Times Square - Broadway",
+    "address": "170 W 48th St",
+    "keys": 419,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Holiday Inn Express Manhattan Midtown West",
+    "address": "532-540 W 48th St",
+    "keys": 177,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Benjamin Royal Sonesta New York",
+    "address": "125 E 50th St",
+    "keys": 209,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Pod 51 Hotel",
+    "address": "230 E 51st St",
+    "keys": 353,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Jewel",
+    "address": "11-13 W 51st St",
+    "keys": 135,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Michelangelo New York - Starhotels Collezione",
+    "address": "152 W 51st St",
+    "keys": 179,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Baccarat Hotel New York",
+    "address": "28 W 53rd St",
+    "keys": 114,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Warwick New York Hotel",
+    "address": "65 W 54th St",
+    "keys": 426,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Ameritania Times Square",
+    "address": "230 W 54th St",
+    "keys": 228,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "WestHouse Hotel New York",
+    "address": "201 W 55th St",
+    "keys": 172,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Dream Midtown",
+    "address": "210 W 55th St",
+    "keys": 219,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Thompson Central Park New York",
+    "address": "119 W 56th St",
+    "keys": 587,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Four Seasons Hotel New York",
+    "address": "57 E 57th St",
+    "keys": 219,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hotel 57",
+    "address": "130 E 57th St",
+    "keys": 212,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Park Hyatt New York",
+    "address": "153 W 57th St",
+    "keys": 211,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Fairfield Inn & Suites New York Manhattan/Central Park",
+    "address": "538 W 58th St",
+    "keys": 224,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Empire Hotel",
+    "address": "44 W 63rd St",
+    "keys": 427,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Bristol Plaza",
+    "address": "205 E 64th St",
+    "keys": 130,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Lucerne",
+    "address": "201 W 79th St",
+    "keys": 204,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Belnord Hotel",
+    "address": "207-209 W 87th St",
+    "keys": 120,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Night Hotel Broadway",
+    "address": "215 W 94th St",
+    "keys": 260,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Langham, New York",
+    "address": "400 Fifth Ave",
+    "keys": 234,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hotel Park Ave",
+    "address": "444 Park Ave South",
+    "keys": 189,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Washington Hotel NYC",
+    "address": "8 Albany St",
+    "keys": 217,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "HI New York City Hostel",
+    "address": "891 Amsterdam Ave",
+    "keys": 105,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Aloft Manhattan Downtown - Financial District",
+    "address": "49-53 Ann St",
+    "keys": 128,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Roxy Hotel New York",
+    "address": "2 Avenue of the Americas",
+    "keys": 201,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hyatt House New York Chelsea",
+    "address": "815 Avenue of the Americas",
+    "keys": 150,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Residence Inn by Marriott New York Manhattan/Times Square",
+    "address": "1033 Avenue of the Americas",
+    "keys": 357,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hilton New York Midtown",
+    "address": "1335 Avenue of the Americas",
+    "keys": 1878,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Wyndham Garden Chinatown",
+    "address": "93 Bowery",
+    "keys": 106,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Bowery House",
+    "address": "218-220 Bowery",
+    "keys": 125,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Ned NoMad",
+    "address": "1170 Broadway",
+    "keys": 167,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Tempo by Hilton New York Times Square",
+    "address": "1568 Broadway",
+    "keys": 661,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hyatt Regency Times Square",
+    "address": "1605 Broadway",
+    "keys": 795,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hotel Beacon NYC",
+    "address": "2130 Broadway",
+    "keys": 277,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Frederick Hotel",
+    "address": "95 W Broadway",
+    "keys": 133,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Soho Grand Hotel",
+    "address": "310 W Broadway",
+    "keys": 347,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Arthouse Hotel New York City",
+    "address": "2178 Broadway at W 77th St",
+    "keys": 291,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Park Lane Hotel",
+    "address": "36 Central Park S",
+    "keys": 610,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Holiday Inn New York City Times Square",
+    "address": "585-587 Eighth Ave",
+    "keys": 271,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Andaz 5th Avenue",
+    "address": "485 Fifth Ave",
+    "keys": 184,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Peninsula New York",
+    "address": "700 Fifth Ave",
+    "keys": 219,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "UNTITLED at 3 Freeman Alley",
+    "address": "3 Freeman Aly",
+    "keys": 200,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hotel Hugo Soho",
+    "address": "525 Greenwich St",
+    "keys": 122,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "11 Howard",
+    "address": "11 Howard St",
+    "keys": 215,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Arlo SoHo",
+    "address": "231 Hudson St",
+    "keys": 321,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Lexington Hotel, Autograph Collection",
+    "address": "511 Lexington Ave",
+    "keys": 725,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hotel Indigo Lower East Side New York",
+    "address": "171 Ludlow St",
+    "keys": 294,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Mark",
+    "address": "Madison Ave at 77th St",
+    "keys": 151,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Beekman Tower, Trademark Collection by Wyndham",
+    "address": "3 Mitchell Pl",
+    "keys": 178,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Gansevoort Meatpacking",
+    "address": "18 Ninth Ave",
+    "keys": 185,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Waldorf Astoria New York",
+    "address": "301 Park Ave",
+    "keys": 375,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "W New York \u2013 Union Square",
+    "address": "201 Park Ave S",
+    "keys": 252,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Royalton Park Avenue",
+    "address": "420 Park Ave S",
+    "keys": 249,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Four Points by Sheraton New York Downtown",
+    "address": "6 Platt St",
+    "keys": 261,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Margaritaville Resort Times Square",
+    "address": "560 Seventh Ave",
+    "keys": 234,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Sheraton New York Times Square Hotel",
+    "address": "811 Seventh Ave",
+    "keys": 1780,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Park Central Hotel",
+    "address": "870 Seventh Ave",
+    "keys": 761,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "YOTEL New York Times Square",
+    "address": "570 Tenth Ave",
+    "keys": 713,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Walker Hotel Tribeca",
+    "address": "77 Walker St",
+    "keys": 171,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "The Wall Street Hotel",
+    "address": "88 Wall St",
+    "keys": 178,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "World Center Hotel",
+    "address": "144 Washington St",
+    "keys": 421,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "Hotel Indigo NYC Downtown Wall Street",
+    "address": "120-122 Water St",
+    "keys": 127,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "SoHo 54 Hotel",
+    "address": "54 Watts St",
+    "keys": 160,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  },
+  {
+    "name": "New York Presbyterian Guest Facility at Helmsley Medical Tower",
+    "address": "1320 York Ave",
+    "keys": 120,
+    "reason": "no data",
+    "currentMV": 0,
+    "currentTPK": 0
+  }
+]
