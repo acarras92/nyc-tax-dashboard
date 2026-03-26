@@ -824,15 +824,19 @@
             resultsDiv.innerHTML = '<div style="color:#a0a0a0;">Searching NYC DOF...</div>';
 
             try {
-                // Search by house number, street name, and borough
-                const query = `$where=housenum_lo='${num}' AND upper(street_name) LIKE '%${street.replace(/'/g, "''")}%' AND boro='${boro}'&$limit=10`;
-                const resp = await fetch(`${DOF_API}?${query}`);
+                // Use Socrata SoQL with proper URL encoding
+                const whereClause = encodeURIComponent(`housenum_lo='${num}' AND upper(street_name) LIKE '%${street.replace(/'/g, "''")}%' AND boro='${boro}'`);
+                const url = `${DOF_API}?$where=${whereClause}&$limit=10`;
+                const resp = await fetch(url, { headers: { 'Accept': 'application/json' } });
+                if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
                 const data = await resp.json();
 
                 if (!data.length) {
-                    // Try a looser match (just house number and borough)
-                    const query2 = `$where=housenum_lo='${num}' AND boro='${boro}'&$limit=50`;
-                    const resp2 = await fetch(`${DOF_API}?${query2}`);
+                    // Try looser match — just house number and borough, filter client-side
+                    const whereClause2 = encodeURIComponent(`housenum_lo='${num}' AND boro='${boro}'`);
+                    const url2 = `${DOF_API}?$where=${whereClause2}&$limit=50`;
+                    const resp2 = await fetch(url2, { headers: { 'Accept': 'application/json' } });
+                    if (!resp2.ok) throw new Error(`HTTP ${resp2.status}`);
                     const data2 = await resp2.json();
                     // Filter client-side for street name partial match
                     const streetWords = street.split(/\s+/);
@@ -843,14 +847,22 @@
                     if (filtered.length) {
                         renderLookupResults(filtered, num, street, boro);
                     } else {
-                        resultsDiv.innerHTML = `<div style="color:#ff9800;">No results found for ${num} ${street}, ${BORO_NAMES[boro]}. Try adjusting the street name (e.g. "PARK AVE" instead of "PARK AVENUE SOUTH").<br><br><a href="https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=address" target="_blank" style="color:#4fc3f7;">Search directly on NYC DOF Portal ↗</a></div>`;
+                        resultsDiv.innerHTML = `<div style="color:#ff9800;">No results found for ${num} ${street}, ${BORO_NAMES[boro]}. Try a shorter street name (e.g. "PARK" instead of "PARK AVE S") or search directly:<br><br><a href="https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=address" target="_blank" style="background:#2a3547;color:#4fc3f7;padding:6px 14px;border-radius:4px;text-decoration:none;display:inline-block;margin-top:8px;">Search on NYC DOF Portal ↗</a></div>`;
                     }
                     return;
                 }
 
                 renderLookupResults(data, num, street, boro);
             } catch (e) {
-                resultsDiv.innerHTML = `<div style="color:#f44336;">Error searching DOF: ${e.message}. The NYC Open Data API may be temporarily unavailable.</div>`;
+                // If API fails, offer direct DOF portal link
+                resultsDiv.innerHTML = `<div style="color:#ff9800;">
+                    Could not reach NYC Open Data API. You can search directly on the official DOF portal:<br><br>
+                    <a href="https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=address" target="_blank"
+                       style="background:#4CAF50;color:#fff;padding:8px 16px;border-radius:6px;text-decoration:none;display:inline-block;font-weight:600;">
+                       Open NYC DOF Property Tax Portal ↗
+                    </a>
+                    <span style="display:block;margin-top:8px;color:#a0a0a0;font-size:0.8rem;">Search for: ${num} ${street}, ${BORO_NAMES[boro]}</span>
+                </div>`;
             }
         }
 
