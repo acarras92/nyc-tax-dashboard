@@ -129,6 +129,17 @@
         .highlight-low { color: #4CAF50; font-weight: 600; }
         .highlight-high { color: #f44336; font-weight: 600; }
         .highlight-mid { color: #ff9800; }
+        .verify-icon {
+            display: inline-block; font-size: 0.7rem; opacity: 0.5; margin-left: 4px;
+            text-decoration: none; vertical-align: middle; transition: opacity 0.2s;
+        }
+        .verify-icon:hover { opacity: 1; text-decoration: none; }
+        .source-link {
+            display: inline-flex; align-items: center; gap: 6px;
+            background: #2a3547; padding: 6px 14px; border-radius: 6px;
+            font-size: 0.8rem; color: #4fc3f7; text-decoration: none; transition: background 0.2s;
+        }
+        .source-link:hover { background: #3a4557; text-decoration: none; }
 
         /* Detail Panel */
         .detail-panel {
@@ -494,9 +505,12 @@
                     else if (h.taxPerKey >= p75) tpkClass = 'highlight-high';
                     else tpkClass = 'highlight-mid';
                 }
+                const verifyLink = h.sourceUrl
+                    ? `<a href="${h.sourceUrl}" target="_blank" rel="noopener" class="verify-icon" title="Verify on NYC DOF" onclick="event.stopPropagation();">&#x2713;</a>`
+                    : '';
                 return `
                 <tr onclick="showDetail('${h.id}')">
-                    <td><strong>${h.hotelName}</strong> <span style="color:#4fc3f7;font-size:0.7rem;opacity:0.7;">▸</span></td>
+                    <td><strong>${h.hotelName}</strong>${verifyLink} <span style="color:#4fc3f7;font-size:0.7rem;opacity:0.7;">▸</span></td>
                     <td>${h.brand || '—'}</td>
                     <td>${h.borough}</td>
                     <td>${h.neighborhood || '—'}</td>
@@ -608,7 +622,10 @@
             if (!h) return;
 
             document.getElementById('detailName').textContent = h.hotelName;
-            document.getElementById('detailMeta').textContent = `${h.address}, ${h.borough} · BBL ${h.bbl || '—'} · ${h.keys} keys · ${h.brand || 'Independent'}`;
+            const sourceLink = h.sourceUrl
+                ? ` <a href="${h.sourceUrl}" target="_blank" rel="noopener" class="source-link">&#x1F50D; Verify on NYC DOF</a>`
+                : '';
+            document.getElementById('detailMeta').innerHTML = `${h.address}, ${h.borough} &middot; BBL ${h.bbl || '&mdash;'} &middot; ${h.keys} keys &middot; ${h.brand || 'Independent'}${sourceLink}`;
 
             document.getElementById('detailInfo').innerHTML = [
                 ['Brand', h.brand || 'Independent'],
@@ -623,8 +640,9 @@
             document.getElementById('detailTax').innerHTML = [
                 ['Market Value', fmtM(h.marketValue)],
                 ['Taxable AV', fmtM(h.taxableAV)],
-                ['Tax Rate', h.currentTaxRate ? (h.currentTaxRate * 100).toFixed(3) + '%' : '—'],
-                ['Annual Tax', fmt(h.annualTax)]
+                ['Eff. Tax Rate', h.taxableAV && h.annualTax ? ((h.annualTax / h.taxableAV) * 100).toFixed(3) + '%' : '—'],
+                ['Annual Tax', fmt(h.annualTax)],
+                ['Source', h.sourceUrl ? '<a href="' + h.sourceUrl + '" target="_blank" rel="noopener" style="color:#4fc3f7;font-size:0.8rem;">NYC DOF Portal</a>' : '—']
             ].map(([k, v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join('');
 
             document.getElementById('detailPerKey').innerHTML = [
@@ -668,11 +686,11 @@
         }
 
         function exportCSV() {
-            const headers = ['Hotel','Brand','Address','Borough','Neighborhood','Keys','Class','BBL','Market Value','Annual Tax','Tax/Key','MV/Key','Eff Tax Rate'];
+            const headers = ['Hotel','Brand','Address','Borough','Neighborhood','Keys','Class','BBL','Owner','Market Value','Taxable AV','Annual Tax','Tax/Key','MV/Key','Eff Tax Rate','DOF Source URL'];
             const rows = filteredHotels.map(h => [
                 h.hotelName, h.brand, h.address, h.borough, h.neighborhood, h.keys, h.hotelClass,
-                h.bbl, h.marketValue, h.annualTax, h.taxPerKey, h.mvPerKey,
-                h.taxRate ? (h.taxRate * 100).toFixed(3) + '%' : ''
+                h.bbl, h.owner, h.marketValue, h.taxableAV, h.annualTax, h.taxPerKey, h.mvPerKey,
+                h.taxRate ? (h.taxRate * 100).toFixed(3) + '%' : '', h.sourceUrl || ''
             ]);
             const csv = [headers, ...rows].map(r => r.map(v => '"' + (v ?? '') + '"').join(',')).join('\n');
             const blob = new Blob([csv], { type: 'text/csv' });
