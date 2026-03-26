@@ -808,6 +808,69 @@
         document.getElementById('lookupStreet').addEventListener('keydown', e => { if (e.key === 'Enter') lookupAddress(); });
         document.getElementById('lookupNum').addEventListener('keydown', e => { if (e.key === 'Enter') lookupAddress(); });
 
+        // Normalize street name for matching: expand/contract common abbreviations
+        function normalizeStreet(s) {
+            s = s.toUpperCase().trim();
+            const abbrevs = [
+                [/\bAVENUE\b/g, 'AVE'], [/\bSTREET\b/g, 'ST'], [/\bBOULEVARD\b/g, 'BLVD'],
+                [/\bDRIVE\b/g, 'DR'], [/\bPLACE\b/g, 'PL'], [/\bROAD\b/g, 'RD'],
+                [/\bLANE\b/g, 'LN'], [/\bCOURT\b/g, 'CT'], [/\bSQUARE\b/g, 'SQ'],
+                [/\bWEST\b/g, 'W'], [/\bEAST\b/g, 'E'], [/\bNORTH\b/g, 'N'], [/\bSOUTH\b/g, 'S'],
+                [/\b1ST\b/g, '1'], [/\b2ND\b/g, '2'], [/\b3RD\b/g, '3'],
+                [/\b(\d+)TH\b/g, '$1'], [/\bOF\s+THE\s+AMERICAS?\b/g, ''],
+                [/\bBROADWAY\b/g, 'BROADWAY'], [/\bAVE\s+OF\b/g, 'AVE'],
+            ];
+            for (const [pat, rep] of abbrevs) s = s.replace(pat, rep);
+            return s.replace(/\s+/g, ' ').trim();
+        }
+
+        // Score how well a DOF street_name matches the user's search input
+        function streetMatchScore(inputNorm, dofStreetRaw) {
+            const dofNorm = normalizeStreet(dofStreetRaw);
+            // Exact normalized match
+            if (inputNorm === dofNorm) return 100;
+            // Check if all significant words from input appear in DOF name
+            const stopWords = new Set(['AVE','ST','BLVD','DR','PL','RD','LN','CT','SQ','OF','THE']);
+            const inputWords = inputNorm.split(/\s+/);
+            const dofWords = dofNorm.split(/\s+/);
+            const inputSignificant = inputWords.filter(w => !stopWords.has(w) && w.length > 1);
+            const dofSignificant = dofWords.filter(w => !stopWords.has(w) && w.length > 1);
+            // All significant input words must appear in DOF name
+            const allMatch = inputSignificant.length > 0 && inputSignificant.every(w => dofNorm.includes(w));
+            if (!allMatch) return 0;
+            // Bonus for direction match (S, N, E, W)
+            const inputDirs = inputWords.filter(w => ['N','S','E','W'].includes(w));
+            const dofDirs = dofWords.filter(w => ['N','S','E','W'].includes(w));
+            const dirMatch = inputDirs.length === 0 || (inputDirs.length === dofDirs.length && inputDirs.every(d => dofDirs.includes(d)));
+            // Bonus for type match (AVE, ST, etc)
+            const inputTypes = inputWords.filter(w => stopWords.has(w));
+            const dofTypes = dofWords.filter(w => stopWords.has(w));
+            const typeMatch = inputTypes.length === 0 || inputTypes.some(t => dofTypes.includes(t));
+            let score = 50;
+            if (dirMatch) score += 30;
+            if (typeMatch) score += 15;
+            if (inputSignificant.length === dofSignificant.length) score += 5;
+            return score;
+        }
+
+        // Generate street name variations for Socrata queries
+        function streetVariations(street) {
+            const norm = normalizeStreet(street);
+            const variations = new Set([street.toUpperCase(), norm]);
+            // Also try with full words: AVE→AVENUE, ST→STREET, etc
+            let expanded = norm;
+            expanded = expanded.replace(/\bAVE\b/g, 'AVENUE').replace(/\bST\b/g, 'STREET')
+                .replace(/\bBLVD\b/g, 'BOULEVARD').replace(/\bDR\b/g, 'DRIVE')
+                .replace(/\bPL\b/g, 'PLACE').replace(/\bRD\b/g, 'ROAD')
+                .replace(/\bW\b/g, 'WEST').replace(/\bE\b/g, 'EAST')
+                .replace(/\bN\b/g, 'NORTH').replace(/\bS\b/g, 'SOUTH');
+            variations.add(expanded);
+            // Try without direction suffix (e.g. "PARK AVE" without "S")
+            const noDir = norm.replace(/\s+[NSEW]$/,'').trim();
+            if (noDir !== norm) variations.add(noDir);
+            return [...variations];
+        }
+
         async function lookupAddress() {
             const num = document.getElementById('lookupNum').value.trim();
             const street = document.getElementById('lookupStreet').value.trim().toUpperCase();
@@ -823,38 +886,53 @@
             resultsDiv.style.display = 'block';
             resultsDiv.innerHTML = '<div style="color:#a0a0a0;">Searching NYC DOF...</div>';
 
+            const inputNorm = normalizeStreet(street);
+
             try {
-                // Use Socrata SoQL with proper URL encoding
-                const whereClause = encodeURIComponent(`housenum_lo='${num}' AND upper(street_name) LIKE '%${street.replace(/'/g, "''")}%' AND boro='${boro}'`);
-                const url = `${DOF_API}?$where=${whereClause}&$limit=10`;
+                // Try multiple street name variations in parallel
+                const variations = streetVariations(street);
+                const likeConditions = variations.map(v =>
+                    `upper(street_name) LIKE '%${v.replace(/'/g, "''")}%'`
+                ).join(' OR ');
+                const whereClause = encodeURIComponent(
+                    `housenum_lo='${num}' AND (${likeConditions}) AND boro='${boro}'`
+                );
+                const url = `${DOF_API}?$where=${whereClause}&$order=year DESC&$limit=50`;
                 const resp = await fetch(url, { headers: { 'Accept': 'application/json' } });
                 if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-                const data = await resp.json();
+                let data = await resp.json();
 
+                // If no results from LIKE, try house number + boro only and filter client-side
                 if (!data.length) {
-                    // Try looser match — just house number and borough, filter client-side
                     const whereClause2 = encodeURIComponent(`housenum_lo='${num}' AND boro='${boro}'`);
-                    const url2 = `${DOF_API}?$where=${whereClause2}&$limit=50`;
+                    const url2 = `${DOF_API}?$where=${whereClause2}&$order=year DESC&$limit=50`;
                     const resp2 = await fetch(url2, { headers: { 'Accept': 'application/json' } });
                     if (!resp2.ok) throw new Error(`HTTP ${resp2.status}`);
-                    const data2 = await resp2.json();
-                    // Filter client-side for street name partial match
-                    const streetWords = street.split(/\s+/);
-                    const filtered = data2.filter(r => {
-                        const sn = (r.street_name || '').toUpperCase();
-                        return streetWords.some(w => sn.includes(w));
-                    });
-                    if (filtered.length) {
-                        renderLookupResults(filtered, num, street, boro);
-                    } else {
-                        resultsDiv.innerHTML = `<div style="color:#ff9800;">No results found for ${num} ${street}, ${BORO_NAMES[boro]}. Try a shorter street name (e.g. "PARK" instead of "PARK AVE S") or search directly:<br><br><a href="https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=address" target="_blank" style="background:#2a3547;color:#4fc3f7;padding:6px 14px;border-radius:4px;text-decoration:none;display:inline-block;margin-top:8px;">Search on NYC DOF Portal ↗</a></div>`;
-                    }
-                    return;
+                    data = await resp2.json();
                 }
 
-                renderLookupResults(data, num, street, boro);
+                // Score and rank all results by street name match quality
+                const scored = data.map(r => ({
+                    ...r,
+                    _score: streetMatchScore(inputNorm, r.street_name || '')
+                })).filter(r => r._score > 0)
+                  .sort((a, b) => b._score - a._score);
+
+                // Deduplicate: keep only the most recent year per BBL
+                const seen = new Set();
+                const deduped = scored.filter(r => {
+                    const key = `${r.boro}-${(r.block||'').trim()}-${(r.lot||'').trim()}`;
+                    if (seen.has(key)) return false;
+                    seen.add(key);
+                    return true;
+                });
+
+                if (deduped.length) {
+                    renderLookupResults(deduped, num, street, boro);
+                } else {
+                    resultsDiv.innerHTML = `<div style="color:#ff9800;">No results found for ${num} ${street}, ${BORO_NAMES[boro]}. Try checking the spelling or search directly:<br><br><a href="https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=address" target="_blank" style="background:#2a3547;color:#4fc3f7;padding:6px 14px;border-radius:4px;text-decoration:none;display:inline-block;margin-top:8px;">Search on NYC DOF Portal ↗</a></div>`;
+                }
             } catch (e) {
-                // If API fails, offer direct DOF portal link
                 resultsDiv.innerHTML = `<div style="color:#ff9800;">
                     Could not reach NYC Open Data API. You can search directly on the official DOF portal:<br><br>
                     <a href="https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=address" target="_blank"
@@ -880,12 +958,17 @@
                 const bbl = `${boro}-${(r.block||'').trim()}-${(r.lot||'').trim()}`;
                 const mv = parseInt(r.curmkttot || 0);
                 const tav = parseInt(r.curacttot || 0);
-                const tax = parseFloat(r.curtxbtot || 0);
+                const txb = parseFloat(r.curtxbtot || 0);
+                // Tax Class 4 statutory rate = 10.848%; Class 2 = 12.502%; Class 1 = 20.309%
+                const taxClassRates = {'4': 0.10848, '2': 0.12502, '1': 0.20309, '3': 0.12502};
+                const tc = (r.tax_class || '4').charAt(0);
+                const rate = taxClassRates[tc] || 0.10848;
+                const tax = txb > 0 ? txb * rate : 0;
                 const owner = r.owner || '—';
                 const bldgClass = r.bldg_class || '—';
-                const stories = r.num_bldgs || '—';
+                const taxYear = r.year || '—';
                 const sqft = parseInt(r.gross_sqft || 0);
-                const taxRate = tav > 0 ? (tax / tav * 100).toFixed(3) : '—';
+                const taxRate = (rate * 100).toFixed(3);
                 const dofUrl = `https://a836-pts-access.nyc.gov/care/search/commonsearch.aspx?mode=persprop`;
 
                 html += `
@@ -894,7 +977,7 @@
                     <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;">
                         <div>
                             <div style="font-size:1.1rem;font-weight:700;color:#fff;">${addr}, ${boroName}</div>
-                            <div style="color:#a0a0a0;font-size:0.8rem;margin-top:2px;">BBL: ${bbl} · Owner: ${owner} · Class: ${bldgClass}</div>
+                            <div style="color:#a0a0a0;font-size:0.8rem;margin-top:2px;">BBL: ${bbl} · Owner: ${owner} · Class: ${bldgClass} · FY ${taxYear}</div>
                         </div>
                         <a href="${dofUrl}" target="_blank" style="background:#2a3547;color:#4fc3f7;padding:4px 10px;border-radius:4px;font-size:0.75rem;text-decoration:none;">Verify on DOF ↗</a>
                     </div>
@@ -908,11 +991,11 @@
                             <div style="color:#fff;font-size:1.1rem;font-weight:600;">${tav > 0 ? fmtM(tav) : '—'}</div>
                         </div>
                         <div>
-                            <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Annual Tax</div>
+                            <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Est. Annual Tax</div>
                             <div style="color:#fff;font-size:1.1rem;font-weight:600;">${tax > 0 ? fmt(Math.round(tax)) : '—'}</div>
                         </div>
                         <div>
-                            <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Tax Rate (Tax/TAV)</div>
+                            <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Statutory Rate (Class ${tc})</div>
                             <div style="color:#fff;font-size:1.1rem;font-weight:600;">${taxRate}%</div>
                         </div>
                         <div>
@@ -920,7 +1003,7 @@
                             <div style="color:#fff;font-size:1.1rem;font-weight:600;">${sqft > 0 ? sqft.toLocaleString() : '—'}</div>
                         </div>
                         <div>
-                            <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Tax / SqFt</div>
+                            <div style="color:#a0a0a0;font-size:0.7rem;text-transform:uppercase;">Est. Tax / SqFt</div>
                             <div style="color:#fff;font-size:1.1rem;font-weight:600;">${sqft > 0 && tax > 0 ? '$' + (tax/sqft).toFixed(2) : '—'}</div>
                         </div>
                     </div>
